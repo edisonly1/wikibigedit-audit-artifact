@@ -1,0 +1,3947 @@
+{
+ "counts": {
+  "S2-divergent-labels-for-one-qid": 8657,
+  "ANY": 10108,
+  "S1-collapsed-to-function-word": 357,
+  "S3-absent-from-own-question": 3135
+ },
+ "n_rows": 502382,
+ "n_divergent_qids": 2994,
+ "n_qids": 359544,
+ "divergent_sample": {
+  "Q1309400": {
+   "labels": [
+    "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+    "ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn"
+   ],
+   "min_ratio": 0.7567567567567568,
+   "pair": [
+    "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+    "ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn"
+   ]
+  },
+  "Q1320751": {
+   "labels": [
+    "1912 Norwegian parliamentary election",
+    "Norwegian parliamentary election directly followed the 1912 election"
+   ],
+   "min_ratio": 0.6095238095238096,
+   "pair": [
+    "1912 Norwegian parliamentary election",
+    "Norwegian parliamentary election directly followed the 1912 election"
+   ]
+  },
+  "Q1506527": {
+   "labels": [
+    "Wilhelm-Raabe-Schule",
+    "Wilhelm-Raabe-Schule (Hannover)"
+   ],
+   "min_ratio": 0.8163265306122449,
+   "pair": [
+    "Wilhelm-Raabe-Schule",
+    "Wilhelm-Raabe-Schule (Hannover)"
+   ]
+  },
+  "Q1607955": {
+   "labels": [
+    "Fiction - Music from the Motion",
+    "Pulp Fiction – Music from the Motion Picture",
+    "the creative work \"Pulp Fiction - Music from the Motion"
+   ],
+   "min_ratio": 0.7294117647058823,
+   "pair": [
+    "Fiction - Music from the Motion",
+    "the creative work \"Pulp Fiction - Music from the Motion"
+   ]
+  },
+  "Q7092142": {
+   "labels": [
+    "Onda Sonora – Red Hot + Lisbon",
+    "Red Hot + Lisbon by Onda Sonora"
+   ],
+   "min_ratio": 0.49122807017543857,
+   "pair": [
+    "Onda Sonora – Red Hot + Lisbon",
+    "Red Hot + Lisbon by Onda Sonora"
+   ]
+  },
+  "Q1954794": {
+   "labels": [
+    "Belarusian DM Tribute album titled Personal Depeche",
+    "Personal Depeche - Belarusian DM Tribute",
+    "Personal Depeche – Belarusian DM Tribute"
+   ],
+   "min_ratio": 0.46153846153846156,
+   "pair": [
+    "Belarusian DM Tribute album titled Personal Depeche",
+    "Personal Depeche - Belarusian DM Tribute"
+   ]
+  },
+  "Q2035075": {
+   "labels": [
+    "Stranger than Fiction – Music From The Motion Picture",
+    "than",
+    "than Fiction - Music From The Motion"
+   ],
+   "min_ratio": 0.14035087719298245,
+   "pair": [
+    "Stranger than Fiction – Music From The Motion Picture",
+    "than"
+   ]
+  },
+  "Q2053009": {
+   "labels": [
+    "1897 Norwegian parliamentary election",
+    "Norwegian parliamentary election directly succeeded the 1897 election"
+   ],
+   "min_ratio": 0.6037735849056604,
+   "pair": [
+    "1897 Norwegian parliamentary election",
+    "Norwegian parliamentary election directly succeeded the 1897 election"
+   ]
+  },
+  "Q2061346": {
+   "labels": [
+    "for",
+    "for \"Waiting for"
+   ],
+   "min_ratio": 0.3333333333333333,
+   "pair": [
+    "for",
+    "for \"Waiting for"
+   ]
+  },
+  "Q2109253": {
+   "labels": [
+    "Prussian S 9",
+    "Prussian S 9 (experimental)"
+   ],
+   "min_ratio": 0.6486486486486487,
+   "pair": [
+    "Prussian S 9",
+    "Prussian S 9 (experimental)"
+   ]
+  },
+  "Q2110629": {
+   "labels": [
+    "Universidad de las Américas Asociación Civil",
+    "Universidad de las Américas a member of as an Asociación Civil"
+   ],
+   "min_ratio": 0.8301886792452831,
+   "pair": [
+    "Universidad de las Américas Asociación Civil",
+    "Universidad de las Américas a member of as an Asociación Civil"
+   ]
+  },
+  "Q2366116": {
+   "labels": [
+    "Audience Award for Best Foreign Feature Film at the Sundance Film Festival",
+    "Sundance Film Festival - Audience Award – Best Foreign Feature Film"
+   ],
+   "min_ratio": 0.5815602836879432,
+   "pair": [
+    "Audience Award for Best Foreign Feature Film at the Sundance Film Festival",
+    "Sundance Film Festival - Audience Award – Best Foreign Feature Film"
+   ]
+  },
+  "Q2488789": {
+   "labels": [
+    "railway",
+    "railway does the Tornio-Kolari railway"
+   ],
+   "min_ratio": 0.3111111111111111,
+   "pair": [
+    "railway",
+    "railway does the Tornio-Kolari railway"
+   ]
+  },
+  "Q16643010": {
+   "labels": [
+    "By",
+    "Trust"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "By",
+    "Trust"
+   ]
+  },
+  "Q2572330": {
+   "labels": [
+    "French Ministry of education",
+    "of the head of the French Ministry of"
+   ],
+   "min_ratio": 0.5538461538461539,
+   "pair": [
+    "French Ministry of education",
+    "of the head of the French Ministry of"
+   ]
+  },
+  "Q3089073": {
+   "labels": [
+    "Happy",
+    "In"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "Happy",
+    "In"
+   ]
+  },
+  "Q3614730": {
+   "labels": [
+    "Amy's Jukebox – The Music That Inspired Amy Winehouse",
+    "Music That Inspired Amy Winehouse\" by Amy's Jukebox"
+   ],
+   "min_ratio": 0.6407766990291263,
+   "pair": [
+    "Amy's Jukebox – The Music That Inspired Amy Winehouse",
+    "Music That Inspired Amy Winehouse\" by Amy's Jukebox"
+   ]
+  },
+  "Q4106279": {
+   "labels": [
+    "Grand Duchess Xenia Alexandrovna of Russia",
+    "of Grand Duchess Xenia Alexandrovna of Russia",
+    "of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia"
+   ],
+   "min_ratio": 0.7241379310344828,
+   "pair": [
+    "Grand Duchess Xenia Alexandrovna of Russia",
+    "of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia"
+   ]
+  },
+  "Q4165348": {
+   "labels": [
+    "Myatlevs' house at Saint Isaac's Square 9",
+    "Saint Isaac's Square 9, Myatlevs' house"
+   ],
+   "min_ratio": 0.5569620253164557,
+   "pair": [
+    "Myatlevs' house at Saint Isaac's Square 9",
+    "Saint Isaac's Square 9, Myatlevs' house"
+   ]
+  },
+  "Q4545921": {
+   "labels": [
+    "Las Vegas Nevada - October 22, 2000",
+    "October 22 2000 in Las Vegas Nevada"
+   ],
+   "min_ratio": 0.463768115942029,
+   "pair": [
+    "Las Vegas Nevada - October 22, 2000",
+    "October 22 2000 in Las Vegas Nevada"
+   ]
+  },
+  "Q4947357": {
+   "labels": [
+    "2012 Bosnian municipal elections",
+    "Bosnian municipal elections immediately followed the 2012 elections"
+   ],
+   "min_ratio": 0.5454545454545454,
+   "pair": [
+    "2012 Bosnian municipal elections",
+    "Bosnian municipal elections immediately followed the 2012 elections"
+   ]
+  },
+  "Q4996906": {
+   "labels": [
+    "Bulli",
+    "Bulli railway station"
+   ],
+   "min_ratio": 0.38461538461538464,
+   "pair": [
+    "Bulli",
+    "Bulli railway station"
+   ]
+  },
+  "Q5161119": {
+   "labels": [
+    "Coniston railway station a part of in New South Wales",
+    "Coniston railway station in New South Wales"
+   ],
+   "min_ratio": 0.8958333333333334,
+   "pair": [
+    "Coniston railway station a part of in New South Wales",
+    "Coniston railway station in New South Wales"
+   ]
+  },
+  "Q5369680": {
+   "labels": [
+    "Embassy of Ethiopia, Ottawa",
+    "of use for the Embassy of Ethiopia in Ottawa"
+   ],
+   "min_ratio": 0.7428571428571429,
+   "pair": [
+    "Embassy of Ethiopia, Ottawa",
+    "of use for the Embassy of Ethiopia in Ottawa"
+   ]
+  },
+  "Q5369707": {
+   "labels": [
+    "Embassy of Guatemala in Ottawa",
+    "of the Embassy of Guatemala in Ottawa"
+   ],
+   "min_ratio": 0.8955223880597015,
+   "pair": [
+    "Embassy of Guatemala in Ottawa",
+    "of the Embassy of Guatemala in Ottawa"
+   ]
+  },
+  "Q5369759": {
+   "labels": [
+    "Embassy of Kazakhstan, Ottawa",
+    "of use of the Embassy of Kazakhstan in Ottawa"
+   ],
+   "min_ratio": 0.7671232876712328,
+   "pair": [
+    "Embassy of Kazakhstan, Ottawa",
+    "of use of the Embassy of Kazakhstan in Ottawa"
+   ]
+  },
+  "Q5369847": {
+   "labels": [
+    "of the head of the Embassy of Russia in Ottawa",
+    "of use of the Embassy of Russia in Ottawa"
+   ],
+   "min_ratio": 0.896551724137931,
+   "pair": [
+    "of the head of the Embassy of Russia in Ottawa",
+    "of use of the Embassy of Russia in Ottawa"
+   ]
+  },
+  "Q5369937": {
+   "labels": [
+    "the current state of use of the Embassy of the People's Republic of China in Ottawa",
+    "the head of the Embassy of the People's Republic of China in Ottawa"
+   ],
+   "min_ratio": 0.8666666666666667,
+   "pair": [
+    "the current state of use of the Embassy of the People's Republic of China in Ottawa",
+    "the head of the Embassy of the People's Republic of China in Ottawa"
+   ]
+  },
+  "Q5369957": {
+   "labels": [
+    "the current state of use of the Embassy of the United States in Jakarta",
+    "the head of the Embassy of the United States in Jakarta"
+   ],
+   "min_ratio": 0.8412698412698413,
+   "pair": [
+    "the current state of use of the Embassy of the United States in Jakarta",
+    "the head of the Embassy of the United States in Jakarta"
+   ]
+  },
+  "Q5369972": {
+   "labels": [
+    "the current state of use of the Embassy of the United States in Tehran",
+    "the position of the head of the Embassy of the United States in Tehran"
+   ],
+   "min_ratio": 0.8,
+   "pair": [
+    "the current state of use of the Embassy of the United States in Tehran",
+    "the position of the head of the Embassy of the United States in Tehran"
+   ]
+  },
+  "Q5420155": {
+   "labels": [
+    "Exeter railway station a part of in New South Wales",
+    "Exeter railway station in New South Wales"
+   ],
+   "min_ratio": 0.8913043478260869,
+   "pair": [
+    "Exeter railway station a part of in New South Wales",
+    "Exeter railway station in New South Wales"
+   ]
+  },
+  "Q5369913": {
+   "labels": [
+    "Embassy of Uzbekistan in Washington D.C. have in the context of",
+    "of use of the Embassy of Uzbekistan in Washington D.C."
+   ],
+   "min_ratio": 0.6782608695652174,
+   "pair": [
+    "Embassy of Uzbekistan in Washington D.C. have in the context of",
+    "of use of the Embassy of Uzbekistan in Washington D.C."
+   ]
+  },
+  "Q6011384": {
+   "labels": [
+    "What",
+    "patagonic meset"
+   ],
+   "min_ratio": 0.21052631578947367,
+   "pair": [
+    "What",
+    "patagonic meset"
+   ]
+  },
+  "Q6012743": {
+   "labels": [
+    "In the Pit",
+    "the award in the Pit"
+   ],
+   "min_ratio": 0.6666666666666666,
+   "pair": [
+    "In the Pit",
+    "the award in the Pit"
+   ]
+  },
+  "Q6269510": {
+   "labels": [
+    "joint custody in the United States",
+    "joint custody practiced in the United States"
+   ],
+   "min_ratio": 0.8717948717948718,
+   "pair": [
+    "joint custody in the United States",
+    "joint custody practiced in the United States"
+   ]
+  },
+  "Q6532342": {
+   "labels": [
+    "Ibrāhīm ibn Isḥāq",
+    "Ḥarbī, Ibrāhīm ibn Isḥāq"
+   ],
+   "min_ratio": 0.85,
+   "pair": [
+    "Ibrāhīm ibn Isḥāq",
+    "Ḥarbī, Ibrāhīm ibn Isḥāq"
+   ]
+  },
+  "Q6777934": {
+   "labels": [
+    "Marulan railway station",
+    "railway station in Marulan"
+   ],
+   "min_ratio": 0.6122448979591837,
+   "pair": [
+    "Marulan railway station",
+    "railway station in Marulan"
+   ]
+  },
+  "Q7108543": {
+   "labels": [
+    "Otford railway station belong to in New South Wales",
+    "Otford railway station in New South Wales"
+   ],
+   "min_ratio": 0.8913043478260869,
+   "pair": [
+    "Otford railway station belong to in New South Wales",
+    "Otford railway station in New South Wales"
+   ]
+  },
+  "Q7207419": {
+   "labels": [
+    "or Bum\" by Poet",
+    "or Bum\" by the Poet"
+   ],
+   "min_ratio": 0.875,
+   "pair": [
+    "or Bum\" by Poet",
+    "or Bum\" by the Poet"
+   ]
+  },
+  "Q7210027": {
+   "labels": [
+    "Polish culture in the Interbellum",
+    "Polish culture prominent during the Interbellum"
+   ],
+   "min_ratio": 0.825,
+   "pair": [
+    "Polish culture in the Interbellum",
+    "Polish culture prominent during the Interbellum"
+   ]
+  },
+  "Q7848510": {
+   "labels": [
+    "Tryin' to Get the Feeling Again / Beautiful Music",
+    "the songs \"Tryin' to Get the Feeling"
+   ],
+   "min_ratio": 0.6097560975609756,
+   "pair": [
+    "Tryin' to Get the Feeling Again / Beautiful Music",
+    "the songs \"Tryin' to Get the Feeling"
+   ]
+  },
+  "Q7894475": {
+   "labels": [
+    "Hayes and Orton Halls at the University",
+    "University belong to where Hayes and Orton Halls",
+    "University play in relation to Hayes and Orton Halls"
+   ],
+   "min_ratio": 0.46153846153846156,
+   "pair": [
+    "Hayes and Orton Halls at the University",
+    "University play in relation to Hayes and Orton Halls"
+   ]
+  },
+  "Q7970972": {
+   "labels": [
+    "Warszawa Żwirki i Wigury railway station",
+    "railway station in Warszawa Żwirki i Wigury"
+   ],
+   "min_ratio": 0.5783132530120482,
+   "pair": [
+    "Warszawa Żwirki i Wigury railway station",
+    "railway station in Warszawa Żwirki i Wigury"
+   ]
+  },
+  "Q8024548": {
+   "labels": [
+    "Windsor",
+    "Windsor station"
+   ],
+   "min_ratio": 0.6363636363636364,
+   "pair": [
+    "Windsor",
+    "Windsor station"
+   ]
+  },
+  "Q10418023": {
+   "labels": [
+    "architecture of Helsingborg",
+    "of architecture does Helsingborg's architecture belong to within the context of Swedish architecture"
+   ],
+   "min_ratio": 0.4094488188976378,
+   "pair": [
+    "architecture of Helsingborg",
+    "of architecture does Helsingborg's architecture belong to within the context of Swedish architecture"
+   ]
+  },
+  "Q11177724": {
+   "labels": [
+    "Phyllostachys heterocycla",
+    "Phyllostachys heterocycla ‘Luteosulcata Wen’"
+   ],
+   "min_ratio": 0.7352941176470589,
+   "pair": [
+    "Phyllostachys heterocycla",
+    "Phyllostachys heterocycla ‘Luteosulcata Wen’"
+   ]
+  },
+  "Q11185679": {
+   "labels": [
+    "1960 Liberal Democratic Party (Japan) leadership election",
+    "1960 leadership election of the Liberal Democratic Party (Japan)"
+   ],
+   "min_ratio": 0.5982905982905983,
+   "pair": [
+    "1960 Liberal Democratic Party (Japan) leadership election",
+    "1960 leadership election of the Liberal Democratic Party (Japan)"
+   ]
+  },
+  "Q11185968": {
+   "labels": [
+    "Tokyo Metropolitan Assembly election of 1981",
+    "election was the Tokyo Metropolitan Assembly election in 1981"
+   ],
+   "min_ratio": 0.8,
+   "pair": [
+    "Tokyo Metropolitan Assembly election of 1981",
+    "election was the Tokyo Metropolitan Assembly election in 1981"
+   ]
+  },
+  "Q11186087": {
+   "labels": [
+    "Tokyo Metropolitan Assembly election of 1989",
+    "election was the Tokyo Metropolitan Assembly election in 1989"
+   ],
+   "min_ratio": 0.8,
+   "pair": [
+    "Tokyo Metropolitan Assembly election of 1989",
+    "election was the Tokyo Metropolitan Assembly election in 1989"
+   ]
+  },
+  "Q11311398": {
+   "labels": [
+    "ARENA TOUR'07 \"W-ARENA\"THE",
+    "無限開關 ARENA TOUR\\'07 \"W-ARENA\"THE MOVIE"
+   ],
+   "min_ratio": 0.8064516129032258,
+   "pair": [
+    "ARENA TOUR'07 \"W-ARENA\"THE",
+    "無限開關 ARENA TOUR\\'07 \"W-ARENA\"THE MOVIE"
+   ]
+  },
+  "Q11317544": {
+   "labels": [
+    "Japanese cemetery in Ulan Bator",
+    "cemetery is the Japanese cemetery in Ulan Bator"
+   ],
+   "min_ratio": 0.7948717948717948,
+   "pair": [
+    "Japanese cemetery in Ulan Bator",
+    "cemetery is the Japanese cemetery in Ulan Bator"
+   ]
+  },
+  "Q11322578": {
+   "labels": [
+    "ドキュメンタリー",
+    "ドキュメンタリー (NHK)"
+   ],
+   "min_ratio": 0.8,
+   "pair": [
+    "ドキュメンタリー",
+    "ドキュメンタリー (NHK)"
+   ]
+  },
+  "Q11630468": {
+   "labels": [
+    "Queen of Wa known for being Friendly to Wei",
+    "to Wei\" conferred upon the Queen of Wa"
+   ],
+   "min_ratio": 0.275,
+   "pair": [
+    "Queen of Wa known for being Friendly to Wei",
+    "to Wei\" conferred upon the Queen of Wa"
+   ]
+  },
+  "Q12193079": {
+   "labels": [
+    "Christianity in the Falkland Islands",
+    "Christianity is practiced in the Falkland Islands",
+    "Christianity practiced in the Falkland Islands"
+   ],
+   "min_ratio": 0.8470588235294118,
+   "pair": [
+    "Christianity in the Falkland Islands",
+    "Christianity is practiced in the Falkland Islands"
+   ]
+  },
+  "Q12193085": {
+   "labels": [
+    "Christianity in Guadeloupe",
+    "Christianity is present in Guadeloupe"
+   ],
+   "min_ratio": 0.8253968253968254,
+   "pair": [
+    "Christianity in Guadeloupe",
+    "Christianity is present in Guadeloupe"
+   ]
+  },
+  "Q12193123": {
+   "labels": [
+    "Christianity in the Isle of Man",
+    "Christianity practiced in the Isle of Man"
+   ],
+   "min_ratio": 0.8611111111111112,
+   "pair": [
+    "Christianity in the Isle of Man",
+    "Christianity practiced in the Isle of Man"
+   ]
+  },
+  "Q12223514": {
+   "labels": [
+    "Ibn ʻAbd al-Ḥakam's ʻAbd Allāh",
+    "ʻAbd Allāh Ibn ʻAbd al-Ḥakam"
+   ],
+   "min_ratio": 0.5862068965517241,
+   "pair": [
+    "Ibn ʻAbd al-Ḥakam's ʻAbd Allāh",
+    "ʻAbd Allāh Ibn ʻAbd al-Ḥakam"
+   ]
+  },
+  "Q12227388": {
+   "labels": [
+    "ʻAffān ibn Muslim Ṣaffār",
+    "Ṣaffār, ʻAffān ibn Muslim"
+   ],
+   "min_ratio": 0.7083333333333334,
+   "pair": [
+    "ʻAffān ibn Muslim Ṣaffār",
+    "Ṣaffār, ʻAffān ibn Muslim"
+   ]
+  },
+  "Q54809898": {
+   "labels": [
+    "list of Athletic Bilbao players",
+    "players listed in the list of Athletic Bilbao"
+   ],
+   "min_ratio": 0.6052631578947368,
+   "pair": [
+    "list of Athletic Bilbao players",
+    "players listed in the list of Athletic Bilbao"
+   ]
+  },
+  "Q20600868": {
+   "labels": [
+    "What",
+    "thatcher"
+   ],
+   "min_ratio": 0.5,
+   "pair": [
+    "What",
+    "thatcher"
+   ]
+  },
+  "Q12487106": {
+   "labels": [
+    "Banjar–Cijulang railway",
+    "railway"
+   ],
+   "min_ratio": 0.4666666666666667,
+   "pair": [
+    "Banjar–Cijulang railway",
+    "railway"
+   ]
+  },
+  "Q12723577": {
+   "labels": [
+    "Casa memorială",
+    "Casa memorială „Nicu Enea”"
+   ],
+   "min_ratio": 0.7368421052631579,
+   "pair": [
+    "Casa memorială",
+    "Casa memorială „Nicu Enea”"
+   ]
+  },
+  "Q12982751": {
+   "labels": [
+    "Cēran̲",
+    "What"
+   ],
+   "min_ratio": 0.2222222222222222,
+   "pair": [
+    "Cēran̲",
+    "What"
+   ]
+  },
+  "Q14712452": {
+   "labels": [
+    "Hampstead",
+    "Hampstead (Tunstall, Virginia)"
+   ],
+   "min_ratio": 0.5,
+   "pair": [
+    "Hampstead",
+    "Hampstead (Tunstall, Virginia)"
+   ]
+  },
+  "Q14712537": {
+   "labels": [
+    "Hillsborough",
+    "Hillsborough (Walkerton, Virginia)"
+   ],
+   "min_ratio": 0.5581395348837209,
+   "pair": [
+    "Hillsborough",
+    "Hillsborough (Walkerton, Virginia)"
+   ]
+  },
+  "Q15909461": {
+   "labels": [
+    "Tsinghua University's Department of Chemistry",
+    "of the Department of Chemistry at Tsinghua University"
+   ],
+   "min_ratio": 0.5510204081632653,
+   "pair": [
+    "Tsinghua University's Department of Chemistry",
+    "of the Department of Chemistry at Tsinghua University"
+   ]
+  },
+  "Q16126384": {
+   "labels": [
+    "al-ʻAbbās ibn Bakkār as indicated by Ḍabbī",
+    "al-ʻAbbās ibn Bakkār Ḍabbī",
+    "Ḍabbī, al-ʻAbbās ibn Bakkār"
+   ],
+   "min_ratio": 0.5882352941176471,
+   "pair": [
+    "al-ʻAbbās ibn Bakkār as indicated by Ḍabbī",
+    "Ḍabbī, al-ʻAbbās ibn Bakkār"
+   ]
+  },
+  "Q16528151": {
+   "labels": [
+    "of the head at the Embassy of Poland in Jakarta",
+    "of use for the Embassy of Poland in Jakarta"
+   ],
+   "min_ratio": 0.8444444444444444,
+   "pair": [
+    "of the head at the Embassy of Poland in Jakarta",
+    "of use for the Embassy of Poland in Jakarta"
+   ]
+  },
+  "Q16579129": {
+   "labels": [
+    "Technological Institute of Tuxtla Gutierrez",
+    "Tuxtla Gutierrez Institute Technological a member of"
+   ],
+   "min_ratio": 0.3368421052631579,
+   "pair": [
+    "Technological Institute of Tuxtla Gutierrez",
+    "Tuxtla Gutierrez Institute Technological a member of"
+   ]
+  },
+  "Q16919800": {
+   "labels": [
+    "Embassy of Austria (Bonn)",
+    "of use of the Embassy of Austria"
+   ],
+   "min_ratio": 0.6545454545454545,
+   "pair": [
+    "Embassy of Austria (Bonn)",
+    "of use of the Embassy of Austria"
+   ]
+  },
+  "Q16998537": {
+   "labels": [
+    "National Union of Mineworkers headquarters",
+    "headquarters of the National Union of Mineworkers"
+   ],
+   "min_ratio": 0.6373626373626373,
+   "pair": [
+    "National Union of Mineworkers headquarters",
+    "headquarters of the National Union of Mineworkers"
+   ]
+  },
+  "Q16565086": {
+   "labels": [
+    "of building is the house on the street of Warszawskiej 5 in",
+    "the house on the street of Warszawskiej 5 in"
+   ],
+   "min_ratio": 0.8543689320388349,
+   "pair": [
+    "of building is the house on the street of Warszawskiej 5 in",
+    "the house on the street of Warszawskiej 5 in"
+   ]
+  },
+  "Q17183354": {
+   "labels": [
+    "LGBT culture in Eugene, Oregon",
+    "in Oregon does LGBT culture in Eugene"
+   ],
+   "min_ratio": 0.6666666666666666,
+   "pair": [
+    "LGBT culture in Eugene, Oregon",
+    "in Oregon does LGBT culture in Eugene"
+   ]
+  },
+  "Q18338966": {
+   "labels": [
+    "Pikachu, What's This Key?",
+    "This",
+    "This Key\" in which Pikachu"
+   ],
+   "min_ratio": 0.27586206896551724,
+   "pair": [
+    "This",
+    "This Key\" in which Pikachu"
+   ]
+  },
+  "Q19383545": {
+   "labels": [
+    "Embassy of Norway in Accra",
+    "of use of the Embassy of Norway in Accra"
+   ],
+   "min_ratio": 0.7878787878787878,
+   "pair": [
+    "Embassy of Norway in Accra",
+    "of use of the Embassy of Norway in Accra"
+   ]
+  },
+  "Q19383548": {
+   "labels": [
+    "of the head of the organization at the Embassy of Norway in Ankara",
+    "of use of the Embassy of Norway in Ankara"
+   ],
+   "min_ratio": 0.7289719626168224,
+   "pair": [
+    "of the head of the organization at the Embassy of Norway in Ankara",
+    "of use of the Embassy of Norway in Ankara"
+   ]
+  },
+  "Q19383577": {
+   "labels": [
+    "of the Embassy of Norway hold in Kuala Lumpur",
+    "of use of the Embassy of Norway in Kuala Lumpur"
+   ],
+   "min_ratio": 0.8695652173913043,
+   "pair": [
+    "of the Embassy of Norway hold in Kuala Lumpur",
+    "of use of the Embassy of Norway in Kuala Lumpur"
+   ]
+  },
+  "Q19383603": {
+   "labels": [
+    "of the head of the Embassy of Norway in Tokyo",
+    "of use of the Embassy of Norway in Tokyo"
+   ],
+   "min_ratio": 0.8941176470588236,
+   "pair": [
+    "of the head of the Embassy of Norway in Tokyo",
+    "of use of the Embassy of Norway in Tokyo"
+   ]
+  },
+  "Q82306": {
+   "labels": [
+    "Asia Bibi as its citizen in the blasphemy case",
+    "Asia Bibi in the blasphemy case"
+   ],
+   "min_ratio": 0.8051948051948052,
+   "pair": [
+    "Asia Bibi as its citizen in the blasphemy case",
+    "Asia Bibi in the blasphemy case"
+   ]
+  },
+  "Q351722": {
+   "labels": [
+    "Adams–Onís Treaty",
+    "Treaty"
+   ],
+   "min_ratio": 0.5217391304347826,
+   "pair": [
+    "Adams–Onís Treaty",
+    "Treaty"
+   ]
+  },
+  "Q426128": {
+   "labels": [
+    "...I Care Because You Do",
+    "Care Because You"
+   ],
+   "min_ratio": 0.8648648648648649,
+   "pair": [
+    "...I Care Because You Do",
+    "Care Because You"
+   ]
+  },
+  "Q944954": {
+   "labels": [
+    "Mimic honeyeater",
+    "honeyeater"
+   ],
+   "min_ratio": 0.7692307692307693,
+   "pair": [
+    "Mimic honeyeater",
+    "honeyeater"
+   ]
+  },
+  "Q1714856": {
+   "labels": [
+    "Jägerhof",
+    "Jägerhof (Dresden)"
+   ],
+   "min_ratio": 0.6666666666666666,
+   "pair": [
+    "Jägerhof",
+    "Jägerhof (Dresden)"
+   ]
+  },
+  "Q1118700": {
+   "labels": [
+    "of its political alignment where does ČSSD - Czech Sovereignty of Social Democracy",
+    "ČSSD - Czech Sovereignty of Social Democracy",
+    "ČSSD – Czech Sovereignty of Social Democracy"
+   ],
+   "min_ratio": 0.6984126984126984,
+   "pair": [
+    "of its political alignment where does ČSSD - Czech Sovereignty of Social Democracy",
+    "ČSSD - Czech Sovereignty of Social Democracy"
+   ]
+  },
+  "Q2106234": {
+   "labels": [
+    "Postal Palace in Timișoara",
+    "Postal Palace located in Timișoara"
+   ],
+   "min_ratio": 0.8666666666666667,
+   "pair": [
+    "Postal Palace in Timișoara",
+    "Postal Palace located in Timișoara"
+   ]
+  },
+  "Q2249268": {
+   "labels": [
+    "Footage of World War II by George Stevens",
+    "of World War II by George Stevens",
+    "of origin of the footage of World War II by George Stevens",
+    "of the footage filmed by George Stevens related to World War II"
+   ],
+   "min_ratio": 0.5,
+   "pair": [
+    "of World War II by George Stevens",
+    "of the footage filmed by George Stevens related to World War II"
+   ]
+  },
+  "Q2883671": {
+   "labels": [
+    "Religion saved by Spain",
+    "saved by Spain"
+   ],
+   "min_ratio": 0.7567567567567568,
+   "pair": [
+    "Religion saved by Spain",
+    "saved by Spain"
+   ]
+  },
+  "Q3157954": {
+   "labels": [
+    "Jacques Gervais, baron Subervie",
+    "baron Subervie Jacques Gervais"
+   ],
+   "min_ratio": 0.5,
+   "pair": [
+    "Jacques Gervais, baron Subervie",
+    "baron Subervie Jacques Gervais"
+   ]
+  },
+  "Q3259264": {
+   "labels": [
+    "Loop",
+    "Loop station"
+   ],
+   "min_ratio": 0.5,
+   "pair": [
+    "Loop",
+    "Loop station"
+   ]
+  },
+  "Q3577555": {
+   "labels": [
+    "of solar eclipse is the event on October 2 2024",
+    "solar eclipse of October 2, 2024"
+   ],
+   "min_ratio": 0.7692307692307693,
+   "pair": [
+    "of solar eclipse is the event on October 2 2024",
+    "solar eclipse of October 2, 2024"
+   ]
+  },
+  "Q4064644": {
+   "labels": [
+    "Amphitrite",
+    "Amphitrite (royal yacht)"
+   ],
+   "min_ratio": 0.625,
+   "pair": [
+    "Amphitrite",
+    "Amphitrite (royal yacht)"
+   ]
+  },
+  "Q4102015": {
+   "labels": [
+    "Moscow–Saint Petersburg high-speed railway",
+    "Petersburg high-speed railway"
+   ],
+   "min_ratio": 0.8169014084507042,
+   "pair": [
+    "Moscow–Saint Petersburg high-speed railway",
+    "Petersburg high-speed railway"
+   ]
+  },
+  "Q4221193": {
+   "labels": [
+    "Kyrgyz in China",
+    "Kyrgyz residing in China"
+   ],
+   "min_ratio": 0.7692307692307693,
+   "pair": [
+    "Kyrgyz in China",
+    "Kyrgyz residing in China"
+   ]
+  },
+  "Q4343188": {
+   "labels": [
+    "Donetsk is the Monument to Iosif Kobzon",
+    "Monument to Iosif Kobzon in Donetsk"
+   ],
+   "min_ratio": 0.6486486486486487,
+   "pair": [
+    "Donetsk is the Monument to Iosif Kobzon",
+    "Monument to Iosif Kobzon in Donetsk"
+   ]
+  },
+  "Q4421351": {
+   "labels": [
+    "The legend of Sloven and Rus",
+    "of people is the legend of Sloven and Rus"
+   ],
+   "min_ratio": 0.8115942028985508,
+   "pair": [
+    "The legend of Sloven and Rus",
+    "of people is the legend of Sloven and Rus"
+   ]
+  },
+  "Q4449600": {
+   "labels": [
+    "Tagansky Park in Moscow",
+    "Tagansky Park located in Moscow"
+   ],
+   "min_ratio": 0.8518518518518519,
+   "pair": [
+    "Tagansky Park in Moscow",
+    "Tagansky Park located in Moscow"
+   ]
+  },
+  "Q4470263": {
+   "labels": [
+    "Uyghurs in Almaty",
+    "Uyghurs is located in Almaty"
+   ],
+   "min_ratio": 0.7555555555555555,
+   "pair": [
+    "Uyghurs in Almaty",
+    "Uyghurs is located in Almaty"
+   ]
+  },
+  "Q4544924": {
+   "labels": [
+    "(You Don't Know) How Glad I Am",
+    "Don't Know) How Glad I"
+   ],
+   "min_ratio": 0.8571428571428571,
+   "pair": [
+    "(You Don't Know) How Glad I Am",
+    "Don't Know) How Glad I"
+   ]
+  },
+  "Q4788583": {
+   "labels": [
+    "Area code 504",
+    "code 504"
+   ],
+   "min_ratio": 0.7619047619047619,
+   "pair": [
+    "Area code 504",
+    "code 504"
+   ]
+  },
+  "Q4791593": {
+   "labels": [
+    "Arjuna: Into the Another World – Original Soundtrack",
+    "the Original Soundtrack of \"Arjuna: Into the Another",
+    "the original soundtrack of \"Arjuna: Into the Another"
+   ],
+   "min_ratio": 0.45544554455445546,
+   "pair": [
+    "Arjuna: Into the Another World – Original Soundtrack",
+    "the Original Soundtrack of \"Arjuna: Into the Another"
+   ]
+  },
+  "Q4872989": {
+   "labels": [
+    "Battle of the Planets – Original Television Soundtrack",
+    "of creative work is the Battle of the Planets - Original Television Soundtrack"
+   ],
+   "min_ratio": 0.8181818181818182,
+   "pair": [
+    "Battle of the Planets – Original Television Soundtrack",
+    "of creative work is the Battle of the Planets - Original Television Soundtrack"
+   ]
+  },
+  "Q5146043": {
+   "labels": [
+    "Collected Recordings",
+    "Collected Recordings 1986–1993"
+   ],
+   "min_ratio": 0.8,
+   "pair": [
+    "Collected Recordings",
+    "Collected Recordings 1986–1993"
+   ]
+  },
+  "Q5223135": {
+   "labels": [
+    "Dark Angel - The Original TV Series Soundtrack",
+    "Dark Angel – The Original TV Series",
+    "Dark Angel – The Original TV Series Soundtrack"
+   ],
+   "min_ratio": 0.8641975308641975,
+   "pair": [
+    "Dark Angel - The Original TV Series Soundtrack",
+    "Dark Angel – The Original TV Series"
+   ]
+  },
+  "Q5249788": {
+   "labels": [
+    "Dedicated",
+    "Dedicated '88–'91",
+    "Where"
+   ],
+   "min_ratio": 0.18181818181818182,
+   "pair": [
+    "Dedicated '88–'91",
+    "Where"
+   ]
+  },
+  "Q5285916": {
+   "labels": [
+    "DoReMi: Music from the Motion Picture",
+    "the music from the"
+   ],
+   "min_ratio": 0.5925925925925926,
+   "pair": [
+    "DoReMi: Music from the Motion Picture",
+    "the music from the"
+   ]
+  },
+  "Q5288384": {
+   "labels": [
+    "Dogma: Music from the Motion Picture",
+    "the music from the Motion Picture"
+   ],
+   "min_ratio": 0.8823529411764706,
+   "pair": [
+    "Dogma: Music from the Motion Picture",
+    "the music from the Motion Picture"
+   ]
+  },
+  "Q5500702": {
+   "labels": [
+    "Freedom",
+    "Freedom isn't free"
+   ],
+   "min_ratio": 0.56,
+   "pair": [
+    "Freedom",
+    "Freedom isn't free"
+   ]
+  },
+  "Q1136221": {
+   "labels": [
+    "Hypothesis",
+    "In"
+   ],
+   "min_ratio": 0.16666666666666666,
+   "pair": [
+    "Hypothesis",
+    "In"
+   ]
+  },
+  "Q5977832": {
+   "labels": [
+    "I Know Ray Harman",
+    "Ray Harman"
+   ],
+   "min_ratio": 0.7407407407407407,
+   "pair": [
+    "I Know Ray Harman",
+    "Ray Harman"
+   ]
+  },
+  "Q7547660": {
+   "labels": [
+    "What",
+    "Who"
+   ],
+   "min_ratio": 0.5714285714285714,
+   "pair": [
+    "What",
+    "Who"
+   ]
+  },
+  "Q7573331": {
+   "labels": [
+    "Spanish",
+    "Spanish blanks plot"
+   ],
+   "min_ratio": 0.5384615384615384,
+   "pair": [
+    "Spanish",
+    "Spanish blanks plot"
+   ]
+  },
+  "Q7593099": {
+   "labels": [
+    "St Francis of Assisi Parish in Paddington NSW Australia",
+    "of St Francis of Assisi Parish in Paddington NSW Australia",
+    "of building is St Francis of Assisi Parish in Paddington NSW Australia"
+   ],
+   "min_ratio": 0.88,
+   "pair": [
+    "St Francis of Assisi Parish in Paddington NSW Australia",
+    "of building is St Francis of Assisi Parish in Paddington NSW Australia"
+   ]
+  },
+  "Q606991": {
+   "labels": [
+    "In",
+    "Symbol"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "In",
+    "Symbol"
+   ]
+  },
+  "Q11980204": {
+   "labels": [
+    "Karianne",
+    "Who"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "Karianne",
+    "Who"
+   ]
+  },
+  "Q12183768": {
+   "labels": [
+    "Islam in Jammu and Kashmir",
+    "Islam predominantly practiced in Jammu and Kashmir"
+   ],
+   "min_ratio": 0.6842105263157895,
+   "pair": [
+    "Islam in Jammu and Kashmir",
+    "Islam predominantly practiced in Jammu and Kashmir"
+   ]
+  },
+  "Q12835386": {
+   "labels": [
+    "Adam",
+    "Adam ol !"
+   ],
+   "min_ratio": 0.7272727272727273,
+   "pair": [
+    "Adam",
+    "Adam ol !"
+   ]
+  },
+  "Q15912558": {
+   "labels": [
+    "Department of Environmental Protection under the Taipei City Government",
+    "Department of Environmental Protection, Taipei City Government",
+    "of organization is the Department of Environmental Protection within the Taipei City"
+   ],
+   "min_ratio": 0.6896551724137931,
+   "pair": [
+    "Department of Environmental Protection, Taipei City Government",
+    "of organization is the Department of Environmental Protection within the Taipei City"
+   ]
+  },
+  "Q16535907": {
+   "labels": [
+    "Bashkir in Sverdlovsk Oblast",
+    "Bashkir located in Sverdlovsk Oblast"
+   ],
+   "min_ratio": 0.875,
+   "pair": [
+    "Bashkir in Sverdlovsk Oblast",
+    "Bashkir located in Sverdlovsk Oblast"
+   ]
+  },
+  "Q16709426": {
+   "labels": [
+    "Uzbeks in St. Petersburg",
+    "Uzbeks located in St. Petersburg"
+   ],
+   "min_ratio": 0.8518518518518519,
+   "pair": [
+    "Uzbeks in St. Petersburg",
+    "Uzbeks located in St. Petersburg"
+   ]
+  },
+  "Q16743231": {
+   "labels": [
+    "Caffeine",
+    "What"
+   ],
+   "min_ratio": 0.16666666666666666,
+   "pair": [
+    "Caffeine",
+    "What"
+   ]
+  },
+  "Q178915": {
+   "labels": [
+    "fasting in Islam",
+    "in Islam is partially coincident with the practice of fasting"
+   ],
+   "min_ratio": 0.2077922077922078,
+   "pair": [
+    "fasting in Islam",
+    "in Islam is partially coincident with the practice of fasting"
+   ]
+  },
+  "Q37470110": {
+   "labels": [
+    "In",
+    "Mail"
+   ],
+   "min_ratio": 0.3333333333333333,
+   "pair": [
+    "In",
+    "Mail"
+   ]
+  },
+  "Q12074761": {
+   "labels": [
+    "In",
+    "Interview"
+   ],
+   "min_ratio": 0.36363636363636365,
+   "pair": [
+    "In",
+    "Interview"
+   ]
+  },
+  "Q367152": {
+   "labels": [
+    "Exhibit",
+    "In"
+   ],
+   "min_ratio": 0.2222222222222222,
+   "pair": [
+    "Exhibit",
+    "In"
+   ]
+  },
+  "Q598794": {
+   "labels": [
+    "transport in French Polynesia",
+    "transport system in French Polynesia"
+   ],
+   "min_ratio": 0.8923076923076924,
+   "pair": [
+    "transport in French Polynesia",
+    "transport system in French Polynesia"
+   ]
+  },
+  "Q600696": {
+   "labels": [
+    "Roman Catholic Archdiocese of Samarinda",
+    "of Roman Catholic archdiocese is the Archdiocese of Samarinda"
+   ],
+   "min_ratio": 0.78,
+   "pair": [
+    "Roman Catholic Archdiocese of Samarinda",
+    "of Roman Catholic archdiocese is the Archdiocese of Samarinda"
+   ]
+  },
+  "Q672107": {
+   "labels": [
+    "What",
+    "ouija"
+   ],
+   "min_ratio": 0.2222222222222222,
+   "pair": [
+    "What",
+    "ouija"
+   ]
+  },
+  "Q745598": {
+   "labels": [
+    "Ranulf II, Count of Alife",
+    "of Count Ranulf II of Alife"
+   ],
+   "min_ratio": 0.7058823529411765,
+   "pair": [
+    "Ranulf II, Count of Alife",
+    "of Count Ranulf II of Alife"
+   ]
+  },
+  "Q929816": {
+   "labels": [
+    "transport in the Czech Republic",
+    "transport is included within the transportation system of the Czech Republic in the"
+   ],
+   "min_ratio": 0.543859649122807,
+   "pair": [
+    "transport in the Czech Republic",
+    "transport is included within the transportation system of the Czech Republic in the"
+   ]
+  },
+  "Q961971": {
+   "labels": [
+    "Grimpow. The Invisible Road",
+    "The Invisible"
+   ],
+   "min_ratio": 0.6666666666666666,
+   "pair": [
+    "Grimpow. The Invisible Road",
+    "The Invisible"
+   ]
+  },
+  "Q5054605": {
+   "labels": [
+    "Cause of Death",
+    "of"
+   ],
+   "min_ratio": 0.25,
+   "pair": [
+    "Cause of Death",
+    "of"
+   ]
+  },
+  "Q1196457": {
+   "labels": [
+    "(1937)",
+    "Der Reisepass (1937)"
+   ],
+   "min_ratio": 0.36363636363636365,
+   "pair": [
+    "(1937)",
+    "Der Reisepass (1937)"
+   ]
+  },
+  "Q1247702": {
+   "labels": [
+    "Redefinition of the Catholic dioceses in Germany after the Congress of Vienna",
+    "the underlying cause for the redefinition of the Catholic dioceses in Germany after the Congress of Vienna"
+   ],
+   "min_ratio": 0.8415300546448088,
+   "pair": [
+    "Redefinition of the Catholic dioceses in Germany after the Congress of Vienna",
+    "the underlying cause for the redefinition of the Catholic dioceses in Germany after the Congress of Vienna"
+   ]
+  },
+  "Q1398184": {
+   "labels": [
+    "culture",
+    "culture is Fatyanovo-Balanovo culture"
+   ],
+   "min_ratio": 0.3181818181818182,
+   "pair": [
+    "culture",
+    "culture is Fatyanovo-Balanovo culture"
+   ]
+  },
+  "Q1769884": {
+   "labels": [
+    "Comorian independence referendum held in 1974",
+    "Comorian independence referendum in 1974",
+    "Comorian independence referendum of 1974"
+   ],
+   "min_ratio": 0.8941176470588236,
+   "pair": [
+    "Comorian independence referendum held in 1974",
+    "Comorian independence referendum of 1974"
+   ]
+  },
+  "Q1816050": {
+   "labels": [
+    "Pseudarchaster gracilis tessellatus",
+    "Pseudarchaster tessellatus"
+   ],
+   "min_ratio": 0.8524590163934426,
+   "pair": [
+    "Pseudarchaster gracilis tessellatus",
+    "Pseudarchaster tessellatus"
+   ]
+  },
+  "Q2413543": {
+   "labels": [
+    "Film Portrait",
+    "Portrait"
+   ],
+   "min_ratio": 0.7619047619047619,
+   "pair": [
+    "Film Portrait",
+    "Portrait"
+   ]
+  },
+  "Q2423345": {
+   "labels": [
+    "Philip IV depicted with in his old age",
+    "Philip IV in old age"
+   ],
+   "min_ratio": 0.6896551724137931,
+   "pair": [
+    "Philip IV depicted with in his old age",
+    "Philip IV in old age"
+   ]
+  },
+  "Q2588238": {
+   "labels": [
+    "25th Anniversary edition of Unarmed – Best",
+    "Unarmed – Best of 25th Anniversary"
+   ],
+   "min_ratio": 0.42105263157894735,
+   "pair": [
+    "25th Anniversary edition of Unarmed – Best",
+    "Unarmed – Best of 25th Anniversary"
+   ]
+  },
+  "Q2841644": {
+   "labels": [
+    "Copenhagen where is the Embassy of France",
+    "of use of the Embassy of France in Copenhagen"
+   ],
+   "min_ratio": 0.6046511627906976,
+   "pair": [
+    "Copenhagen where is the Embassy of France",
+    "of use of the Embassy of France in Copenhagen"
+   ]
+  },
+  "Q2909911": {
+   "labels": [
+    "Bonaparte associated as the First Consul",
+    "Bonaparte serving as the First Consul"
+   ],
+   "min_ratio": 0.8311688311688312,
+   "pair": [
+    "Bonaparte associated as the First Consul",
+    "Bonaparte serving as the First Consul"
+   ]
+  },
+  "Q2889984": {
+   "labels": [
+    "Former suburban railways station in Málaga",
+    "station is the former suburban railways station in Málaga"
+   ],
+   "min_ratio": 0.8484848484848485,
+   "pair": [
+    "Former suburban railways station in Málaga",
+    "station is the former suburban railways station in Málaga"
+   ]
+  },
+  "Q5447727": {
+   "labels": [
+    "Fight",
+    "Which"
+   ],
+   "min_ratio": 0.4,
+   "pair": [
+    "Fight",
+    "Which"
+   ]
+  },
+  "Q3104975": {
+   "labels": [
+    "of the Civil",
+    "the Australian Classification rating for Ghosts... of the Civil Dead",
+    "the CNC film rating for \"Ghosts of the Civil"
+   ],
+   "min_ratio": 0.3116883116883117,
+   "pair": [
+    "of the Civil",
+    "the Australian Classification rating for Ghosts... of the Civil Dead"
+   ]
+  },
+  "Q3150573": {
+   "labels": [
+    "Catholic Church in Montserrat",
+    "Catholic Church is located in Montserrat"
+   ],
+   "min_ratio": 0.8405797101449275,
+   "pair": [
+    "Catholic Church in Montserrat",
+    "Catholic Church is located in Montserrat"
+   ]
+  },
+  "Q126103527": {
+   "labels": [
+    "Journal",
+    "Who"
+   ],
+   "min_ratio": 0.2,
+   "pair": [
+    "Journal",
+    "Who"
+   ]
+  },
+  "Q3411828": {
+   "labels": [
+    "Penitentiaries",
+    "What"
+   ],
+   "min_ratio": 0.1111111111111111,
+   "pair": [
+    "Penitentiaries",
+    "What"
+   ]
+  },
+  "Q3491861": {
+   "labels": [
+    "Merlin",
+    "Merlin spring"
+   ],
+   "min_ratio": 0.631578947368421,
+   "pair": [
+    "Merlin",
+    "Merlin spring"
+   ]
+  },
+  "Q3537932": {
+   "labels": [
+    "transport in Rhône-Alpes",
+    "transport system located in Rhône-Alpes"
+   ],
+   "min_ratio": 0.7619047619047619,
+   "pair": [
+    "transport in Rhône-Alpes",
+    "transport system located in Rhône-Alpes"
+   ]
+  },
+  "Q3685260": {
+   "labels": [
+    "1980-1986 edition of Complete Demos",
+    "Complete Demos 1980-1986"
+   ],
+   "min_ratio": 0.4745762711864407,
+   "pair": [
+    "1980-1986 edition of Complete Demos",
+    "Complete Demos 1980-1986"
+   ]
+  },
+  "Q3703921": {
+   "labels": [
+    "In",
+    "What",
+    "Who",
+    "‘De clarea’"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "In",
+    "What"
+   ]
+  },
+  "Q3760050": {
+   "labels": [
+    "Genova",
+    "Genova, la Superba"
+   ],
+   "min_ratio": 0.5217391304347826,
+   "pair": [
+    "Genova",
+    "Genova, la Superba"
+   ]
+  },
+  "Q3790402": {
+   "labels": [
+    "1981-1984 edition of I Pooh",
+    "I Pooh 1981-1984"
+   ],
+   "min_ratio": 0.4186046511627907,
+   "pair": [
+    "1981-1984 edition of I Pooh",
+    "I Pooh 1981-1984"
+   ]
+  },
+  "Q3895759": {
+   "labels": [
+    "di Baia",
+    "parco sommerso di Baia"
+   ],
+   "min_ratio": 0.4827586206896552,
+   "pair": [
+    "di Baia",
+    "parco sommerso di Baia"
+   ]
+  },
+  "Q4120378": {
+   "labels": [
+    "Fard ayn",
+    "ayn"
+   ],
+   "min_ratio": 0.5454545454545454,
+   "pair": [
+    "Fard ayn",
+    "ayn"
+   ]
+  },
+  "Q4256836": {
+   "labels": [
+    "Left Communists",
+    "Left Communists (Russia)"
+   ],
+   "min_ratio": 0.8108108108108109,
+   "pair": [
+    "Left Communists",
+    "Left Communists (Russia)"
+   ]
+  },
+  "Q4386861": {
+   "labels": [
+    "slavery exist in the Median and Achaemenid empires",
+    "slavery in Median and Achaemenid empires"
+   ],
+   "min_ratio": 0.8888888888888888,
+   "pair": [
+    "slavery exist in the Median and Achaemenid empires",
+    "slavery in Median and Achaemenid empires"
+   ]
+  },
+  "Q4839735": {
+   "labels": [
+    "Backsliding",
+    "In"
+   ],
+   "min_ratio": 0.3076923076923077,
+   "pair": [
+    "Backsliding",
+    "In"
+   ]
+  },
+  "Q4976243": {
+   "labels": [
+    "Brown Rice and Kerosene",
+    "and"
+   ],
+   "min_ratio": 0.23076923076923078,
+   "pair": [
+    "Brown Rice and Kerosene",
+    "and"
+   ]
+  },
+  "Q124963732": {
+   "labels": [
+    "Clowns",
+    "In"
+   ],
+   "min_ratio": 0.25,
+   "pair": [
+    "Clowns",
+    "In"
+   ]
+  },
+  "Q5311684": {
+   "labels": [
+    "Dude, Where's My Car? – Motion Picture Soundtrack",
+    "Where's My"
+   ],
+   "min_ratio": 0.3508771929824561,
+   "pair": [
+    "Dude, Where's My Car? – Motion Picture Soundtrack",
+    "Where's My"
+   ]
+  },
+  "Q5331112": {
+   "labels": [
+    "Easy Come Easy Go",
+    "Easy Come Easy Go 1994–2000"
+   ],
+   "min_ratio": 0.7727272727272727,
+   "pair": [
+    "Easy Come Easy Go",
+    "Easy Come Easy Go 1994–2000"
+   ]
+  },
+  "Q5362236": {
+   "labels": [
+    "Elizabeth: The Golden Age – Music from the Motion Picture",
+    "The Golden Age - Music from the Motion",
+    "the music from the motion picture \"Elizabeth: The Golden"
+   ],
+   "min_ratio": 0.5434782608695652,
+   "pair": [
+    "The Golden Age - Music from the Motion",
+    "the music from the motion picture \"Elizabeth: The Golden"
+   ]
+  },
+  "Q5411711": {
+   "labels": [
+    "Tierra del Fuego",
+    "Tierra del Fuego (Music album)"
+   ],
+   "min_ratio": 0.7272727272727273,
+   "pair": [
+    "Tierra del Fuego",
+    "Tierra del Fuego (Music album)"
+   ]
+  },
+  "Q5434633": {
+   "labels": [
+    "Far from Heaven - Original Motion Picture Soundtrack",
+    "Far from Heaven – Original Motion Picture Soundtrack",
+    "from Heaven - Original Motion Picture"
+   ],
+   "min_ratio": 0.8314606741573034,
+   "pair": [
+    "Far from Heaven - Original Motion Picture Soundtrack",
+    "from Heaven - Original Motion Picture"
+   ]
+  },
+  "Q5514314": {
+   "labels": [
+    "Orange",
+    "Orange Afternoons\" by GPS",
+    "V2: Orange Afternoons by GPS"
+   ],
+   "min_ratio": 0.36363636363636365,
+   "pair": [
+    "Orange",
+    "V2: Orange Afternoons by GPS"
+   ]
+  },
+  "Q5514315": {
+   "labels": [
+    "Bad Mango\" belong to within GPS",
+    "Bad Mango\" by GPS",
+    "GPS model called V3: Bad Mango",
+    "GPS release music under the brand V3: Bad Mango",
+    "V3: Bad Mango by GPS",
+    "V3: Bad Mango distributed by GPS",
+    "V3: Bad Mango in GPS"
+   ],
+   "min_ratio": 0.23684210526315788,
+   "pair": [
+    "Bad Mango\" belong to within GPS",
+    "GPS release music under the brand V3: Bad Mango"
+   ]
+  },
+  "Q5523193": {
+   "labels": [
+    "Gargoylian b/w Earth In the Grip of a Skeletal Hand",
+    "the musical work \"Earth In the Grip of a Skeletal"
+   ],
+   "min_ratio": 0.7272727272727273,
+   "pair": [
+    "Gargoylian b/w Earth In the Grip of a Skeletal Hand",
+    "the musical work \"Earth In the Grip of a Skeletal"
+   ]
+  },
+  "Q5685219": {
+   "labels": [
+    "Hawks - Music from the Original Soundtrack",
+    "Hawks – Music from the Original Soundtrack",
+    "the music from Hawks - Music from the Original Soundtrack",
+    "the music from the Original Soundtrack Hawks",
+    "the soundtrack \"Hawks - Music from the Original"
+   ],
+   "min_ratio": 0.6,
+   "pair": [
+    "the music from the Original Soundtrack Hawks",
+    "the soundtrack \"Hawks - Music from the Original"
+   ]
+  },
+  "Q5710293": {
+   "labels": [
+    "Patrol boat Atalaya",
+    "boat Atalaya"
+   ],
+   "min_ratio": 0.7741935483870968,
+   "pair": [
+    "Patrol boat Atalaya",
+    "boat Atalaya"
+   ]
+  },
+  "Q5757632": {
+   "labels": [
+    "High on the Happy Side – The Story So Far",
+    "on the Happy Side - The Story So"
+   ],
+   "min_ratio": 0.8767123287671232,
+   "pair": [
+    "High on the Happy Side – The Story So Far",
+    "on the Happy Side - The Story So"
+   ]
+  },
+  "Q5959084": {
+   "labels": [
+    "Hypnotists in Paris",
+    "in Paris"
+   ],
+   "min_ratio": 0.5925925925925926,
+   "pair": [
+    "Hypnotists in Paris",
+    "in Paris"
+   ]
+  },
+  "Q5961773": {
+   "labels": [
+    "LU-540",
+    "LU-540 (Spain)"
+   ],
+   "min_ratio": 0.6666666666666666,
+   "pair": [
+    "LU-540",
+    "LU-540 (Spain)"
+   ]
+  },
+  "Q6053836": {
+   "labels": [
+    "International Takeover: The United Nations",
+    "United Nations in the International"
+   ],
+   "min_ratio": 0.3684210526315789,
+   "pair": [
+    "International Takeover: The United Nations",
+    "United Nations in the International"
+   ]
+  },
+  "Q14704324": {
+   "labels": [
+    "From",
+    "Jacket"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "From",
+    "Jacket"
+   ]
+  },
+  "Q6322954": {
+   "labels": [
+    "K.I.S.S. – Keep It Sexy & Simple",
+    "Keep It Sexy &"
+   ],
+   "min_ratio": 0.5853658536585366,
+   "pair": [
+    "K.I.S.S. – Keep It Sexy & Simple",
+    "Keep It Sexy &"
+   ]
+  },
+  "Q6409717": {
+   "labels": [
+    "Kimagure Orange Road - Singing Heart",
+    "Kimagure Orange Road – Singing Heart",
+    "Orange Road - Singing"
+   ],
+   "min_ratio": 0.7368421052631579,
+   "pair": [
+    "Kimagure Orange Road - Singing Heart",
+    "Orange Road - Singing"
+   ]
+  },
+  "Q6517809": {
+   "labels": [
+    "Legend of the Guardians: The Owls of Ga'Hoole – Original Motion Picture Soundtrack",
+    "the performer associated with the original motion picture soundtrack of \"Legend of the Guardians: The Owls of"
+   ],
+   "min_ratio": 0.3723404255319149,
+   "pair": [
+    "Legend of the Guardians: The Owls of Ga'Hoole – Original Motion Picture Soundtrack",
+    "the performer associated with the original motion picture soundtrack of \"Legend of the Guardians: The Owls of"
+   ]
+  },
+  "Q6657687": {
+   "labels": [
+    "Live in Israel",
+    "in Israel"
+   ],
+   "min_ratio": 0.782608695652174,
+   "pair": [
+    "Live in Israel",
+    "in Israel"
+   ]
+  },
+  "Q6684480": {
+   "labels": [
+    "Lost in the Stars - The Music of Kurt Weill",
+    "Lost in the Stars – The Music of Kurt Weill",
+    "the 1st edition of Lost in the Stars - The Music of Kurt Weill"
+   ],
+   "min_ratio": 0.819047619047619,
+   "pair": [
+    "Lost in the Stars - The Music of Kurt Weill",
+    "the 1st edition of Lost in the Stars - The Music of Kurt Weill"
+   ]
+  },
+  "Q6691325": {
+   "labels": [
+    "Wereldsterren Love Song",
+    "Wereldsterren Love Song Kollektie: Love Songs"
+   ],
+   "min_ratio": 0.6865671641791045,
+   "pair": [
+    "Wereldsterren Love Song",
+    "Wereldsterren Love Song Kollektie: Love Songs"
+   ]
+  },
+  "Q6796381": {
+   "labels": [
+    "May 24 1993 PKK attack",
+    "PKK attack on May 24 1993"
+   ],
+   "min_ratio": 0.46808510638297873,
+   "pair": [
+    "May 24 1993 PKK attack",
+    "PKK attack on May 24 1993"
+   ]
+  },
+  "Q6808828": {
+   "labels": [
+    "Um Al-Qura",
+    "Um Al-Qura (newspaper)"
+   ],
+   "min_ratio": 0.6666666666666666,
+   "pair": [
+    "Um Al-Qura",
+    "Um Al-Qura (newspaper)"
+   ]
+  },
+  "Q6842666": {
+   "labels": [
+    "Midnight Club 3: DUB Edition soundtrack",
+    "soundtrack of Midnight Club 3: DUB Edition"
+   ],
+   "min_ratio": 0.6835443037974683,
+   "pair": [
+    "Midnight Club 3: DUB Edition soundtrack",
+    "soundtrack of Midnight Club 3: DUB Edition"
+   ]
+  },
+  "Q6906234": {
+   "labels": [
+    "Montreal 1997",
+    "Montreal in 1997"
+   ],
+   "min_ratio": 0.896551724137931,
+   "pair": [
+    "Montreal 1997",
+    "Montreal in 1997"
+   ]
+  },
+  "Q6974305": {
+   "labels": [
+    "'Ala ad-Din al-Basir",
+    "ad-Din al-Basir"
+   ],
+   "min_ratio": 0.8571428571428571,
+   "pair": [
+    "'Ala ad-Din al-Basir",
+    "ad-Din al-Basir"
+   ]
+  },
+  "Q7081056": {
+   "labels": [
+    "Ohio in the War of 1812",
+    "Ohio participate in the War of 1812"
+   ],
+   "min_ratio": 0.7931034482758621,
+   "pair": [
+    "Ohio in the War of 1812",
+    "Ohio participate in the War of 1812"
+   ]
+  },
+  "Q7144957": {
+   "labels": [
+    "In",
+    "Patient",
+    "What"
+   ],
+   "min_ratio": 0.0,
+   "pair": [
+    "In",
+    "What"
+   ]
+  },
+  "Q7490696": {
+   "labels": [
+    "EP",
+    "Shattered EP"
+   ],
+   "min_ratio": 0.2857142857142857,
+   "pair": [
+    "EP",
+    "Shattered EP"
+   ]
+  },
+  "Q7604749": {
+   "labels": [
+    "Staunton–Waynesboro metropolitan area",
+    "metropolitan area"
+   ],
+   "min_ratio": 0.6296296296296297,
+   "pair": [
+    "Staunton–Waynesboro metropolitan area",
+    "metropolitan area"
+   ]
+  },
+  "Q7635539": {
+   "labels": [
+    "He-He (Gadis",
+    "Suit-Suit… He-He (Gadis Sexy)"
+   ],
+   "min_ratio": 0.5945945945945946,
+   "pair": [
+    "He-He (Gadis",
+    "Suit-Suit… He-He (Gadis Sexy)"
+   ]
+  },
+  "Q7834928": {
+   "labels": [
+    "transport in Amsterdam",
+    "transport system in Amsterdam"
+   ],
+   "min_ratio": 0.8627450980392157,
+   "pair": [
+    "transport in Amsterdam",
+    "transport system in Amsterdam"
+   ]
+  },
+  "Q7835120": {
+   "labels": [
+    "transport operate in East Germany",
+    "transport system in East Germany"
+   ],
+   "min_ratio": 0.8615384615384616,
+   "pair": [
+    "transport operate in East Germany",
+    "transport system in East Germany"
+   ]
+  },
+  "Q7834983": {
+   "labels": [
+    "transport in England",
+    "transport system in England"
+   ],
+   "min_ratio": 0.851063829787234,
+   "pair": [
+    "transport in England",
+    "transport system in England"
+   ]
+  },
+  "Q7835029": {
+   "labels": [
+    "transport in Martinique",
+    "transport system in Martinique"
+   ],
+   "min_ratio": 0.8679245283018868,
+   "pair": [
+    "transport in Martinique",
+    "transport system in Martinique"
+   ]
+  },
+  "Q7835072": {
+   "labels": [
+    "transport in Scotland",
+    "transport system located in Scotland"
+   ],
+   "min_ratio": 0.7368421052631579,
+   "pair": [
+    "transport in Scotland",
+    "transport system located in Scotland"
+   ]
+  },
+  "Q7835102": {
+   "labels": [
+    "transport in Wales",
+    "transport located in Wales"
+   ],
+   "min_ratio": 0.8181818181818182,
+   "pair": [
+    "transport in Wales",
+    "transport located in Wales"
+   ]
+  },
+  "Q7835113": {
+   "labels": [
+    "the transport system in the Cayman Islands",
+    "transport in the Cayman Islands"
+   ],
+   "min_ratio": 0.8493150684931506,
+   "pair": [
+    "the transport system in the Cayman Islands",
+    "transport in the Cayman Islands"
+   ]
+  },
+  "Q7940470": {
+   "labels": [
+    "the men's tournament of volleyball at the 2011 Island Games",
+    "the men's volleyball tournament at the 2011 Island Games"
+   ],
+   "min_ratio": 0.782608695652174,
+   "pair": [
+    "the men's tournament of volleyball at the 2011 Island Games",
+    "the men's volleyball tournament at the 2011 Island Games"
+   ]
+  },
+  "Q10539494": {
+   "labels": [
+    "Jan Hammarlund",
+    "Jan Hammarlund 1972–92"
+   ],
+   "min_ratio": 0.7777777777777778,
+   "pair": [
+    "Jan Hammarlund",
+    "Jan Hammarlund 1972–92"
+   ]
+  }
+ },
+ "examples": {
+  "S2": [
+   {
+    "subject": "ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn",
+    "qid": "Q1309400",
+    "q": "What is the religion of ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn?",
+    "all_labels": [
+     "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+     "ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn"
+    ],
+    "min_ratio": 0.757
+   },
+   {
+    "subject": "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+    "qid": "Q1309400",
+    "q": "What language is spoken, written, or signed by Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh?",
+    "all_labels": [
+     "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+     "ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn"
+    ],
+    "min_ratio": 0.757
+   },
+   {
+    "subject": "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+    "qid": "Q1309400",
+    "q": "In terms of jurisdiction, where does the authority of Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh, extend to?",
+    "all_labels": [
+     "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+     "ʻAbd al-ʻAzīz ibn ʻAbd Allāh Mājishūn"
+    ],
+    "min_ratio": 0.757
+   },
+   {
+    "subject": "Norwegian parliamentary election directly followed the 1912 election",
+    "qid": "Q1320751",
+    "q": "Which Norwegian parliamentary election directly followed the 1912 election?",
+    "all_labels": [
+     "1912 Norwegian parliamentary election",
+     "Norwegian parliamentary election directly followed the 1912 election"
+    ],
+    "min_ratio": 0.61
+   },
+   {
+    "subject": "1912 Norwegian parliamentary election",
+    "qid": "Q1320751",
+    "q": "Which party was a candidate in the 1912 Norwegian parliamentary election?",
+    "all_labels": [
+     "1912 Norwegian parliamentary election",
+     "Norwegian parliamentary election directly followed the 1912 election"
+    ],
+    "min_ratio": 0.61
+   },
+   {
+    "subject": "Wilhelm-Raabe-Schule",
+    "qid": "Q1506527",
+    "q": "Who was the architect of Wilhelm-Raabe-Schule in Hannover?",
+    "all_labels": [
+     "Wilhelm-Raabe-Schule",
+     "Wilhelm-Raabe-Schule (Hannover)"
+    ],
+    "min_ratio": 0.816
+   },
+   {
+    "subject": "Wilhelm-Raabe-Schule (Hannover)",
+    "qid": "Q1506527",
+    "q": "What notable event is associated with Wilhelm-Raabe-Schule (Hannover)?",
+    "all_labels": [
+     "Wilhelm-Raabe-Schule",
+     "Wilhelm-Raabe-Schule (Hannover)"
+    ],
+    "min_ratio": 0.816
+   },
+   {
+    "subject": "Pulp Fiction – Music from the Motion Picture",
+    "qid": "Q1607955",
+    "q": "In which country was the first edition of \"Pulp Fiction – Music from the Motion Picture\" published?",
+    "all_labels": [
+     "Fiction - Music from the Motion",
+     "Pulp Fiction – Music from the Motion Picture",
+     "the creative work \"Pulp Fiction - Music from the Motion"
+    ],
+    "min_ratio": 0.729
+   },
+   {
+    "subject": "the creative work \"Pulp Fiction - Music from the Motion",
+    "qid": "Q1607955",
+    "q": "In which language was the creative work \"Pulp Fiction - Music from the Motion Picture\" produced?",
+    "all_labels": [
+     "Fiction - Music from the Motion",
+     "Pulp Fiction – Music from the Motion Picture",
+     "the creative work \"Pulp Fiction - Music from the Motion"
+    ],
+    "min_ratio": 0.729
+   },
+   {
+    "subject": "Onda Sonora – Red Hot + Lisbon",
+    "qid": "Q7092142",
+    "q": "What type of creative work is Onda Sonora – Red Hot + Lisbon?",
+    "all_labels": [
+     "Onda Sonora – Red Hot + Lisbon",
+     "Red Hot + Lisbon by Onda Sonora"
+    ],
+    "min_ratio": 0.491
+   },
+   {
+    "subject": "Personal Depeche – Belarusian DM Tribute",
+    "qid": "Q1954794",
+    "q": "What type of creative work is Personal Depeche – Belarusian DM Tribute?",
+    "all_labels": [
+     "Belarusian DM Tribute album titled Personal Depeche",
+     "Personal Depeche - Belarusian DM Tribute",
+     "Personal Depeche – Belarusian DM Tribute"
+    ],
+    "min_ratio": 0.462
+   },
+   {
+    "subject": "Fiction - Music from the Motion",
+    "qid": "Q1607955",
+    "q": "What type of creative work is \"Pulp Fiction - Music from the Motion Picture\"?",
+    "all_labels": [
+     "Fiction - Music from the Motion",
+     "Pulp Fiction – Music from the Motion Picture",
+     "the creative work \"Pulp Fiction - Music from the Motion"
+    ],
+    "min_ratio": 0.729
+   },
+   {
+    "subject": "Stranger than Fiction – Music From The Motion Picture",
+    "qid": "Q2035075",
+    "q": "What type of creative work is \"Stranger than Fiction – Music From The Motion Picture\"?",
+    "all_labels": [
+     "Stranger than Fiction – Music From The Motion Picture",
+     "than",
+     "than Fiction - Music From The Motion"
+    ],
+    "min_ratio": 0.14
+   },
+   {
+    "subject": "Norwegian parliamentary election directly succeeded the 1897 election",
+    "qid": "Q2053009",
+    "q": "What Norwegian parliamentary election directly succeeded the 1897 election?",
+    "all_labels": [
+     "1897 Norwegian parliamentary election",
+     "Norwegian parliamentary election directly succeeded the 1897 election"
+    ],
+    "min_ratio": 0.604
+   },
+   {
+    "subject": "for",
+    "qid": "Q2061346",
+    "q": "In what language is \"Waiting for Superman\" created?",
+    "all_labels": [
+     "for",
+     "for \"Waiting for"
+    ],
+    "min_ratio": 0.333
+   },
+   {
+    "subject": "for",
+    "qid": "Q2061346",
+    "q": "What award was received by \"Waiting for 'Superman'\"?",
+    "all_labels": [
+     "for",
+     "for \"Waiting for"
+    ],
+    "min_ratio": 0.333
+   },
+   {
+    "subject": "for \"Waiting for",
+    "qid": "Q2061346",
+    "q": "Who conferred the award for \"Waiting for Superman\"?",
+    "all_labels": [
+     "for",
+     "for \"Waiting for"
+    ],
+    "min_ratio": 0.333
+   },
+   {
+    "subject": "Prussian S 9",
+    "qid": "Q2109253",
+    "q": "Which company issued the experimental Prussian S 9?",
+    "all_labels": [
+     "Prussian S 9",
+     "Prussian S 9 (experimental)"
+    ],
+    "min_ratio": 0.649
+   },
+   {
+    "subject": "Prussian S 9 (experimental)",
+    "qid": "Q2109253",
+    "q": "Who operates the Prussian S 9 (experimental) equipment?",
+    "all_labels": [
+     "Prussian S 9",
+     "Prussian S 9 (experimental)"
+    ],
+    "min_ratio": 0.649
+   },
+   {
+    "subject": "Universidad de las Américas Asociación Civil",
+    "qid": "Q2110629",
+    "q": "In what language is the work or name associated with Universidad de las Américas Asociación Civil?",
+    "all_labels": [
+     "Universidad de las Américas Asociación Civil",
+     "Universidad de las Américas a member of as an Asociación Civil"
+    ],
+    "min_ratio": 0.83
+   },
+   {
+    "subject": "Universidad de las Américas a member of as an Asociación Civil",
+    "qid": "Q2110629",
+    "q": "Which organization is Universidad de las Américas a member of as an Asociación Civil?",
+    "all_labels": [
+     "Universidad de las Américas Asociación Civil",
+     "Universidad de las Américas a member of as an Asociación Civil"
+    ],
+    "min_ratio": 0.83
+   },
+   {
+    "subject": "Sundance Film Festival - Audience Award – Best Foreign Feature Film",
+    "qid": "Q2366116",
+    "q": "In what language is the work or name associated with the Sundance Film Festival - Audience Award – Best Foreign Feature Film?",
+    "all_labels": [
+     "Audience Award for Best Foreign Feature Film at the Sundance Film Festival",
+     "Sundance Film Festival - Audience Award – Best Foreign Feature Film"
+    ],
+    "min_ratio": 0.582
+   },
+   {
+    "subject": "Audience Award for Best Foreign Feature Film at the Sundance Film Festival",
+    "qid": "Q2366116",
+    "q": "Who confers the Audience Award for Best Foreign Feature Film at the Sundance Film Festival?",
+    "all_labels": [
+     "Audience Award for Best Foreign Feature Film at the Sundance Film Festival",
+     "Sundance Film Festival - Audience Award – Best Foreign Feature Film"
+    ],
+    "min_ratio": 0.582
+   },
+   {
+    "subject": "railway",
+    "qid": "Q2488789",
+    "q": "What type of electrification does the Tornio-Kolari railway use?",
+    "all_labels": [
+     "railway",
+     "railway does the Tornio-Kolari railway"
+    ],
+    "min_ratio": 0.311
+   },
+   {
+    "subject": "railway does the Tornio-Kolari railway",
+    "qid": "Q2488789",
+    "q": "What railway does the Tornio-Kolari railway physically connect with?",
+    "all_labels": [
+     "railway",
+     "railway does the Tornio-Kolari railway"
+    ],
+    "min_ratio": 0.311
+   },
+   {
+    "subject": "Trust",
+    "qid": "Q16643010",
+    "q": "What award did Trust receive?",
+    "all_labels": [
+     "By",
+     "Trust"
+    ],
+    "min_ratio": 0.0
+   },
+   {
+    "subject": "By",
+    "qid": "Q16643010",
+    "q": "By whom was the trust conferred upon?",
+    "all_labels": [
+     "By",
+     "Trust"
+    ],
+    "min_ratio": 0.0
+   },
+   {
+    "subject": "1897 Norwegian parliamentary election",
+    "qid": "Q2053009",
+    "q": "Which political party had the successful candidate in the 1897 Norwegian parliamentary election?",
+    "all_labels": [
+     "1897 Norwegian parliamentary election",
+     "Norwegian parliamentary election directly succeeded the 1897 election"
+    ],
+    "min_ratio": 0.604
+   },
+   {
+    "subject": "French Ministry of education",
+    "qid": "Q2572330",
+    "q": "Who is the presiding member of the French Ministry of education?",
+    "all_labels": [
+     "French Ministry of education",
+     "of the head of the French Ministry of"
+    ],
+    "min_ratio": 0.554
+   },
+   {
+    "subject": "of the head of the French Ministry of",
+    "qid": "Q2572330",
+    "q": "Who holds the position of the head of the French Ministry of Education?",
+    "all_labels": [
+     "French Ministry of education",
+     "of the head of the French Ministry of"
+    ],
+    "min_ratio": 0.554
+   },
+   {
+    "subject": "In",
+    "qid": "Q3089073",
+    "q": "In what language is the creative work or name \"Happy\" written?",
+    "all_labels": [
+     "Happy",
+     "In"
+    ],
+    "min_ratio": 0.0
+   },
+   {
+    "subject": "Happy",
+    "qid": "Q3089073",
+    "q": "Who conferred the Happy award?",
+    "all_labels": [
+     "Happy",
+     "In"
+    ],
+    "min_ratio": 0.0
+   },
+   {
+    "subject": "Amy's Jukebox – The Music That Inspired Amy Winehouse",
+    "qid": "Q3614730",
+    "q": "What type of creative work is \"Amy's Jukebox – The Music That Inspired Amy Winehouse\"?",
+    "all_labels": [
+     "Amy's Jukebox – The Music That Inspired Amy Winehouse",
+     "Music That Inspired Amy Winehouse\" by Amy's Jukebox"
+    ],
+    "min_ratio": 0.641
+   },
+   {
+    "subject": "of Grand Duchess Xenia Alexandrovna of Russia",
+    "qid": "Q4106279",
+    "q": "In which country was the training ship of Grand Duchess Xenia Alexandrovna of Russia registered?",
+    "all_labels": [
+     "Grand Duchess Xenia Alexandrovna of Russia",
+     "of Grand Duchess Xenia Alexandrovna of Russia",
+     "of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia"
+    ],
+    "min_ratio": 0.724
+   },
+   {
+    "subject": "Grand Duchess Xenia Alexandrovna of Russia",
+    "qid": "Q4106279",
+    "q": "Which entity owned the training ship Grand Duchess Xenia Alexandrovna of Russia?",
+    "all_labels": [
+     "Grand Duchess Xenia Alexandrovna of Russia",
+     "of Grand Duchess Xenia Alexandrovna of Russia",
+     "of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia"
+    ],
+    "min_ratio": 0.724
+   },
+   {
+    "subject": "Myatlevs' house at Saint Isaac's Square 9",
+    "qid": "Q4165348",
+    "q": "Which list does Myatlevs' house at Saint Isaac's Square 9 appear in?",
+    "all_labels": [
+     "Myatlevs' house at Saint Isaac's Square 9",
+     "Saint Isaac's Square 9, Myatlevs' house"
+    ],
+    "min_ratio": 0.557
+   },
+   {
+    "subject": "Las Vegas Nevada - October 22, 2000",
+    "qid": "Q4545921",
+    "q": "In which country was the 1st edition of Las Vegas Nevada - October 22, 2000 published?",
+    "all_labels": [
+     "Las Vegas Nevada - October 22, 2000",
+     "October 22 2000 in Las Vegas Nevada"
+    ],
+    "min_ratio": 0.464
+   },
+   {
+    "subject": "Las Vegas Nevada - October 22, 2000",
+    "qid": "Q4545921",
+    "q": "What was the distribution format of the Las Vegas Nevada - October 22, 2000 event?",
+    "all_labels": [
+     "Las Vegas Nevada - October 22, 2000",
+     "October 22 2000 in Las Vegas Nevada"
+    ],
+    "min_ratio": 0.464
+   },
+   {
+    "subject": "October 22 2000 in Las Vegas Nevada",
+    "qid": "Q4545921",
+    "q": "Where was the musical composition/release recorded on October 22, 2000 in Las Vegas, Nevada?",
+    "all_labels": [
+     "Las Vegas Nevada - October 22, 2000",
+     "October 22 2000 in Las Vegas Nevada"
+    ],
+    "min_ratio": 0.464
+   },
+   {
+    "subject": "2012 Bosnian municipal elections",
+    "qid": "Q4947357",
+    "q": "In which sovereign state did the 2012 Bosnian municipal elections take place?",
+    "all_labels": [
+     "2012 Bosnian municipal elections",
+     "Bosnian municipal elections immediately followed the 2012 elections"
+    ],
+    "min_ratio": 0.545
+   },
+   {
+    "subject": "Bulli railway station",
+    "qid": "Q4996906",
+    "q": "What service stops at Bulli railway station?",
+    "all_labels": [
+     "Bulli",
+     "Bulli railway station"
+    ],
+    "min_ratio": 0.385
+   },
+   {
+    "subject": "Bulli",
+    "qid": "Q4996906",
+    "q": "What is the current state of use for Bulli Railway Station?",
+    "all_labels": [
+     "Bulli",
+     "Bulli railway station"
+    ],
+    "min_ratio": 0.385
+   },
+   {
+    "subject": "of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia",
+    "qid": "Q4106279",
+    "q": "What type of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia?",
+    "all_labels": [
+     "Grand Duchess Xenia Alexandrovna of Russia",
+     "of Grand Duchess Xenia Alexandrovna of Russia",
+     "of ship is the training ship of Grand Duchess Xenia Alexandrovna of Russia"
+    ],
+    "min_ratio": 0.724
+   },
+   {
+    "subject": "Saint Isaac's Square 9, Myatlevs' house",
+    "qid": "Q4165348",
+    "q": "In which administrative territorial entity is Saint Isaac's Square 9, Myatlevs' house located?",
+    "all_labels": [
+     "Myatlevs' house at Saint Isaac's Square 9",
+     "Saint Isaac's Square 9, Myatlevs' house"
+    ],
+    "min_ratio": 0.557
+   },
+   {
+    "subject": "Coniston railway station in New South Wales",
+    "qid": "Q5161119",
+    "q": "Which service stops at Coniston railway station in New South Wales?",
+    "all_labels": [
+     "Coniston railway station a part of in New South Wales",
+     "Coniston railway station in New South Wales"
+    ],
+    "min_ratio": 0.896
+   },
+   {
+    "subject": "Coniston railway station a part of in New South Wales",
+    "qid": "Q5161119",
+    "q": "Which highway system is Coniston railway station a part of in New South Wales?",
+    "all_labels": [
+     "Coniston railway station a part of in New South Wales",
+     "Coniston railway station in New South Wales"
+    ],
+    "min_ratio": 0.896
+   },
+   {
+    "subject": "Coniston railway station in New South Wales",
+    "qid": "Q5161119",
+    "q": "What is the current state of use of Coniston railway station in New South Wales?",
+    "all_labels": [
+     "Coniston railway station a part of in New South Wales",
+     "Coniston railway station in New South Wales"
+    ],
+    "min_ratio": 0.896
+   },
+   {
+    "subject": "Embassy of Ethiopia, Ottawa",
+    "qid": "Q5369680",
+    "q": "On which street is the Embassy of Ethiopia, Ottawa situated?",
+    "all_labels": [
+     "Embassy of Ethiopia, Ottawa",
+     "of use for the Embassy of Ethiopia in Ottawa"
+    ],
+    "min_ratio": 0.743
+   },
+   {
+    "subject": "Embassy of Guatemala in Ottawa",
+    "qid": "Q5369707",
+    "q": "In which language are creative works associated with the Embassy of Guatemala in Ottawa typically produced?",
+    "all_labels": [
+     "Embassy of Guatemala in Ottawa",
+     "of the Embassy of Guatemala in Ottawa"
+    ],
+    "min_ratio": 0.896
+   },
+   {
+    "subject": "Embassy of Kazakhstan, Ottawa",
+    "qid": "Q5369759",
+    "q": "What position does the head of Embassy of Kazakhstan, Ottawa hold?",
+    "all_labels": [
+     "Embassy of Kazakhstan, Ottawa",
+     "of use of the Embassy of Kazakhstan in Ottawa"
+    ],
+    "min_ratio": 0.767
+   },
+   {
+    "subject": "of the head of the Embassy of Russia in Ottawa",
+    "qid": "Q5369847",
+    "q": "Who holds the position of the head of the Embassy of Russia in Ottawa?",
+    "all_labels": [
+     "of the head of the Embassy of Russia in Ottawa",
+     "of use of the Embassy of Russia in Ottawa"
+    ],
+    "min_ratio": 0.897
+   },
+   {
+    "subject": "the head of the Embassy of the People's Republic of China in Ottawa",
+    "qid": "Q5369937",
+    "q": "What position does the head of the Embassy of the People's Republic of China in Ottawa hold?",
+    "all_labels": [
+     "the current state of use of the Embassy of the People's Republic of China in Ottawa",
+     "the head of the Embassy of the People's Republic of China in Ottawa"
+    ],
+    "min_ratio": 0.867
+   },
+   {
+    "subject": "the head of the Embassy of the United States in Jakarta",
+    "qid": "Q5369957",
+    "q": "What position does the head of the Embassy of the United States in Jakarta hold?",
+    "all_labels": [
+     "the current state of use of the Embassy of the United States in Jakarta",
+     "the head of the Embassy of the United States in Jakarta"
+    ],
+    "min_ratio": 0.841
+   },
+   {
+    "subject": "the position of the head of the Embassy of the United States in Tehran",
+    "qid": "Q5369972",
+    "q": "Who holds the position of the head of the Embassy of the United States in Tehran?",
+    "all_labels": [
+     "the current state of use of the Embassy of the United States in Tehran",
+     "the position of the head of the Embassy of the United States in Tehran"
+    ],
+    "min_ratio": 0.8
+   },
+   {
+    "subject": "Exeter railway station a part of in New South Wales",
+    "qid": "Q5420155",
+    "q": "Which highway system is Exeter railway station a part of in New South Wales?",
+    "all_labels": [
+     "Exeter railway station a part of in New South Wales",
+     "Exeter railway station in New South Wales"
+    ],
+    "min_ratio": 0.891
+   },
+   {
+    "subject": "Exeter railway station in New South Wales",
+    "qid": "Q5420155",
+    "q": "What is the current state of use of Exeter railway station in New South Wales?",
+    "all_labels": [
+     "Exeter railway station a part of in New South Wales",
+     "Exeter railway station in New South Wales"
+    ],
+    "min_ratio": 0.891
+   },
+   {
+    "subject": "Embassy of Uzbekistan in Washington D.C. have in the context of",
+    "qid": "Q5369913",
+    "q": "What identity does the Embassy of Uzbekistan in Washington, D.C. have in the context of a statement?",
+    "all_labels": [
+     "Embassy of Uzbekistan in Washington D.C. have in the context of",
+     "of use of the Embassy of Uzbekistan in Washington D.C."
+    ],
+    "min_ratio": 0.678
+   },
+   {
+    "subject": "patagonic meset",
+    "qid": "Q6011384",
+    "q": "In which country is the patagonic meset located?",
+    "all_labels": [
+     "What",
+     "patagonic meset"
+    ],
+    "min_ratio": 0.211
+   },
+   {
+    "subject": "What",
+    "qid": "Q6011384",
+    "q": "What specific geological landform is the Patagonic Meset an example of?",
+    "all_labels": [
+     "What",
+     "patagonic meset"
+    ],
+    "min_ratio": 0.211
+   },
+   {
+    "subject": "In the Pit",
+    "qid": "Q6012743",
+    "q": "In what language is the work \"In the Pit\" primarily written?",
+    "all_labels": [
+     "In the Pit",
+     "the award in the Pit"
+    ],
+    "min_ratio": 0.667
+   },
+   {
+    "subject": "the award in the Pit",
+    "qid": "Q6012743",
+    "q": "Who confers the award in the Pit?",
+    "all_labels": [
+     "In the Pit",
+     "the award in the Pit"
+    ],
+    "min_ratio": 0.667
+   },
+   {
+    "subject": "joint custody practiced in the United States",
+    "qid": "Q6269510",
+    "q": "In which sovereign state is joint custody practiced in the United States?",
+    "all_labels": [
+     "joint custody in the United States",
+     "joint custody practiced in the United States"
+    ],
+    "min_ratio": 0.872
+   },
+   {
+    "subject": "joint custody in the United States",
+    "qid": "Q6269510",
+    "q": "Which territorial jurisdiction does joint custody in the United States apply to?",
+    "all_labels": [
+     "joint custody in the United States",
+     "joint custody practiced in the United States"
+    ],
+    "min_ratio": 0.872
+   },
+   {
+    "subject": "Ḥarbī, Ibrāhīm ibn Isḥāq",
+    "qid": "Q6532342",
+    "q": "What is the copyright status of the works attributed to Ḥarbī, Ibrāhīm ibn Isḥāq?",
+    "all_labels": [
+     "Ibrāhīm ibn Isḥāq",
+     "Ḥarbī, Ibrāhīm ibn Isḥāq"
+    ],
+    "min_ratio": 0.85
+   },
+   {
+    "subject": "Marulan railway station",
+    "qid": "Q6777934",
+    "q": "What service stops at Marulan railway station?",
+    "all_labels": [
+     "Marulan railway station",
+     "railway station in Marulan"
+    ],
+    "min_ratio": 0.612
+   },
+   {
+    "subject": "railway station in Marulan",
+    "qid": "Q6777934",
+    "q": "What is the railway station in Marulan a part of within the transport network?",
+    "all_labels": [
+     "Marulan railway station",
+     "railway station in Marulan"
+    ],
+    "min_ratio": 0.612
+   },
+   {
+    "subject": "Marulan railway station",
+    "qid": "Q6777934",
+    "q": "What is the current state of use of Marulan railway station?",
+    "all_labels": [
+     "Marulan railway station",
+     "railway station in Marulan"
+    ],
+    "min_ratio": 0.612
+   },
+   {
+    "subject": "Otford railway station in New South Wales",
+    "qid": "Q7108543",
+    "q": "Which service stops at the Otford railway station in New South Wales?",
+    "all_labels": [
+     "Otford railway station belong to in New South Wales",
+     "Otford railway station in New South Wales"
+    ],
+    "min_ratio": 0.891
+   },
+   {
+    "subject": "Otford railway station belong to in New South Wales",
+    "qid": "Q7108543",
+    "q": "What network does Otford railway station belong to in New South Wales?",
+    "all_labels": [
+     "Otford railway station belong to in New South Wales",
+     "Otford railway station in New South Wales"
+    ],
+    "min_ratio": 0.891
+   },
+   {
+    "subject": "Otford railway station in New South Wales",
+    "qid": "Q7108543",
+    "q": "What is the current state of use of Otford railway station in New South Wales?",
+    "all_labels": [
+     "Otford railway station belong to in New South Wales",
+     "Otford railway station in New South Wales"
+    ],
+    "min_ratio": 0.891
+   },
+   {
+    "subject": "or Bum\" by Poet",
+    "qid": "Q7207419",
+    "q": "In which country was the first edition of \"Fool or Bum\" by Poet published?",
+    "all_labels": [
+     "or Bum\" by Poet",
+     "or Bum\" by the Poet"
+    ],
+    "min_ratio": 0.875
+   },
+   {
+    "subject": "or Bum\" by the Poet",
+    "qid": "Q7207419",
+    "q": "In what format was the distribution of the album \"Fool or Bum\" by the Poet?",
+    "all_labels": [
+     "or Bum\" by Poet",
+     "or Bum\" by the Poet"
+    ],
+    "min_ratio": 0.875
+   },
+   {
+    "subject": "Polish culture in the Interbellum",
+    "qid": "Q7210027",
+    "q": "What specific subset of culture does Polish culture in the Interbellum belong to?",
+    "all_labels": [
+     "Polish culture in the Interbellum",
+     "Polish culture prominent during the Interbellum"
+    ],
+    "min_ratio": 0.825
+   },
+   {
+    "subject": "Polish culture prominent during the Interbellum",
+    "qid": "Q7210027",
+    "q": "In which sovereign state was Polish culture prominent during the Interbellum period?",
+    "all_labels": [
+     "Polish culture in the Interbellum",
+     "Polish culture prominent during the Interbellum"
+    ],
+    "min_ratio": 0.825
+   },
+   {
+    "subject": "Tryin' to Get the Feeling Again / Beautiful Music",
+    "qid": "Q7848510",
+    "q": "Where was the first edition of \"Tryin' to Get the Feeling Again / Beautiful Music\" published?",
+    "all_labels": [
+     "Tryin' to Get the Feeling Again / Beautiful Music",
+     "the songs \"Tryin' to Get the Feeling"
+    ],
+    "min_ratio": 0.61
+   },
+   {
+    "subject": "University play in relation to Hayes and Orton Halls",
+    "qid": "Q7894475",
+    "q": "What role does the University play in relation to Hayes and Orton Halls?",
+    "all_labels": [
+     "Hayes and Orton Halls at the University",
+     "University belong to where Hayes and Orton Halls",
+     "University play in relation to Hayes and Orton Halls"
+    ],
+    "min_ratio": 0.462
+   },
+   {
+    "subject": "University belong to where Hayes and Orton Halls",
+    "qid": "Q7894475",
+    "q": "What class does University belong to, where Hayes and Orton Halls are a specific example?",
+    "all_labels": [
+     "Hayes and Orton Halls at the University",
+     "University belong to where Hayes and Orton Halls",
+     "University play in relation to Hayes and Orton Halls"
+    ],
+    "min_ratio": 0.462
+   },
+   {
+    "subject": "Hayes and Orton Halls at the University",
+    "qid": "Q7894475",
+    "q": "What architectural style are Hayes and Orton Halls at the University built in?",
+    "all_labels": [
+     "Hayes and Orton Halls at the University",
+     "University belong to where Hayes and Orton Halls",
+     "University play in relation to Hayes and Orton Halls"
+    ],
+    "min_ratio": 0.462
+   },
+   {
+    "subject": "Hayes and Orton Halls at the University",
+    "qid": "Q7894475",
+    "q": "Who were the architects responsible for designing Hayes and Orton Halls at the University?",
+    "all_labels": [
+     "Hayes and Orton Halls at the University",
+     "University belong to where Hayes and Orton Halls",
+     "University play in relation to Hayes and Orton Halls"
+    ],
+    "min_ratio": 0.462
+   },
+   {
+    "subject": "Warszawa Żwirki i Wigury railway station",
+    "qid": "Q7970972",
+    "q": "What is the current state of use of Warszawa Żwirki i Wigury railway station?",
+    "all_labels": [
+     "Warszawa Żwirki i Wigury railway station",
+     "railway station in Warszawa Żwirki i Wigury"
+    ],
+    "min_ratio": 0.578
+   }
+  ],
+  "S1": [
+   {
+    "subject": "for",
+    "qid": "Q2061346",
+    "q": "In what language is \"Waiting for Superman\" created?",
+    "ans": "English"
+   },
+   {
+    "subject": "for",
+    "qid": "Q2061346",
+    "q": "What award was received by \"Waiting for 'Superman'\"?",
+    "ans": "Sundance Audience Award: U.S. Documentary"
+   },
+   {
+    "subject": "By",
+    "qid": "Q16643010",
+    "q": "By whom was the trust conferred upon?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "subject": "In",
+    "qid": "Q3089073",
+    "q": "In what language is the creative work or name \"Happy\" written?",
+    "ans": "English"
+   },
+   {
+    "subject": "What",
+    "qid": "Q124431312",
+    "q": "What type of creative work are mosquitoes an example of?",
+    "ans": "novel"
+   },
+   {
+    "subject": "What",
+    "qid": "Q124431312",
+    "q": "What type of work are mosquitoes considered as a particular example of?",
+    "ans": "literary work"
+   },
+   {
+    "subject": "Where",
+    "qid": "Q3588342",
+    "q": "Where was Emile Bertaux specifically born?",
+    "ans": "former 6th arrondissement of Paris"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q4179491",
+    "q": "Who was the production designer for the 1966 film \"Women\"?",
+    "ans": "Arseni Klopotovsky"
+   },
+   {
+    "subject": "What",
+    "qid": "Q5350369",
+    "q": "What is the closest parent taxon of Ekbletomys within the classification?",
+    "ans": "Sigmodontinae"
+   },
+   {
+    "subject": "What",
+    "qid": "Q6011384",
+    "q": "What specific geological landform is the Patagonic Meset an example of?",
+    "ans": "plateau"
+   },
+   {
+    "subject": "In",
+    "qid": "Q6537417",
+    "q": "In which statistical territorial entity is Lewiston-Auburn located?",
+    "ans": "Lewiston-Auburn metropolitan area"
+   },
+   {
+    "subject": "In",
+    "qid": "Q6537417",
+    "q": "In what language is creative work or names associated with Lewiston-Auburn conducted or written?",
+    "ans": "English"
+   },
+   {
+    "subject": "In",
+    "qid": "Q6537417",
+    "q": "In or next to which body of water is Lewiston-Auburn situated?",
+    "ans": "Androscoggin River"
+   },
+   {
+    "subject": "What",
+    "qid": "Q125567999",
+    "q": "What type of creative work is a tornado classified as?",
+    "ans": "studio album"
+   },
+   {
+    "subject": "What",
+    "qid": "Q20600868",
+    "q": "What classification does Thatcher fall under?",
+    "ans": "profession"
+   },
+   {
+    "subject": "What",
+    "qid": "Q18178206",
+    "q": "What genre does Landscape fall into?",
+    "ans": "landscape painting"
+   },
+   {
+    "subject": "From",
+    "qid": "Q6485",
+    "q": "From which country does ca.8000 originate?",
+    "ans": "Italy"
+   },
+   {
+    "subject": "In",
+    "qid": "Q796584",
+    "q": "In what language is tf-idf primarily used?",
+    "ans": "English"
+   },
+   {
+    "subject": "In",
+    "qid": "Q926138",
+    "q": "In what language is the work or name of Run-D.M.C.?",
+    "ans": "English"
+   },
+   {
+    "subject": "What",
+    "qid": "Q4372020",
+    "q": "What variety is a part of Chuukic-Pohnpeic?",
+    "ans": "Ponapeic"
+   },
+   {
+    "subject": "What",
+    "qid": "Q4686689",
+    "q": "What type of creative work are adverbs a form of?",
+    "ans": "novel"
+   },
+   {
+    "subject": "Where",
+    "qid": "Q5249788",
+    "q": "Where was the edition of 'Dedicated '88-'91' published geographically?",
+    "ans": "New Zealand"
+   },
+   {
+    "subject": "In",
+    "qid": "Q1136221",
+    "q": "In what language was the hypothesis written or named?",
+    "ans": "English"
+   },
+   {
+    "subject": "In",
+    "qid": null,
+    "q": "In which industry does Rieger-Kloss specialize?",
+    "ans": "manufacture of musical instruments"
+   },
+   {
+    "subject": "What",
+    "qid": "Q7547660",
+    "q": "What architectural style is Snell-Hitchcock designed in?",
+    "ans": "Prairie School architecture"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q7547660",
+    "q": "Who was the architect responsible for designing Snell-Hitchcock?",
+    "ans": "Dwight H. Perkins"
+   },
+   {
+    "subject": "In",
+    "qid": "Q606991",
+    "q": "In what format is the distribution of the symbol done?",
+    "ans": "compact disc"
+   },
+   {
+    "subject": "What",
+    "qid": "Q9371786",
+    "q": "What is the copyright status of a pellet?",
+    "ans": "copyrighted"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q11980204",
+    "q": "Who is said to be the same as Kari-Anne?",
+    "ans": "Karianne"
+   },
+   {
+    "subject": "In",
+    "qid": null,
+    "q": "In what language is the creative work \"melje mlinček\" by Anja Štefan written?",
+    "ans": "Slovene"
+   },
+   {
+    "subject": "What",
+    "qid": "Q16743225",
+    "q": "What type of funding scheme supports the project that was ravaged?",
+    "ans": "crowd funding"
+   },
+   {
+    "subject": "In",
+    "qid": "Q37470110",
+    "q": "In what file format is mail stored that can be easily read by a program?",
+    "ans": "EMLX"
+   },
+   {
+    "subject": "In",
+    "qid": "Q367152",
+    "q": "In which language is the exhibit presented?",
+    "ans": "English"
+   },
+   {
+    "subject": "What",
+    "qid": "Q672107",
+    "q": "What is the nature of the statement regarding the Ouija board?",
+    "ans": "disputed"
+   },
+   {
+    "subject": "which",
+    "qid": "Q711821",
+    "q": "In what language is the work or name associated with 'which' primarily conducted or presented?",
+    "ans": "English"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q5939639",
+    "q": "Which media franchise do humans belong to?",
+    "ans": "Star Wars"
+   },
+   {
+    "subject": "What",
+    "qid": "Q905564",
+    "q": "What type of subclass is an oncosphere classified as?",
+    "ans": "hexacanth"
+   },
+   {
+    "subject": "What",
+    "qid": "Q967733",
+    "q": "What albums by Moloko are statues a part of in chronological order?",
+    "ans": "Moloko's albums in chronological order"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q11254084",
+    "q": "Which edition or translation do we have a link to?",
+    "ans": "My"
+   },
+   {
+    "subject": "of",
+    "qid": "Q5054605",
+    "q": "What albums contain the cause of death in chronological order?",
+    "ans": "Obituary's albums"
+   },
+   {
+    "subject": "What",
+    "qid": "Q126902972",
+    "q": "What position did the actor hold in Greek mythology?",
+    "ans": "king"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q5447727",
+    "q": "Which albums in Doro's discography does the fight belong to in chronological order?",
+    "ans": "Doro's albums in chronological order"
+   },
+   {
+    "subject": "What",
+    "qid": "Q3095753",
+    "q": "What is the current state of use for Eugene-Springfield?",
+    "ans": "in use"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q126103527",
+    "q": "Who is the main creator of this journal?",
+    "ans": "Fabrice Neaud"
+   },
+   {
+    "subject": "What",
+    "qid": "Q3411828",
+    "q": "What specific type of facility are penitentiaries considered examples of?",
+    "ans": "prison"
+   },
+   {
+    "subject": "What",
+    "qid": "Q3500059",
+    "q": "What broader category does strapping belong to?",
+    "ans": "corporal punishment"
+   },
+   {
+    "subject": "What",
+    "qid": "Q3596273",
+    "q": "What type of creative work is Best Live?",
+    "ans": "live album"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q3596328",
+    "q": "Which albums are included in chronological order in Sottotono's albums \"In teoria\"?",
+    "ans": "Sottotono's albums in chronological order"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q3703921",
+    "q": "Who is the author of the work 'De clarea'?",
+    "ans": "Sandro Baroni"
+   },
+   {
+    "subject": "In",
+    "qid": "Q3703921",
+    "q": "In what language is the work 'De clarea' written?",
+    "ans": "Italian"
+   },
+   {
+    "subject": "What",
+    "qid": "Q3703921",
+    "q": "What is the copyright status of 'De clarea'?",
+    "ans": "copyrighted"
+   },
+   {
+    "subject": "What",
+    "qid": "Q4025939",
+    "q": "What albums in chronological order include the voice drum device as a part?",
+    "ans": "Kansas' albums"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q4053095",
+    "q": "Who is the developer of Which?",
+    "ans": "The Game Creators"
+   },
+   {
+    "subject": "In",
+    "qid": "Q4839735",
+    "q": "In which country is the concept of backsliding considered valid?",
+    "ans": "Australia"
+   },
+   {
+    "subject": "and",
+    "qid": "Q4976243",
+    "q": "Which albums in chronological order include the songs \"Brown Rice\" and \"Kerosene\" as part of their content?",
+    "ans": "Redgum's albums"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q4356605",
+    "q": "Which collection does Amorphis' album \"Story\" belong to in terms of the band's albums?",
+    "ans": "Amorphis' albums in chronological order"
+   },
+   {
+    "subject": "In",
+    "qid": "Q124963732",
+    "q": "In which language do clowns typically perform or have their names in?",
+    "ans": "English"
+   },
+   {
+    "subject": "What",
+    "qid": "Q5454277",
+    "q": "What type of creative work is a firstborn?",
+    "ans": "novel"
+   },
+   {
+    "subject": "In",
+    "qid": "Q5979410",
+    "q": "In which country was the first edition of the album \"Los Bunkers\" published?",
+    "ans": "Chile"
+   },
+   {
+    "subject": "In",
+    "qid": "Q6111390",
+    "q": "In what country was the first edition of \"Romances Científicos\" published?",
+    "ans": "Colombia"
+   },
+   {
+    "subject": "From",
+    "qid": "Q14704324",
+    "q": "From which country does the jacket originate?",
+    "ans": "Australia"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q6663400",
+    "q": "Which albums in chronological order include the loaf as a part?",
+    "ans": "moe.'s albums"
+   },
+   {
+    "subject": "What",
+    "qid": "Q7144957",
+    "q": "What type of creative work is the patient?",
+    "ans": "studio album"
+   },
+   {
+    "subject": "In",
+    "qid": "Q7144957",
+    "q": "In which country was the first edition of the work by the patient published?",
+    "ans": "Australia"
+   },
+   {
+    "subject": "In",
+    "qid": "Q2262296",
+    "q": "In which city was the seance group or organization formed?",
+    "ans": "Linköping"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q7784128",
+    "q": "Which albums in chronological order include the concept of thigmotactic?",
+    "ans": "Negativland's albums"
+   },
+   {
+    "subject": "What",
+    "qid": "Q11184677",
+    "q": "What is ‘Need Love’ a part of in DEEN’s albums in chronological order?",
+    "ans": "DEEN's albums in chronological order"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q12835261",
+    "q": "Which company produced the film \"ADıNA günü\" in 2010?",
+    "ans": "ANS TV"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q12835359",
+    "q": "Who composed the music for the 1964 film \"Abidələr danışır\"?",
+    "ans": "Khayyam Mirzazade"
+   },
+   {
+    "subject": "From",
+    "qid": "Q12835359",
+    "q": "From which country did the film \"Abidələr danışır\" originate in 1964?",
+    "ans": "Azerbaijan Soviet Socialist Republic"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q12835376",
+    "q": "Who was the director of photography for the film \"Abşeron lövhələri\" in 2004?",
+    "ans": "Adil Abbas"
+   },
+   {
+    "subject": "In",
+    "qid": "Q12836657",
+    "q": "In what language was the film \"Azərbaycan kauçuku\" originally created in 1983?",
+    "ans": "Azerbaijani"
+   },
+   {
+    "subject": "Which",
+    "qid": "Q12836657",
+    "q": "Which company produced the film \"Azərbaycan kauçuku\" in 1983?",
+    "ans": "Azerbaijanfilm"
+   },
+   {
+    "subject": "What",
+    "qid": "Q12982751",
+    "q": "What is the gender identity of Cēran?",
+    "ans": "male"
+   },
+   {
+    "subject": "Who",
+    "qid": "Q12836657",
+    "q": "Who directed the 1983 film \"Azərbaycan kauçuku\"?",
+    "ans": "Rauf Nağıyev"
+   },
+   {
+    "subject": "From",
+    "qid": "Q5468788",
+    "q": "From which country does the forest originate?",
+    "ans": "South Korea"
+   },
+   {
+    "subject": "What",
+    "qid": "Q16996021",
+    "q": "What type of creative work is a lead vocalist typically associated with?",
+    "ans": "compilation album"
+   },
+   {
+    "subject": "In",
+    "qid": "Q17061610",
+    "q": "In which country was the first edition of the album \"Soul Finger\" published?",
+    "ans": "United States of America"
+   },
+   {
+    "subject": "by",
+    "qid": "Q19037148",
+    "q": "What form of creative work is \"Meeting by Accident\"?",
+    "ans": "poem"
+   },
+   {
+    "subject": "What",
+    "qid": "Q19040949",
+    "q": "What type of creative work is \"An Honest Tear\"?",
+    "ans": "poem"
+   }
+  ],
+  "S3": [
+   {
+    "subject": "Baroness Fritchie also known as Rennie Fritchie",
+    "qid": "Q2144088",
+    "q": "What is the family name of Baroness Fritchie, also known as Rennie Fritchie?"
+   },
+   {
+    "subject": "October 22 2000 in Las Vegas Nevada",
+    "qid": "Q4545921",
+    "q": "Where was the musical composition/release recorded on October 22, 2000 in Las Vegas, Nevada?"
+   },
+   {
+    "subject": "Wembley Arena 30 5 00 in London England",
+    "qid": "Q4639692",
+    "q": "In what format was Wembley Arena 30 5 00 in London, England distributed?"
+   },
+   {
+    "subject": "California Village in Pasadena California",
+    "qid": "Q5021167",
+    "q": "What specific classification does California Village in Pasadena, California fall under?"
+   },
+   {
+    "subject": "Catalina Villas in Pasadena California",
+    "qid": "Q5051286",
+    "q": "What classification does Catalina Villas in Pasadena, California fall under?"
+   },
+   {
+    "subject": "Frederick Laue Jr.'s House",
+    "qid": "Q5498247",
+    "q": "What material is Frederick Laue, Jr.'s House made from?"
+   },
+   {
+    "subject": "Embassy of Uzbekistan in Washington D.C. have in the context of",
+    "qid": "Q5369913",
+    "q": "What identity does the Embassy of Uzbekistan in Washington, D.C. have in the context of a statement?"
+   },
+   {
+    "subject": "Frederick Laue Jr. House",
+    "qid": "Q5498247",
+    "q": "In which administrative territorial entity is Frederick Laue, Jr. House located?"
+   },
+   {
+    "subject": "1995 Manitoba provincial election what class were independent candidates",
+    "qid": "Q6017441",
+    "q": "In the 1995 Manitoba provincial election, what class were independent candidates considered as?"
+   },
+   {
+    "subject": "University belong to where Hayes and Orton Halls",
+    "qid": "Q7894475",
+    "q": "What class does University belong to, where Hayes and Orton Halls are a specific example?"
+   },
+   {
+    "subject": "Battles of Parczew Jabłoń and Milanów",
+    "qid": "Q9173416",
+    "q": "In which country did the Battles of Parczew, Jabłoń, and Milanów take place?"
+   },
+   {
+    "subject": "Queen of Wa known for being Friendly to Wei",
+    "qid": "Q11630468",
+    "q": "From which country does the Queen of Wa, known for being Friendly to Wei, originate?"
+   },
+   {
+    "subject": "al-ʻAbbās ibn Bakkār Ḍabbī",
+    "qid": "Q16126384",
+    "q": "Which language is spoken, written, or signed by al-ʻAbbās ibn Bakkār, Ḍabbī?"
+   },
+   {
+    "subject": "al-ʻAbbās ibn Bakkār as indicated by Ḍabbī",
+    "qid": "Q16126384",
+    "q": "What is the copyright status for works created by al-ʻAbbās ibn Bakkār, as indicated by Ḍabbī?"
+   },
+   {
+    "subject": "Tolbooth Wynd Bridge in Leith Edinburgh",
+    "qid": null,
+    "q": "What type of item does the Tolbooth Wynd Bridge in Leith, Edinburgh carry?"
+   },
+   {
+    "subject": "the results of the Victorian state election 1952",
+    "qid": "Q48815748",
+    "q": "What category does the results of the Victorian state election, 1952 fall into?"
+   },
+   {
+    "subject": "This Key\" in which Pikachu",
+    "qid": "Q18338966",
+    "q": "Who was the director of \"What's This Key?\" in which Pikachu appeared?"
+   },
+   {
+    "subject": "May 14 2015",
+    "qid": "Q19764788",
+    "q": "What language is associated with the work or name dated May 14, 2015?"
+   },
+   {
+    "subject": "crafts from indigenous peoples showcased in Taipei Taiwan",
+    "qid": "Q19773354",
+    "q": "What language is associated with the excellent crafts from indigenous peoples showcased in Taipei, Taiwan?"
+   },
+   {
+    "subject": "of Archduchess Blanca the Archduchess Leopold Salvator of Austria",
+    "qid": "Q260532",
+    "q": "What is the family name of Archduchess Blanca, the Archduchess Leopold Salvator of Austria?"
+   },
+   {
+    "subject": "of Ion son of Xuthus",
+    "qid": "Q853462",
+    "q": "Where is the tomb of Ion, son of Xuthus located?"
+   },
+   {
+    "subject": "of Queen Volume",
+    "qid": "Q1764609",
+    "q": "In what language is \"The A-Z of Queen, Volume 1\" written?"
+   },
+   {
+    "subject": "Mount Hicks also known as Saint Davids Dome",
+    "qid": null,
+    "q": "In which protected area is Mount Hicks, also known as Saint Davids Dome, located?"
+   },
+   {
+    "subject": "Marie Thérèse also known as Madame Royale",
+    "qid": "Q1998006",
+    "q": "What language did Marie Thérèse, also known as Madame Royale, speak, write, or sign?"
+   },
+   {
+    "subject": "9th Earl of Argyll Archibald Campbell",
+    "qid": "Q2557180",
+    "q": "In which sovereign state was the 9th Earl of Argyll, Archibald Campbell, located?"
+   },
+   {
+    "subject": "Chastye located in or next to in Chastinsky District Perm Krai",
+    "qid": "Q2949619",
+    "q": "What body of water is Chastye located in or next to in Chastinsky District, Perm Krai?"
+   },
+   {
+    "subject": "baron Subervie Jacques Gervais",
+    "qid": "Q3157954",
+    "q": "What is the occupation of baron Subervie, Jacques Gervais?"
+   },
+   {
+    "subject": "of solar eclipse is the event on October 2 2024",
+    "qid": "Q3577555",
+    "q": "What specific type of solar eclipse is the event on October 2, 2024, classified as?"
+   },
+   {
+    "subject": "South Park: Bigger Longer & Uncut",
+    "qid": null,
+    "q": "In what language is the soundtrack of South Park: Bigger, Longer & Uncut composed?"
+   },
+   {
+    "subject": "of building is St Francis of Assisi Parish in Paddington NSW Australia",
+    "qid": "Q7593099",
+    "q": "What specific type of building is St Francis of Assisi Parish in Paddington, NSW, Australia?"
+   },
+   {
+    "subject": "St Francis of Assisi Parish in Paddington NSW Australia",
+    "qid": "Q7593099",
+    "q": "In which administrative entity is St Francis of Assisi Parish in Paddington, NSW, Australia located?"
+   },
+   {
+    "subject": "of St Francis of Assisi Parish in Paddington NSW Australia",
+    "qid": "Q7593099",
+    "q": "What is the religion of St Francis of Assisi Parish in Paddington, NSW, Australia?"
+   },
+   {
+    "subject": "dam under direct control of the Ministry of Land Infrastructure Transport and Tourism",
+    "qid": null,
+    "q": "In which country is the dam under direct control of the Ministry of Land, Infrastructure, Transport and Tourism located?"
+   },
+   {
+    "subject": "Bureau of Economy Trade and Industry",
+    "qid": "Q11606460",
+    "q": "In which country is the Bureau of Economy, Trade, and Industry located?"
+   },
+   {
+    "subject": "Tierra del Fuego Province Argentina belong to in the list of monuments",
+    "qid": "Q3333",
+    "q": "Which continent does Tierra del Fuego Province, Argentina belong to in the list of monuments?"
+   },
+   {
+    "subject": "Eugen Alexander Franz hold being the 1st Prince of Thurn and Taxis",
+    "qid": "Q475967",
+    "q": "What noble title did Eugen Alexander Franz hold, being the 1st Prince of Thurn and Taxis?"
+   },
+   {
+    "subject": "Copenhagen where is the Embassy of France",
+    "qid": "Q2841644",
+    "q": "In Copenhagen, where is the Embassy of France located?"
+   },
+   {
+    "subject": "Evangelische Stadtkirche in Schlitz Vogelsbergkreis",
+    "qid": "Q2327415",
+    "q": "What heritage designation does the Evangelische Stadtkirche in Schlitz, Vogelsbergkreis hold?"
+   },
+   {
+    "subject": "7/9/03 in New York New York",
+    "qid": "Q4642933",
+    "q": "Where was the 1st edition of the publication on 7/9/03 in New York, New York printed?"
+   },
+   {
+    "subject": "of creative work is \"A Part of America Therein\" released in 1981",
+    "qid": "Q4658706",
+    "q": "What form of creative work is \"A Part of America Therein,\" released in 1981?"
+   },
+   {
+    "subject": "Leo Kottke John Fahey and Peter Lang",
+    "qid": "Q6523942",
+    "q": "What type of creative work is the collaboration of Leo Kottke, John Fahey, and Peter Lang in?"
+   },
+   {
+    "subject": "PKK attack on May 24 1993",
+    "qid": "Q6796381",
+    "q": "Who was responsible for the PKK attack on May 24, 1993?"
+   },
+   {
+    "subject": "May 24 1993 PKK attack",
+    "qid": "Q6796381",
+    "q": "What type of weapon was used in the May 24, 1993 PKK attack?"
+   },
+   {
+    "subject": "Thin Air in the series where Nowhere Sideshow and Thin Air",
+    "qid": "Q7066658",
+    "q": "What comes immediately after Thin Air in the series where Nowhere, Sideshow, and Thin Air are part of?"
+   },
+   {
+    "subject": "the Causses and the Cévennes Mediterranean agro-pastoral Cultural",
+    "qid": "Q10444176",
+    "q": "In what language is the Causses and the Cévennes, Mediterranean agro-pastoral Cultural Landscape's name or work written?"
+   },
+   {
+    "subject": "Prince Anlu Xiao Zijing",
+    "qid": "Q11622039",
+    "q": "What is the given name of Prince Anlu, Xiao Zijing?"
+   },
+   {
+    "subject": "Arrah where the Aranya Devi Temple",
+    "qid": "Q12415167",
+    "q": "Which continent is Arrah, where the Aranya Devi Temple is located, situated in?"
+   },
+   {
+    "subject": "of the County of Greenland in Denmark serving as the seat of",
+    "qid": "Q17511516",
+    "q": "What is the capital of the County of Greenland in Denmark, serving as the seat of government?"
+   },
+   {
+    "subject": "Ramparts Counterscarp Revetment Glacis and the Musketry Wall Of Southern Fort",
+    "qid": "Q17550083",
+    "q": "In which historic county can one find Ramparts, Counterscarp Revetment, Glacis, and the Musketry Wall Of Southern Fort?"
+   },
+   {
+    "subject": "Bridge at Queen Street Station Glasgow",
+    "qid": "Q17567616",
+    "q": "What obstacle does the Bridge at Queen Street Station, Glasgow, cross over?"
+   },
+   {
+    "subject": "Glen Eden Shore Road Cove and Kilcreggan Bridge",
+    "qid": "Q17571802",
+    "q": "In which historic county is Glen Eden, Shore Road, Cove, and Kilcreggan Bridge located?"
+   },
+   {
+    "subject": "Bridge at Glen Eden Shore Road Cove and Kilcreggan",
+    "qid": "Q17571802",
+    "q": "What does the Bridge at Glen Eden, Shore Road, Cove and Kilcreggan carry?"
+   },
+   {
+    "subject": "The Old Redoubt and later Victorian Rifle Range Target located 540m south west of Berry Head Fort",
+    "qid": "Q17664040",
+    "q": "In which historic county is The Old Redoubt and later Victorian Rifle Range Target located, 540m south west of Berry Head Fort?"
+   },
+   {
+    "subject": "the current state of conservation for the manorial earthworks and fishponds in Rise Park including the site of Black Hall and Mote Hill",
+    "qid": "Q17675694",
+    "q": "What is the current state of conservation for the manorial earthworks and fishponds in Rise Park, including the site of Black Hall and Mote Hill?"
+   },
+   {
+    "subject": "Probate Registry Of Wales Llandaff located within The High Court Of Justice",
+    "qid": "Q17741330",
+    "q": "In which historic county is the Probate Registry Of Wales, Llandaff located within The High Court Of Justice?"
+   },
+   {
+    "subject": "Brunstane Road South located near the Brunstane Burn bridge in Edinburgh",
+    "qid": "Q17791466",
+    "q": "In which historic county is Brunstane Road South located, near the Brunstane Burn bridge in Edinburgh?"
+   },
+   {
+    "subject": "St Bernard's Bridge in India Place Edinburgh",
+    "qid": "Q17791497",
+    "q": "What body of water does St Bernard's Bridge in India Place, Edinburgh, cross over?"
+   },
+   {
+    "subject": "St Bernard's Bridge in Edinburgh India Place",
+    "qid": "Q17791497",
+    "q": "What type of item is carried by St Bernard's Bridge in Edinburgh, India Place?"
+   },
+   {
+    "subject": "South of Pitscottie Ceres Burn",
+    "qid": "Q17796773",
+    "q": "What does the bridge South of Pitscottie, Ceres Burn carry?"
+   },
+   {
+    "subject": "Sunlight Cottages located within Kelvingrove Park at 2 Dumbarton Road Glasgow",
+    "qid": "Q17800018",
+    "q": "In which historic county is Sunlight Cottages located within Kelvingrove Park at 2 Dumbarton Road, Glasgow?"
+   },
+   {
+    "subject": "University Union located at 14-42 University Avenue Glasgow",
+    "qid": "Q17812332",
+    "q": "Who is the owner of University Union located at 14-42 University Avenue, Glasgow?"
+   },
+   {
+    "subject": "Road Bridge over Fithie Burn in Baldovie Dundee",
+    "qid": "Q17812455",
+    "q": "What type of item is carried by the Road Bridge over Fithie Burn in Baldovie, Dundee?"
+   },
+   {
+    "subject": "Dundee Balmossie Bridge",
+    "qid": "Q17812463",
+    "q": "Which historic county is Dundee, Balmossie Bridge located in?"
+   },
+   {
+    "subject": "Manse Battlefield East Church located at 1220 Cathcart Road in Glasgow",
+    "qid": "Q17813735",
+    "q": "In which historic county is Manse, Battlefield East Church located at 1220 Cathcart Road in Glasgow?"
+   },
+   {
+    "subject": "Railway Footbridge located on Beach Lane West Ferry Dundee",
+    "qid": "Q17813799",
+    "q": "In which historic county is the Railway Footbridge located on Beach Lane, West Ferry, Dundee?"
+   },
+   {
+    "subject": "Railway Footbridge on Beach Lane West Ferry Dundee",
+    "qid": "Q17813799",
+    "q": "What is carried by the Railway Footbridge on Beach Lane, West Ferry, Dundee?"
+   },
+   {
+    "subject": "Railway Bridge in Pollokshaws West Station Pollokshaws Road Glasgow",
+    "qid": "Q17815488",
+    "q": "What line does the Railway Bridge in Pollokshaws West Station, Pollokshaws Road, Glasgow, carry?"
+   },
+   {
+    "subject": "Footbridge at Callendar House in Callendar Park Falkirk",
+    "qid": "Q17816586",
+    "q": "What is carried by the Footbridge at Callendar House in Callendar Park, Falkirk?"
+   },
+   {
+    "subject": "Purvies Hill Burn Sunken Garden Arniston House",
+    "qid": "Q17826720",
+    "q": "What does the footbridge at Purvies Hill Burn, Sunken Garden, Arniston House carry?"
+   },
+   {
+    "subject": "Burial Ground of The Macnabs located in Innes Bhuidhe Killin",
+    "qid": "Q17839167",
+    "q": "In which historic county is the Burial Ground of The Macnabs located in Innes Bhuidhe, Killin?"
+   },
+   {
+    "subject": "St James' Bridge in Gauze Street Paisley",
+    "qid": "Q17844222",
+    "q": "What does St James' Bridge in Gauze Street, Paisley, cross over?"
+   },
+   {
+    "subject": "Kerfield House Innerleithen Road Peebles",
+    "qid": "Q17845574",
+    "q": "What does the bridge at Kerfield House, Innerleithen Road, Peebles carry?"
+   },
+   {
+    "subject": "Houndwood House located as associated with the Garden Bridge",
+    "qid": "Q17847704",
+    "q": "In which historic county is Houndwood House located, as associated with the Garden Bridge?"
+   },
+   {
+    "subject": "Cumledge located where the Suspension Bridge over Cumledge Burn",
+    "qid": "Q17850041",
+    "q": "In which historic county is Cumledge located, where the Suspension Bridge over Cumledge Burn stands?"
+   },
+   {
+    "subject": "Mill Road Earlston located within the Old Bridge Leader Water",
+    "qid": "Q17851985",
+    "q": "In which historic county is Mill Road, Earlston located within the Old Bridge Leader Water area?"
+   },
+   {
+    "subject": "Marie-Antoinette seated in a blue coat and white dress holding a book in her hand",
+    "qid": "Q18719530",
+    "q": "In what language is the creative work featuring Marie-Antoinette seated in a blue coat and white dress, holding a book in her hand?"
+   },
+   {
+    "subject": "is Denial the only fact",
+    "qid": "Q19079651",
+    "q": "What form of creative work is Denial, the only fact, categorized as?"
+   },
+   {
+    "subject": "and over like a",
+    "qid": "Q19090841",
+    "q": "What form of creative work is \"Over and over, like a Tune\"?"
+   },
+   {
+    "subject": "This Chasm Sweet",
+    "qid": "Q19103757",
+    "q": "What type of creative work is \"Upon My Life\" by This Chasm, Sweet?"
+   },
+   {
+    "subject": "the Decree of the Presidium of the USSR Supreme Soviet on the formation of the Kostroma Oblast as part of the RSFSR on August 13 1944",
+    "qid": "Q19230470",
+    "q": "Who signed the Decree of the Presidium of the USSR Supreme Soviet on the formation of the Kostroma Oblast as part of the RSFSR on August 13, 1944?"
+   }
+  ]
+ }
+}

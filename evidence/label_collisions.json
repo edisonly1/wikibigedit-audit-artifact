@@ -1,0 +1,17 @@
+{
+ "subject_label_keys": {
+  "total": 362357,
+  "multi": 192
+ },
+ "object_label_keys": {
+  "total": 105935,
+  "multi": 0
+ },
+ "rows_ambiguous_subject": 1099,
+ "rows_ambiguous_object": 0,
+ "n_rows": 502382,
+ "groups_multi_by_id": 0,
+ "groups_total_by_id": 489115,
+ "groups_multi_by_label": 80,
+ "groups_total_by_label": 501899
+}

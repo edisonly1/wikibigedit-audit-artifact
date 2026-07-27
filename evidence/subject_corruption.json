@@ -1,0 +1,4024 @@
+{
+ "counts": {
+  "clean": 471962,
+  "any-corruption-flag": 30420,
+  "implausibly-long": 29479,
+  "starts-with-question-word": 541,
+  "unbalanced-quote": 171,
+  "absent-from-own-question": 3135,
+  "collapsed-to-function-word": 324
+ },
+ "n_rows": 502382,
+ "examples": {
+  "implausibly-long": [
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 80,
+    "subject": "I Can't Give You Anything but Love, Baby",
+    "subject_id": "Q1027522",
+    "update": "For what event was the music \"I Can't Give You Anything but Love, Baby\" created?",
+    "ans": "Blackbirds of 1928"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 192,
+    "subject": "the category that Memory of the World Register - Africa",
+    "subject_id": "Q1053681",
+    "update": "What is the category that Memory of the World Register - Africa falls under as a particular example and member?",
+    "ans": "Wikimedia list article"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 422,
+    "subject": "the home venue for the women's singles badminton event at the 1978 Commonwealth Games",
+    "subject_id": "Q1116377",
+    "update": "What was the home venue for the women's singles badminton event at the 1978 Commonwealth Games?",
+    "ans": "Clare Drake Arena"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 613,
+    "subject": "German Society for Clinical Chemistry and Laboratory Medicine",
+    "subject_id": "Q1204367",
+    "update": "In what field does the German Society for Clinical Chemistry and Laboratory Medicine specialize?",
+    "ans": "clinical pathology"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 651,
+    "subject": "National Library of Foreign Literature and Music Collection",
+    "subject_id": "Q1226119",
+    "update": "In which administrative territorial entity is the National Library of Foreign Literature and Music Collection situated?",
+    "ans": "Budapest"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 652,
+    "subject": "National Library of Foreign Literature and Music Collection",
+    "subject_id": "Q1226119",
+    "update": "On which street is the National Library of Foreign Literature and Music Collection situated?",
+    "ans": "Molnár utca"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 653,
+    "subject": "National Library of Foreign Literature and Music Collection",
+    "subject_id": "Q1226119",
+    "update": "What collection is part of the National Library of Foreign Literature and Music Collection?",
+    "ans": "Fajszi Collection"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 782,
+    "subject": "School of the Museum of Fine Arts, Boston",
+    "subject_id": "Q1298529",
+    "update": "With which organization is the School of the Museum of Fine Arts, Boston affiliated?",
+    "ans": "Museum of Fine Arts Boston"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 818,
+    "subject": "Norwegian parliamentary election directly followed the 1912 election",
+    "subject_id": "Q1320751",
+    "update": "Which Norwegian parliamentary election directly followed the 1912 election?",
+    "ans": "1915 Norwegian parliamentary election"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1038,
+    "subject": "United States men's national field hockey team",
+    "subject_id": "Q1441536",
+    "update": "In what language is the work or name of the United States men's national field hockey team presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1050,
+    "subject": "Ella Fitzgerald Sings the Duke Ellington Song Book",
+    "subject_id": "Q1444159",
+    "update": "In what format was \"Ella Fitzgerald Sings the Duke Ellington Song Book\" distributed?",
+    "ans": "4 × LP"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1051,
+    "subject": "Ella Fitzgerald Sings the Duke Ellington Song Book",
+    "subject_id": "Q1444159",
+    "update": "What role does Ella Fitzgerald Sings the Duke Ellington Song Book have in relation to a musical work?",
+    "ans": "tribute album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1395,
+    "subject": "I Didn't Know What Time It Was",
+    "subject_id": "Q1606678",
+    "update": "Under which genre does \"I Didn't Know What Time It Was\" fall?",
+    "ans": "popular music"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1398,
+    "subject": "Pulp Fiction – Music from the Motion Picture",
+    "subject_id": "Q1607955",
+    "update": "In which country was the first edition of \"Pulp Fiction – Music from the Motion Picture\" published?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1399,
+    "subject": "the creative work \"Pulp Fiction - Music from the Motion",
+    "subject_id": "Q1607955",
+    "update": "In which language was the creative work \"Pulp Fiction - Music from the Motion Picture\" produced?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1442,
+    "subject": "Norwegian parliamentary election directly succeeded the 1945 election",
+    "subject_id": "Q1627500",
+    "update": "What Norwegian parliamentary election directly succeeded the 1945 election?",
+    "ans": "1949 Norwegian parliamentary election"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1513,
+    "subject": "Instituto Nacional de Bellas Artes y Literatura",
+    "subject_id": "Q1665209",
+    "update": "In what language is the work or name of Instituto Nacional de Bellas Artes y Literatura?",
+    "ans": "Spanish"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1514,
+    "subject": "Instituto Nacional de Bellas Artes y Literatura",
+    "subject_id": "Q1665209",
+    "update": "Which organization is Instituto Nacional de Bellas Artes y Literatura a member of?",
+    "ans": "ANUIES"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1519,
+    "subject": "Western Institute of Technology and Higher Education",
+    "subject_id": "Q1665244",
+    "update": "In what language is the creative work or name associated with Western Institute of Technology and Higher Education?",
+    "ans": "Spanish"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1520,
+    "subject": "Western Institute of Technology and Higher Education",
+    "subject_id": "Q1665244",
+    "update": "Which organization is Western Institute of Technology and Higher Education a member of?",
+    "ans": "ANUIES"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1623,
+    "subject": "Onda Sonora – Red Hot + Lisbon",
+    "subject_id": "Q7092142",
+    "update": "What type of creative work is Onda Sonora – Red Hot + Lisbon?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1650,
+    "subject": "Institute for the Intellectual Development of Children and Young Adults",
+    "subject_id": "Q1728199",
+    "update": "Which organization owns the Institute for the Intellectual Development of Children and Young Adults?",
+    "ans": "Ministry of Education (Iran)"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1701,
+    "subject": "The King of Rock 'n' Roll: The Complete 50's Masters",
+    "subject_id": "Q1758353",
+    "update": "In which language was \"The King of Rock 'n' Roll: The Complete 50's Masters\" created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1805,
+    "subject": "Leibniz Institute for Analytical Sciences - ISAS",
+    "subject_id": "Q1813719",
+    "update": "In what language is the work or name of Leibniz Institute for Analytical Sciences - ISAS?",
+    "ans": "German"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1806,
+    "subject": "Leibniz Institute for Analytical Sciences - ISAS",
+    "subject_id": "Q1813719",
+    "update": "What is the legal form of the Leibniz Institute for Analytical Sciences - ISAS?",
+    "ans": "eingetragener Verein"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1872,
+    "subject": "llista d'abats de Santo Domingo de Silos",
+    "subject_id": "Q1861769",
+    "update": "What position did the llista d'abats de Santo Domingo de Silos hold?",
+    "ans": "Abbot of Silos"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2137,
+    "subject": "10th Congress of the Russian Communist Party",
+    "subject_id": "Q1986381",
+    "update": "In which sovereign state did the 10th Congress of the Russian Communist Party take place?",
+    "ans": "Russian Socialist Federative Soviet Republic"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2155,
+    "subject": "NBE nordbahn Eisenbahngesellschaft mbH & Co. KG",
+    "subject_id": "Q1997636",
+    "update": "In what language is the work or name of NBE nordbahn Eisenbahngesellschaft mbH & Co. KG?",
+    "ans": "German"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2156,
+    "subject": "NBE nordbahn Eisenbahngesellschaft mbH & Co. KG",
+    "subject_id": "Q1997636",
+    "update": "In what sector does NBE nordbahn Eisenbahngesellschaft mbH & Co. KG operate?",
+    "ans": "passenger rail transport"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2159,
+    "subject": "Ministry of Industry and Information Technology of the People's Republic of China",
+    "subject_id": "Q1002010",
+    "update": "In what language is the Ministry of Industry and Information Technology of the People's Republic of China's work or name written in?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2211,
+    "subject": "Melkite Patriarchal Dependent Territory of Egypt, Sudan, and South Sudan",
+    "subject_id": "Q1079669",
+    "update": "Who is the chairperson of the Melkite Patriarchal Dependent Territory of Egypt, Sudan, and South Sudan?",
+    "ans": "Jean-Marie Chami"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2240,
+    "subject": "Oba komitéty pro přirodovědecký výzkum země České",
+    "subject_id": "Q1114942",
+    "update": "What specific type of organization is the Oba komitéty pro přirodovědecký výzkum země České?",
+    "ans": "scientific society"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2317,
+    "subject": "National Library of Foreign Literature and Music Collection",
+    "subject_id": "Q1226119",
+    "update": "What type of building is the National Library of Foreign Literature and Music Collection considered as?",
+    "ans": "public building"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2474,
+    "subject": "Roman Catholic Archdiocese of Potenza-Muro Lucano-Marsico Nuovo",
+    "subject_id": "Q1365334",
+    "update": "Who is the presiding member of the Roman Catholic Archdiocese of Potenza-Muro Lucano-Marsico Nuovo?",
+    "ans": "Davide Carbonaro"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2490,
+    "subject": "Gesetz betreffend die Gesellschaften mit beschränkter Haftung",
+    "subject_id": null,
+    "update": "Which document amended Gesetz betreffend die Gesellschaften mit beschränkter Haftung?",
+    "ans": "MoMiG"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2553,
+    "subject": "Ella Fitzgerald Sings the Duke Ellington Song Book",
+    "subject_id": "Q1444159",
+    "update": "What genre is the album \"Ella Fitzgerald Sings the Duke Ellington Song Book\" categorized as?",
+    "ans": "vocal jazz"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2613,
+    "subject": "Germany represent at the 1938 FIFA World Cup",
+    "subject_id": "Q1477192",
+    "update": "Which country did Germany represent at the 1938 FIFA World Cup?",
+    "ans": "German Reich"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2899,
+    "subject": "Cross My Heart and Hope to Die",
+    "subject_id": "Q1765704",
+    "update": "What award was received by \"Cross My Heart and Hope to Die\"?",
+    "ans": "Dragon Award Best Nordic Film"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2957,
+    "subject": "National Keelung Commercial & Industrial Vocational Senior High School",
+    "subject_id": "Q1848631",
+    "update": "What type of school is National Keelung Commercial & Industrial Vocational Senior High School?",
+    "ans": "state school"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2984,
+    "subject": "Malaysia Open Badminton Championships Women's Singles champions",
+    "subject_id": "Q1886827",
+    "update": "What type of event are the Malaysia Open Badminton Championships Women's Singles champions a specific example of?",
+    "ans": "badminton event"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2985,
+    "subject": "Malaysia Open Badminton Championships Men's Singles champions",
+    "subject_id": "Q1886829",
+    "update": "What specific category does the Malaysia Open Badminton Championships Men's Singles champions belong to?",
+    "ans": "badminton event"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2998,
+    "subject": "Godert de Ginkell, 1st Earl of Athlone",
+    "subject_id": "Q1910657",
+    "update": "Which country considered Godert de Ginkell, 1st Earl of Athlone as its citizen?",
+    "ans": "Dutch Republic"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3018,
+    "subject": "Thomas West, 3rd Baron De La Warr",
+    "subject_id": "Q1937877",
+    "update": "Where is the place of burial for Thomas West, 3rd Baron De La Warr?",
+    "ans": "Colony of Virginia"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3019,
+    "subject": "Mission \"Sui Iuris\" of I-li o Kul-Dia",
+    "subject_id": "Q1939063",
+    "update": "What specific type of mission is Mission \"Sui Iuris\" of I-li o Kul-Dia considered to be?",
+    "ans": "former mission sui iuris"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3179,
+    "subject": "Stranger than Fiction – Music From The Motion Picture",
+    "subject_id": "Q2035075",
+    "update": "What type of creative work is \"Stranger than Fiction – Music From The Motion Picture\"?",
+    "ans": "soundtrack album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3241,
+    "subject": "Norwegian parliamentary election directly succeeded the 1897 election",
+    "subject_id": "Q2053009",
+    "update": "What Norwegian parliamentary election directly succeeded the 1897 election?",
+    "ans": "1900 Norwegian parliamentary election"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3318,
+    "subject": "United States women's national field hockey team",
+    "subject_id": "Q2068082",
+    "update": "In what language is the work or name of the United States women's national field hockey team presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3358,
+    "subject": "German occupation of Lithuania during World War II",
+    "subject_id": "Q2083668",
+    "update": "What is the main Wikimedia category for the German occupation of Lithuania during World War II?",
+    "ans": "Kategorie:Deutsche Besetzung Litauens 1941–1945"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3449,
+    "subject": "Universidad de las Américas a member of as an Asociación Civil",
+    "subject_id": "Q2110629",
+    "update": "Which organization is Universidad de las Américas a member of as an Asociación Civil?",
+    "ans": "ANUIES"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3471,
+    "subject": "Sisters of Charity of Our Lady Mother of Mercy",
+    "subject_id": "Q2125209",
+    "update": "Which museum has works by the Sisters of Charity of Our Lady Mother of Mercy in its collection?",
+    "ans": "TextileMuseum"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3495,
+    "subject": "Realschule für Knaben in Neumarkt in der Oberpfalz",
+    "subject_id": "Q2134832",
+    "update": "In what language is the work or name associated with Realschule für Knaben in Neumarkt in der Oberpfalz?",
+    "ans": "German"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3502,
+    "subject": "Parc naturel régional de la Narbonnaise en Méditerranée",
+    "subject_id": "Q2138337",
+    "update": "In what language is the name of Parc naturel régional de la Narbonnaise en Méditerranée?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3520,
+    "subject": "Baroness Fritchie also known as Rennie Fritchie",
+    "subject_id": "Q2144088",
+    "update": "What is the family name of Baroness Fritchie, also known as Rennie Fritchie?",
+    "ans": "Tordoff"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3551,
+    "subject": "Saint John the Baptist church in Feodosia",
+    "subject_id": "Q2153011",
+    "update": "Which city is Saint John the Baptist church in Feodosia a part of?",
+    "ans": "Kaffa"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3638,
+    "subject": "The Neverending Story II: The Arcade Game",
+    "subject_id": "Q2201772",
+    "update": "Who was the game artist for The Neverending Story II: The Arcade Game?",
+    "ans": "Michael Tschögl"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3746,
+    "subject": "Shake Hands with the Devil: The Journey of Roméo Dallaire",
+    "subject_id": "Q2276508",
+    "update": "In which language was \"Shake Hands with the Devil: The Journey of Roméo Dallaire\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3747,
+    "subject": "Shake Hands with the Devil: The Journey of Roméo Dallaire",
+    "subject_id": "Q2276508",
+    "update": "Which organization conferred the award for \"Shake Hands with the Devil: The Journey of Roméo Dallaire\"?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3865,
+    "subject": "Certification of Italian as a Foreign Language",
+    "subject_id": "Q2347242",
+    "update": "What type of assessment is the Certification of Italian as a Foreign Language?",
+    "ans": "language assessment"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3897,
+    "subject": "Sundance Film Festival Grand Jury Prize for Best Documentary",
+    "subject_id": "Q2366088",
+    "update": "Which awards ceremony includes the Sundance Film Festival Grand Jury Prize for Best Documentary?",
+    "ans": "Sundance Festival Awards"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3898,
+    "subject": "Sundance Film Festival World Cinema Grand Jury Prize: Documentary",
+    "subject_id": "Q2366099",
+    "update": "Which organization confers the Sundance Film Festival World Cinema Grand Jury Prize: Documentary?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3899,
+    "subject": "Sundance Film Festival World Cinema Grand Jury Prize: Documentary",
+    "subject_id": "Q2366099",
+    "update": "In which country was the Sundance Film Festival World Cinema Grand Jury Prize: Documentary awarded?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3902,
+    "subject": "Sundance Film Festival - Audience Award – Best Foreign Feature Film",
+    "subject_id": "Q2366116",
+    "update": "In what language is the work or name associated with the Sundance Film Festival - Audience Award – Best Foreign Feature Film?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3903,
+    "subject": "Audience Award for Best Foreign Feature Film at the Sundance Film Festival",
+    "subject_id": "Q2366116",
+    "update": "Who confers the Audience Award for Best Foreign Feature Film at the Sundance Film Festival?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4104,
+    "subject": "Clerics Regular of the Mother of God",
+    "subject_id": "Q2526100",
+    "update": "In what language is the work or name of the Clerics Regular of the Mother of God written?",
+    "ans": "Italian"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4140,
+    "subject": "Me and You and Everyone We Know",
+    "subject_id": "Q2559560",
+    "update": "In what language was \"Me and You and Everyone We Know\" created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4141,
+    "subject": "Me and You and Everyone We Know",
+    "subject_id": "Q2559560",
+    "update": "Which organization conferred the award for Me and You and Everyone We Know?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4234,
+    "subject": "list of Presidents of the Supreme Court of the Netherlands",
+    "subject_id": "Q2619989",
+    "update": "In which country is the list of Presidents of the Supreme Court of the Netherlands located?",
+    "ans": "Kingdom of the Netherlands"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4448,
+    "subject": "Académie des sciences, inscriptions et belles-lettres de Toulouse",
+    "subject_id": "Q2822390",
+    "update": "In what language is the work or name of Académie des sciences, inscriptions et belles-lettres de Toulouse written?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4526,
+    "subject": "Association nationale interprofessionnelle du bétail et des viandes",
+    "subject_id": "Q2867908",
+    "update": "In which sovereign state is the Association nationale interprofessionnelle du bétail et des viandes located?",
+    "ans": "France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4527,
+    "subject": "Association nationale interprofessionnelle du bétail et des viandes",
+    "subject_id": "Q2867908",
+    "update": "In which arrondissement of Paris is the headquarters of Association nationale interprofessionnelle du bétail et des viandes located?",
+    "ans": "12th arrondissement of Paris"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4704,
+    "subject": "Championnat de Belgique de hockey en salle",
+    "subject_id": null,
+    "update": "What league is a part of the Championnat de Belgique de hockey en salle?",
+    "ans": "Ereafdeling (zaalhockey heren)"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4782,
+    "subject": "Union for a Popular Movement leadership election take place in 2002",
+    "subject_id": "Q2993103",
+    "update": "In which sovereign state did the Union for a Popular Movement leadership election take place in 2002?",
+    "ans": "France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4790,
+    "subject": "contrato conmutativo en el derecho civil francés",
+    "subject_id": "Q2995760",
+    "update": "In which country is the contractual term \"contrato conmutativo en el derecho civil francés\" used?",
+    "ans": "France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4791,
+    "subject": "contrato por representación en el derecho civil francés",
+    "subject_id": "Q2995835",
+    "update": "In which country is contrato por representación en el derecho civil francés used in civil law?",
+    "ans": "France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4878,
+    "subject": "Sundance Film Festival Grand Jury Prize for Best Documentary",
+    "subject_id": "Q2366088",
+    "update": "Who confers the Sundance Film Festival Grand Jury Prize for Best Documentary?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4948,
+    "subject": "Wildflowers: the New York Loft Jazz Sessions",
+    "subject_id": "Q2570698",
+    "update": "What specific classification does Wildflowers: the New York Loft Jazz Sessions belong to within the music industry?",
+    "ans": "compilation album series"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4950,
+    "subject": "of the head of the French Ministry of",
+    "subject_id": "Q2572330",
+    "update": "Who holds the position of the head of the French Ministry of Education?",
+    "ans": "Minister of National Education"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4952,
+    "subject": "Carlos Francisco de Croix, marqués de Croix",
+    "subject_id": "Q2575299",
+    "update": "Who replaced Carlos Francisco de Croix, marqués de Croix in his role?",
+    "ans": "Maximiliano de la Croix"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 4978,
+    "subject": "Sofia University St. Kliment Ohridski Metro Station",
+    "subject_id": "Q2626582",
+    "update": "Who is Sofia University St. Kliment Ohridski Metro Station named after?",
+    "ans": "Clement of Ohrid"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5053,
+    "subject": "Adrien Alexandre Adolphe de Carrey de Bellemare",
+    "subject_id": "Q2825112",
+    "update": "In which specific location was Adrien Alexandre Adolphe de Carrey de Bellemare born?",
+    "ans": "former 3rd arrondissement of Paris"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5090,
+    "subject": "Sprach- und Sachatlas Italiens und der Südschweiz",
+    "subject_id": "Q2869462",
+    "update": "What specific type of atlas is Sprach- und Sachatlas Italiens und der Südschweiz an example of?",
+    "ans": "linguistic and ethnographic atlas"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5216,
+    "subject": "contemporary culture of the Tibet Autonomous Region",
+    "subject_id": "Q3007178",
+    "update": "What larger culture does the contemporary culture of the Tibet Autonomous Region belong to?",
+    "ans": "Tibetan culture"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5217,
+    "subject": "contemporary culture of the Tibet Autonomous Region",
+    "subject_id": "Q3007178",
+    "update": "What type of culture is the contemporary culture of the Tibet Autonomous Region considered an instance of?",
+    "ans": "culture of an area"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5218,
+    "subject": "contemporary culture of the Tibet Autonomous Region",
+    "subject_id": "Q3007178",
+    "update": "In which sovereign state is the contemporary culture of the Tibet Autonomous Region situated?",
+    "ans": "People's Republic of China"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5273,
+    "subject": "De Puisqu'il faut vivre à La Colombe",
+    "subject_id": "Q3020239",
+    "update": "What type of creative work is \"De Puisqu'il faut vivre à La Colombe\" considered to be?",
+    "ans": "mixtape"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5274,
+    "subject": "De Puisqu'il faut vivre à La Colombe",
+    "subject_id": "Q3020239",
+    "update": "Which discography includes De Puisqu'il faut vivre à La Colombe?",
+    "ans": "Soprano discography"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5275,
+    "subject": "De Puisqu'il faut vivre à La Colombe",
+    "subject_id": "Q3020239",
+    "update": "In which language is the creative work \"De Puisqu'il faut vivre à La Colombe\" written?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5328,
+    "subject": "Preliminary Discourse to the Encyclopedia of Diderot",
+    "subject_id": "Q3030210",
+    "update": "Which edition or translation is linked to Preliminary Discourse to the Encyclopedia of Diderot?",
+    "ans": "Discurso preliminar de la Enciclopedia"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5329,
+    "subject": "Preliminary Discourse to the Encyclopedia of Diderot",
+    "subject_id": "Q3030210",
+    "update": "In what language was the Preliminary Discourse to the Encyclopedia of Diderot written?",
+    "ans": "Spanish"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5330,
+    "subject": "Preliminary Discourse to the Encyclopedia of Diderot",
+    "subject_id": "Q3030210",
+    "update": "Who translated the Preliminary Discourse to the Encyclopedia of Diderot?",
+    "ans": "Francisco Rivera Pastor"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5331,
+    "subject": "Preliminary Discourse to the Encyclopedia of Diderot",
+    "subject_id": "Q3030210",
+    "update": "What category does Preliminary Discourse to the Encyclopedia of Diderot belong to?",
+    "ans": "written work"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5337,
+    "subject": "Disney Club - Les chansons des génériques Télé de tes Héros préférés",
+    "subject_id": "Q3030394",
+    "update": "What type of creative work is Disney Club - Les chansons des génériques Télé de tes Héros préférés?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5378,
+    "subject": "Music Department of the National Library of France",
+    "subject_id": "Q3044740",
+    "update": "What is the parent organization of the Music Department of the National Library of France?",
+    "ans": "Bibliothèque nationale de France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5379,
+    "subject": "Music Department of the National Library of France",
+    "subject_id": "Q3044740",
+    "update": "What institution is the Music Department of the National Library of France a part of?",
+    "ans": "Bibliothèque nationale de France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5380,
+    "subject": "Departamento de Artes del Espectáculo de la Biblioteca Nacional de Francia",
+    "subject_id": "Q3044752",
+    "update": "What is the parent organization of Departamento de Artes del Espectáculo de la Biblioteca Nacional de Francia?",
+    "ans": "Bibliothèque nationale de France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5381,
+    "subject": "Departamento de Artes del Espectáculo de la Biblioteca Nacional de Francia",
+    "subject_id": "Q3044752",
+    "update": "What larger institution is the Departamento de Artes del Espectáculo de la Biblioteca Nacional de Francia a part of?",
+    "ans": "Bibliothèque nationale de France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5382,
+    "subject": "Maps and Plans Department of the BnF",
+    "subject_id": "Q3044754",
+    "update": "What is the parent organization of the Maps and Plans Department of the BnF?",
+    "ans": "Bibliothèque nationale de France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5486,
+    "subject": "Fantaisie in G for piano and orchestra",
+    "subject_id": "Q3066525",
+    "update": "From which country does the Fantaisie in G for piano and orchestra originate?",
+    "ans": "France"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5494,
+    "subject": "Femme est la nuit – Amoureuse de la vie",
+    "subject_id": "Q3068255",
+    "update": "In what language is the creative work \"Femme est la nuit – Amoureuse de la vie\" written?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5502,
+    "subject": "National Museum of African American History and Culture",
+    "subject_id": "Q3073495",
+    "update": "To which organization does the National Museum of African American History and Culture belong?",
+    "ans": "Museums Association of the Caribbean"
+   }
+  ],
+  "starts-with-question-word": [
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1105,
+    "subject": "Why We Fight",
+    "subject_id": "Q3227366",
+    "update": "In what language is the work \"Why We Fight\" presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1106,
+    "subject": "Why We Fight",
+    "subject_id": "Q3227366",
+    "update": "Which organization conferred the award for \"Why We Fight\"?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1735,
+    "subject": "When We Were Kings",
+    "subject_id": "Q1779974",
+    "update": "By whom was the award for When We Were Kings conferred?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 2912,
+    "subject": "When We Were Kings",
+    "subject_id": "Q1779974",
+    "update": "What award was received by \"When We Were Kings\"?",
+    "ans": "Sundance Special Jury Recognition"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3737,
+    "subject": "Where Is Freedom?",
+    "subject_id": "Q2268902",
+    "update": "Who was the film editor for \"Where Is Freedom?\"?",
+    "ans": "Jolanda Benvenuti"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5295,
+    "subject": "When Did You Leave Heaven",
+    "subject_id": "Q124445408",
+    "update": "In what format was \"When Did You Leave Heaven\" distributed?",
+    "ans": "compact disc"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5296,
+    "subject": "When Did You Leave Heaven",
+    "subject_id": "Q124445408",
+    "update": "What is the record label associated with the marketing of \"When Did You Leave Heaven\" music recordings and music videos?",
+    "ans": "RCA Victor"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5297,
+    "subject": "When Did You Leave Heaven",
+    "subject_id": "Q124445408",
+    "update": "In what country was the first edition of \"When Did You Leave Heaven\" published?",
+    "ans": "Sweden"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5298,
+    "subject": "When Did You Leave Heaven",
+    "subject_id": "Q124445408",
+    "update": "Who is the author of \"When Did You Leave Heaven\"?",
+    "ans": "Alex Henderson"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 6185,
+    "subject": "What",
+    "subject_id": "Q124431312",
+    "update": "What type of creative work are mosquitoes an example of?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 7405,
+    "subject": "What",
+    "subject_id": "Q124431312",
+    "update": "What type of work are mosquitoes considered as a particular example of?",
+    "ans": "literary work"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 7593,
+    "subject": "Where",
+    "subject_id": "Q3588342",
+    "update": "Where was Emile Bertaux specifically born?",
+    "ans": "former 6th arrondissement of Paris"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 8116,
+    "subject": "Who",
+    "subject_id": "Q4179491",
+    "update": "Who was the production designer for the 1966 film \"Women\"?",
+    "ans": "Arseni Klopotovsky"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 10269,
+    "subject": "What",
+    "subject_id": "Q5350369",
+    "update": "What is the closest parent taxon of Ekbletomys within the classification?",
+    "ans": "Sigmodontinae"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11157,
+    "subject": "How to Die in Oregon",
+    "subject_id": "Q5918567",
+    "update": "In what language is the work \"How to Die in Oregon\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11158,
+    "subject": "How to Die in Oregon",
+    "subject_id": "Q5918567",
+    "update": "Which organization conferred the award for How to Die in Oregon?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11159,
+    "subject": "How to Draw a Bunny",
+    "subject_id": "Q5918579",
+    "update": "In what language is the work \"How to Draw a Bunny\" created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11160,
+    "subject": "How to Draw a Bunny",
+    "subject_id": "Q5918579",
+    "update": "What award did \"How to Draw a Bunny\" receive?",
+    "ans": "Sundance Special Jury Prize Documentary"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11161,
+    "subject": "How to Draw a Bunny",
+    "subject_id": "Q5918579",
+    "update": "Who conferred the award for How to Draw a Bunny?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11639,
+    "subject": "What",
+    "subject_id": "Q6011384",
+    "update": "What specific geological landform is the Patagonic Meset an example of?",
+    "ans": "plateau"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15699,
+    "subject": "What Alice Found",
+    "subject_id": "Q7990958",
+    "update": "In what language was \"What Alice Found\" created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15700,
+    "subject": "What Alice Found",
+    "subject_id": "Q7990958",
+    "update": "By whom was the award for What Alice Found conferred?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15701,
+    "subject": "What Happened Was",
+    "subject_id": "Q7991117",
+    "update": "In which language was \"What Happened Was\" created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15702,
+    "subject": "What Happened Was",
+    "subject_id": "Q7991117",
+    "update": "Who conferred the award for \"What Happened Was\"?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15703,
+    "subject": "What Happened Was",
+    "subject_id": "Q7991117",
+    "update": "What award did What Happened Was receive?",
+    "ans": "Waldo Salt Screenwriting Award"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15706,
+    "subject": "When the Going Gets Dark",
+    "subject_id": "Q7992979",
+    "update": "What type of creative work is \"When the Going Gets Dark\"?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15707,
+    "subject": "When the Going Gets Dark",
+    "subject_id": "Q7992979",
+    "update": "In which country was the 1st edition of \"When the Going Gets Dark\" published?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15708,
+    "subject": "Where Everybody Knows Your Name",
+    "subject_id": "Q7993238",
+    "update": "For which television show was the music \"Where Everybody Knows Your Name\" created?",
+    "ans": "Cheers"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15709,
+    "subject": "Where Everybody Knows Your Name",
+    "subject_id": "Q7993238",
+    "update": "What type of creative work is \"Where Everybody Knows Your Name\"?",
+    "ans": "song"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15710,
+    "subject": "Where Everybody Knows Your Name",
+    "subject_id": "Q7993238",
+    "update": "In what language is the work \"Where Everybody Knows Your Name\" written or performed?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15927,
+    "subject": "What Alice Found",
+    "subject_id": "Q7990958",
+    "update": "What award did \"What Alice Found\" receive?",
+    "ans": "Sundance Special Jury Prize"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15928,
+    "subject": "Where Everybody Knows Your Name",
+    "subject_id": "Q7993238",
+    "update": "What category does \"Where Everybody Knows Your Name\" fall under as a specific example and member?",
+    "ans": "musical work/composition"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 17185,
+    "subject": "What",
+    "subject_id": "Q125567999",
+    "update": "What type of creative work is a tornado classified as?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 20026,
+    "subject": "How Ya Doin'?",
+    "subject_id": "Q11775872",
+    "update": "Under which record label is the music of \"How Ya Doin'?\" marketed and associated?",
+    "ans": "Syco Music"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 20481,
+    "subject": "What",
+    "subject_id": "Q20600868",
+    "update": "What classification does Thatcher fall under?",
+    "ans": "profession"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 22910,
+    "subject": "When Did You Leave Heaven",
+    "subject_id": "Q124445408",
+    "update": "Which film was the music \"When Did You Leave Heaven\" created for?",
+    "ans": "Sing, Baby, Sing"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 23106,
+    "subject": "When Did You Leave Heaven",
+    "subject_id": "Q124445408",
+    "update": "What genre does the song \"When Did You Leave Heaven\" belong to?",
+    "ans": "popular music"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 25506,
+    "subject": "What",
+    "subject_id": "Q18178206",
+    "update": "What genre does Landscape fall into?",
+    "ans": "landscape painting"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 12775,
+    "subject": "When the Wind Blows",
+    "subject_id": "Q431836",
+    "update": "What is the main subject of \"When the Wind Blows\"?",
+    "ans": "nuclear warfare"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 13828,
+    "subject": "When Love Breaks Down",
+    "subject_id": "Q3567678",
+    "update": "What form of creative work is \"When Love Breaks Down\"?",
+    "ans": "song"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 14101,
+    "subject": "How to Train Your Dragon: Music from the Motion Picture",
+    "subject_id": "Q3787209",
+    "update": "What type of creative work is \"How to Train Your Dragon: Music from the Motion Picture\"?",
+    "ans": "soundtrack album"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 14849,
+    "subject": "When Love Breaks Down",
+    "subject_id": "Q3567678",
+    "update": "What class does \"When Love Breaks Down\" belong to as a particular example and member?",
+    "ans": "musical work/composition"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 14850,
+    "subject": "When Love Breaks Down",
+    "subject_id": "Q3567678",
+    "update": "What genre does \"When Love Breaks Down\" belong to?",
+    "ans": "popular music"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 15031,
+    "subject": "Where Love Is, God Is",
+    "subject_id": "Q3714680",
+    "update": "In what language is the work \"Where Love Is, God Is\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 15814,
+    "subject": "What",
+    "subject_id": "Q4372020",
+    "update": "What variety is a part of Chuukic-Pohnpeic?",
+    "ans": "Ponapeic"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 16234,
+    "subject": "What",
+    "subject_id": "Q4686689",
+    "update": "What type of creative work are adverbs a form of?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 17692,
+    "subject": "Where",
+    "subject_id": "Q5249788",
+    "update": "Where was the edition of 'Dedicated '88-'91' published geographically?",
+    "ans": "New Zealand"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21454,
+    "subject": "What",
+    "subject_id": "Q7547660",
+    "update": "What architectural style is Snell-Hitchcock designed in?",
+    "ans": "Prairie School architecture"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21455,
+    "subject": "Who",
+    "subject_id": "Q7547660",
+    "update": "Who was the architect responsible for designing Snell-Hitchcock?",
+    "ans": "Dwight H. Perkins"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 22078,
+    "subject": "When All Is Said",
+    "subject_id": "Q7992413",
+    "update": "What type of creative work is \"When All Is Said\"?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 22079,
+    "subject": "When I Go",
+    "subject_id": null,
+    "update": "In which language is the work \"When I Go\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 22437,
+    "subject": "When I Go",
+    "subject_id": null,
+    "update": "Who is the performer of \"When I Go\"?",
+    "ans": "Dave Carter"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 23115,
+    "subject": "What",
+    "subject_id": "Q9371786",
+    "update": "What is the copyright status of a pellet?",
+    "ans": "copyrighted"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 25955,
+    "subject": "Who",
+    "subject_id": "Q11980204",
+    "update": "Who is said to be the same as Kari-Anne?",
+    "ans": "Karianne"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 28784,
+    "subject": "Where the Bears Are",
+    "subject_id": "Q15995582",
+    "update": "Under which funding scheme is Where the Bears Are supported?",
+    "ans": "crowd funding"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 29768,
+    "subject": "What",
+    "subject_id": "Q16743225",
+    "update": "What type of funding scheme supports the project that was ravaged?",
+    "ans": "crowd funding"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 3067,
+    "subject": "How to Make an American Quilt",
+    "subject_id": "Q493799",
+    "update": "What is the Filmiroda rating of \"How to Make an American Quilt\"?",
+    "ans": "Category II"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 3913,
+    "subject": "What",
+    "subject_id": "Q672107",
+    "update": "What is the nature of the statement regarding the Ouija board?",
+    "ans": "disputed"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4088,
+    "subject": "which",
+    "subject_id": "Q711821",
+    "update": "In what language is the work or name associated with 'which' primarily conducted or presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4370,
+    "subject": "How Can I Sleep with Your Voice in My Head",
+    "subject_id": "Q768884",
+    "update": "Which albums in chronological order does \"How Can I Sleep with Your Voice in My Head\" belong to as a part?",
+    "ans": "A-ha's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4636,
+    "subject": "Which",
+    "subject_id": "Q5939639",
+    "update": "Which media franchise do humans belong to?",
+    "ans": "Star Wars"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4982,
+    "subject": "Who Made Who",
+    "subject_id": "Q901127",
+    "update": "Which albums of AC/DC in chronological order include the track \"Who Made Who\"?",
+    "ans": "AC/DC's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4999,
+    "subject": "What",
+    "subject_id": "Q905564",
+    "update": "What type of subclass is an oncosphere classified as?",
+    "ans": "hexacanth"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 5362,
+    "subject": "What",
+    "subject_id": "Q967733",
+    "update": "What albums by Moloko are statues a part of in chronological order?",
+    "ans": "Moloko's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 5675,
+    "subject": "Which",
+    "subject_id": "Q11254084",
+    "update": "Which edition or translation do we have a link to?",
+    "ans": "My"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 7680,
+    "subject": "When Satan Lives",
+    "subject_id": "Q1158862",
+    "update": "What albums in chronological order include When Satan Lives by Deicide?",
+    "ans": "Deicide's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 9181,
+    "subject": "How Deep Is Your Love",
+    "subject_id": "Q126871392",
+    "update": "Which event was the music \"How Deep Is Your Love\" created for?",
+    "ans": "Saturday Night Fever"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 9882,
+    "subject": "What Hits!?",
+    "subject_id": "Q1765794",
+    "update": "In what language was the work \"What Hits!?\" created in?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 12128,
+    "subject": "How You Sell Soul to a Soulless People Who Sold Their Soul?",
+    "subject_id": "Q2395439",
+    "update": "What language is \"How You Sell Soul to a Soulless People Who Sold Their Soul?\" written in?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 12622,
+    "subject": "Why Me?",
+    "subject_id": "Q18539606",
+    "update": "Who composed the music for \"Why Me?\"",
+    "ans": "Phil Marshall"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 13238,
+    "subject": "What",
+    "subject_id": "Q126902972",
+    "update": "What position did the actor hold in Greek mythology?",
+    "ans": "king"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 14186,
+    "subject": "Where No Fan Has Gone Before",
+    "subject_id": "Q2444024",
+    "update": "What episode of the series directly followed \"Where No Fan Has Gone Before\"?",
+    "ans": "The Sting"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 14915,
+    "subject": "Which",
+    "subject_id": "Q5447727",
+    "update": "Which albums in Doro's discography does the fight belong to in chronological order?",
+    "ans": "Doro's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 15067,
+    "subject": "What",
+    "subject_id": "Q3095753",
+    "update": "What is the current state of use for Eugene-Springfield?",
+    "ans": "in use"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 15613,
+    "subject": "Who",
+    "subject_id": "Q126103527",
+    "update": "Who is the main creator of this journal?",
+    "ans": "Fabrice Neaud"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 16677,
+    "subject": "What",
+    "subject_id": "Q3411828",
+    "update": "What specific type of facility are penitentiaries considered examples of?",
+    "ans": "prison"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 16686,
+    "subject": "Who Killed Bambi?",
+    "subject_id": "Q9095948",
+    "update": "Who was responsible for the framing, lighting, and filtration of Who Killed Bambi?",
+    "ans": "Pierre Milon"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 16999,
+    "subject": "What",
+    "subject_id": "Q3500059",
+    "update": "What broader category does strapping belong to?",
+    "ans": "corporal punishment"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17387,
+    "subject": "What",
+    "subject_id": "Q3596273",
+    "update": "What type of creative work is Best Live?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17388,
+    "subject": "Which",
+    "subject_id": "Q3596328",
+    "update": "Which albums are included in chronological order in Sottotono's albums \"In teoria\"?",
+    "ans": "Sottotono's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17722,
+    "subject": "Who",
+    "subject_id": "Q3703921",
+    "update": "Who is the author of the work 'De clarea'?",
+    "ans": "Sandro Baroni"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17725,
+    "subject": "What",
+    "subject_id": "Q3703921",
+    "update": "What is the copyright status of 'De clarea'?",
+    "ans": "copyrighted"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 19002,
+    "subject": "Where Love Is, God Is",
+    "subject_id": "Q3714680",
+    "update": "Which edition or translation is linked to \"Where Love Is, God Is\"?",
+    "ans": "God is Love"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 19164,
+    "subject": "Who Needs Love",
+    "subject_id": "Q4019611",
+    "update": "Which albums in chronological order does \"Who Needs Love\" belong to in Incognito's discography?",
+    "ans": "Incognito's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 19186,
+    "subject": "What",
+    "subject_id": "Q4025939",
+    "update": "What albums in chronological order include the voice drum device as a part?",
+    "ans": "Kansas' albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 19272,
+    "subject": "Which",
+    "subject_id": "Q4053095",
+    "update": "Who is the developer of Which?",
+    "ans": "The Game Creators"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 20178,
+    "subject": "How Not to Rescue a Princess",
+    "subject_id": "Q4462820",
+    "update": "Who was the production designer for \"How Not to Rescue a Princess\"?",
+    "ans": "Oleg Markelov"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 20179,
+    "subject": "How Not to Rescue a Princess",
+    "subject_id": "Q4462820",
+    "update": "Which company distributed How Not to Rescue a Princess?",
+    "ans": "Misteriya Zvuka"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 22300,
+    "subject": "Which",
+    "subject_id": "Q4356605",
+    "update": "Which collection does Amorphis' album \"Story\" belong to in terms of the band's albums?",
+    "ans": "Amorphis' albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24243,
+    "subject": "What",
+    "subject_id": "Q5454277",
+    "update": "What type of creative work is a firstborn?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 28249,
+    "subject": "Which",
+    "subject_id": "Q6663400",
+    "update": "Which albums in chronological order include the loaf as a part?",
+    "ans": "moe.'s albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 30095,
+    "subject": "What",
+    "subject_id": "Q7144957",
+    "update": "What type of creative work is the patient?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 32481,
+    "subject": "Which",
+    "subject_id": "Q7784128",
+    "update": "Which albums in chronological order include the concept of thigmotactic?",
+    "ans": "Negativland's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33283,
+    "subject": "What Another Man Spills",
+    "subject_id": "Q7990970",
+    "update": "Which albums in chronological order does Lambchop's album \"What Another Man Spills\" belong to?",
+    "ans": "Lambchop's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33284,
+    "subject": "What Happened to the LA LA's",
+    "subject_id": "Q7991126",
+    "update": "In what sequence are What Happened to the LA LA's included in moe.'s albums?",
+    "ans": "moe.'s albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33285,
+    "subject": "What I Have Written",
+    "subject_id": "Q7991170",
+    "update": "What is the Australian Classification rating for \"What I Have Written\"?",
+    "ans": "R 18+"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33286,
+    "subject": "What I Have Written",
+    "subject_id": "Q7991170",
+    "update": "What distribution format was used for \"What I Have Written\"?",
+    "ans": "35 mm film"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33287,
+    "subject": "What Is There to Say",
+    "subject_id": "Q7991253",
+    "update": "What type of creative work is \"What Is There to Say\"?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33288,
+    "subject": "What Men Live By",
+    "subject_id": "Q125254078",
+    "update": "Which edition or translation is linked to the book \"What Men Live By\"?",
+    "ans": "Life Is Worth Living"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33289,
+    "subject": "What Were Once Vices Are Now Habits",
+    "subject_id": "Q7991427",
+    "update": "In what language was \"What Were Once Vices Are Now Habits\" created?",
+    "ans": "English"
+   }
+  ],
+  "unbalanced-quote": [
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 1399,
+    "subject": "the creative work \"Pulp Fiction - Music from the Motion",
+    "subject_id": "Q1607955",
+    "update": "In which language was the creative work \"Pulp Fiction - Music from the Motion Picture\" produced?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3283,
+    "subject": "for \"Waiting for",
+    "subject_id": "Q2061346",
+    "update": "Who conferred the award for \"Waiting for Superman\"?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 10212,
+    "subject": "of Earl Bud Powell's album \"Vol. 1: Early Years of a Genius",
+    "subject_id": "Q5325760",
+    "update": "Which record label is associated with the marketing of Earl Bud Powell's album \"Vol. 1: Early Years of a Genius, 44-48\"?",
+    "ans": "Mythic Sound"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 12001,
+    "subject": "Joan Rivers for \"A Piece of",
+    "subject_id": "Q6205401",
+    "update": "Which organization conferred the award to Joan Rivers for \"A Piece of Work\"?",
+    "ans": "Sundance Institute"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 14652,
+    "subject": "or Bum\" by Poet",
+    "subject_id": "Q7207419",
+    "update": "In which country was the first edition of \"Fool or Bum\" by Poet published?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 14653,
+    "subject": "or Bum\" by the Poet",
+    "subject_id": "Q7207419",
+    "update": "In what format was the distribution of the album \"Fool or Bum\" by the Poet?",
+    "ans": "LP record"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15891,
+    "subject": "the songs \"Tryin' to Get the Feeling",
+    "subject_id": "Q7848510",
+    "update": "Which discography includes the songs \"Tryin' to Get the Feeling Again\" and \"Beautiful Music\" as part of its singles collection?",
+    "ans": "Barry Manilow singles discography"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 18847,
+    "subject": "to Wei\" conferred upon the Queen of Wa",
+    "subject_id": "Q11630468",
+    "update": "By whom was the title \"Friendly to Wei\" conferred upon the Queen of Wa?",
+    "ans": "Cao Rui"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 24358,
+    "subject": "K\"Trist\\'",
+    "subject_id": "Q16944695",
+    "update": "What is K\"Trist\\'s occupation?",
+    "ans": "rapper"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 25619,
+    "subject": "This Key\" in which Pikachu",
+    "subject_id": "Q18338966",
+    "update": "Who was the director of \"What's This Key?\" in which Pikachu appeared?",
+    "ans": "Kunihiko Yuyama"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 9356,
+    "subject": "The 12\" Collection",
+    "subject_id": "Q9357737",
+    "update": "In what language is The 12\" Collection created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 15304,
+    "subject": "with the musical work \"Chasing After Shadows... Living with the Ghosts",
+    "subject_id": null,
+    "update": "Which band is associated with the musical work \"Chasing After Shadows... Living with the Ghosts (Outtakes)\"?",
+    "ans": "Hammock"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 16365,
+    "subject": "the Original Soundtrack of \"Arjuna: Into the Another",
+    "subject_id": "Q4791593",
+    "update": "What genre does the Original Soundtrack of \"Arjuna: Into the Another World\" belong to?",
+    "ans": "stage and screen"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 16367,
+    "subject": "the original soundtrack of \"Arjuna: Into the Another",
+    "subject_id": "Q4791593",
+    "update": "In what language was the original soundtrack of \"Arjuna: Into the Another World\" created?",
+    "ans": "Japanese"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 25486,
+    "subject": "of the book \"Slave: The true story of a girl’s lost childhood and her fight for",
+    "subject_id": null,
+    "update": "Who is the author of the book \"Slave: The true story of a girl’s lost childhood and her fight for survival\"?",
+    "ans": "Mende Nazer"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 7589,
+    "subject": "from The Elder\"",
+    "subject_id": "Q1140433",
+    "update": "Which albums are in the chronological order of Kiss that include \"Music from The Elder\"?",
+    "ans": "Kiss' albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 8933,
+    "subject": "12\" Collection",
+    "subject_id": "Q1485419",
+    "update": "What type of creative work is the 12\" Collection?",
+    "ans": "remix album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 9505,
+    "subject": "Infanterie-Regiment \"Herzog Friedrich Wilhelm von",
+    "subject_id": "Q1662288",
+    "update": "Who holds the ceremonial position of colonel-in-chief in the Infanterie-Regiment \"Herzog Friedrich Wilhelm von Braunschweig\"?",
+    "ans": "Leo von Caprivi"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 10474,
+    "subject": "Fate of Man\" by Nostradamus",
+    "subject_id": "Q1984600",
+    "update": "Which albums in chronological order include \"The Fate of Man\" by Nostradamus?",
+    "ans": "Kayak's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 16010,
+    "subject": "The Best \"Ultra",
+    "subject_id": "Q3280856",
+    "update": "What is the album that includes \"B'z The Best \"Ultra Pleasure\"\" in the chronological order of B'z albums?",
+    "ans": "B'z albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17567,
+    "subject": "in Ziqqurat\" by Bios",
+    "subject_id": "Q3640187",
+    "update": "What type of creative work is the album \"Live in Ziqqurat\" by Bios?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 20330,
+    "subject": "12\" Collection and More",
+    "subject_id": "Q4548036",
+    "update": "What type of creative work is the 12\" Collection and More?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 23458,
+    "subject": "and Gold\" by Neil Young: Dirt",
+    "subject_id": "Q5280923",
+    "update": "What type of creative work is \"Silver and Gold\" by Neil Young: Dirt?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 23861,
+    "subject": "the music from the motion picture \"Elizabeth: The Golden",
+    "subject_id": "Q5362236",
+    "update": "What genre is the music from the motion picture \"Elizabeth: The Golden Age\" classified as?",
+    "ans": "stage and screen"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24548,
+    "subject": "Orange Afternoons\" by GPS",
+    "subject_id": "Q5514314",
+    "update": "What series includes the album \"V2: Orange Afternoons\" by GPS?",
+    "ans": "Greenleaf Portable Series"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24549,
+    "subject": "Orange Afternoons\" by GPS",
+    "subject_id": "Q5514314",
+    "update": "What is the language of work or name associated with \"V2: Orange Afternoons\" by GPS?",
+    "ans": "no linguistic content"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24550,
+    "subject": "Orange Afternoons\" by GPS",
+    "subject_id": "Q5514314",
+    "update": "In which country was the 1st edition of \"V2: Orange Afternoons\" by GPS published?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24552,
+    "subject": "Bad Mango\" belong to within GPS",
+    "subject_id": "Q5514315",
+    "update": "What classification does \"V3: Bad Mango\" belong to within GPS?",
+    "ans": "album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24556,
+    "subject": "Bad Mango\" by GPS",
+    "subject_id": "Q5514315",
+    "update": "What type of creative work is \"V3: Bad Mango\" by GPS?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24590,
+    "subject": "the musical work \"Earth In the Grip of a Skeletal",
+    "subject_id": "Q5523193",
+    "update": "Who performed the musical work \"Earth In the Grip of a Skeletal Hand\" in Gargoylian's \"b/w\" album?",
+    "ans": "Cathedral"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24876,
+    "subject": "Richard Marx's \"Greatest Hits",
+    "subject_id": "Q5601232",
+    "update": "What type of creative work is Richard Marx's \"Greatest Hits (1993)\"?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 25171,
+    "subject": "the soundtrack \"Hawks - Music from the Original",
+    "subject_id": "Q5685219",
+    "update": "In what language is the soundtrack \"Hawks - Music from the Original Soundtrack\" composed?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 25931,
+    "subject": "2008 edition of \"Live in",
+    "subject_id": "Q5977439",
+    "update": "Where was the 2008 edition of \"Live in Barcelona\" published geographically?",
+    "ans": "United Kingdom"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 26996,
+    "subject": "Personal Dimension\" by Jazz",
+    "subject_id": "Q6168155",
+    "update": "What form of creative work is \"The Personal Dimension\" by Jazz?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 27889,
+    "subject": "the performer associated with the original motion picture soundtrack of \"Legend of the Guardians: The Owls of",
+    "subject_id": "Q6517809",
+    "update": "Who is the performer associated with the original motion picture soundtrack of \"Legend of the Guardians: The Owls of Ga'Hoole\"?",
+    "ans": "David Hirschfelder"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 30040,
+    "subject": "Owen/The City on Film Split 7\"",
+    "subject_id": "Q7114378",
+    "update": "Which albums in chronological order does the Owen/The City on Film Split 7\" belong to?",
+    "ans": "Owen's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 32027,
+    "subject": "of creative work is \"The Best of Chet on the Road",
+    "subject_id": "Q7716953",
+    "update": "What type of creative work is \"The Best of Chet on the Road - Live\"?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 32231,
+    "subject": "Guard Years\" by The Kingston",
+    "subject_id": "Q7744682",
+    "update": "What type of creative work is \"The Guard Years\" by The Kingston Trio?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 33029,
+    "subject": "of Dreams\" starring Vegas",
+    "subject_id": "Q7918293",
+    "update": "Who directed the film \"City of Dreams\" starring Vegas?",
+    "ans": "Lorenzo Doumani"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 37907,
+    "subject": "Yumi Arai's \"The Concert With Old",
+    "subject_id": "Q11255598",
+    "update": "What is the form of creative work that Yumi Arai's \"The Concert With Old Friends\" belongs to?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 39847,
+    "subject": "oss hjem\" by Ole Paus",
+    "subject_id": "Q11971344",
+    "update": "In what language is the creative work \"Følg oss hjem\" by Ole Paus written?",
+    "ans": "Norwegian"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 39848,
+    "subject": "oss hjem\" by Ole Paus",
+    "subject_id": "Q11971344",
+    "update": "In which country was the 1st edition of \"Følg oss hjem\" by Ole Paus published?",
+    "ans": "Norway"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 39849,
+    "subject": "oss hjem\" by Ole Paus",
+    "subject_id": "Q11971344",
+    "update": "What format was \"Følg oss hjem\" by Ole Paus distributed in?",
+    "ans": "compact disc"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 39850,
+    "subject": "Ole Paus play in \"Følg oss",
+    "subject_id": "Q11971344",
+    "update": "What role does Ole Paus play in \"Følg oss hjem\"?",
+    "ans": "tribute album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 39851,
+    "subject": "oss hjem\" by Ole Paus",
+    "subject_id": "Q11971344",
+    "update": "What type of creative work is \"Følg oss hjem\" by Ole Paus?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52918,
+    "subject": "of creative work is \"The Angle of a",
+    "subject_id": "Q19078135",
+    "update": "What form of creative work is \"The Angle of a Landscape\"?",
+    "ans": "poem"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 53441,
+    "subject": "Generation song \"Catch Me If You",
+    "subject_id": "Q19359561",
+    "update": "Who wrote the lyrics for the Girls' Generation song \"Catch Me If You Can\"?",
+    "ans": "Jeff Miyahara"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 6779,
+    "subject": "the same as \"head of the",
+    "subject_id": "Q1540324",
+    "update": "What title is said to be the same as \"head of the region\" in Russia, although this equivalence may be uncertain or disputed?",
+    "ans": "governor"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 10050,
+    "subject": "Indiana Jones play in \"Revenge of the",
+    "subject_id": "Q2610582",
+    "update": "What role does Indiana Jones play in \"Revenge of the Ancients\"?",
+    "ans": "protagonist"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 13363,
+    "subject": "The Marine Fortress & The Foxy Pirate Crew\" from One Piece",
+    "subject_id": "Q3729454",
+    "update": "In what language is \"Escape! The Marine Fortress & The Foxy Pirate Crew\" from One Piece originally produced?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 15049,
+    "subject": "of creative work is \"I'm Sick of",
+    "subject_id": "Q4041693",
+    "update": "What type of creative work is \"I'm Sick of You!\"?",
+    "ans": "extended play"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 15198,
+    "subject": "s sobachkoĭ\" in 1932 by Rodion Konstantinovich Shchedrin",
+    "subject_id": "Q4154360",
+    "update": "Who was the choreographer for \"Dama s sobachkoĭ\" in 1932 by Rodion Konstantinovich Shchedrin?",
+    "ans": "Maya Plisetskaya"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 15386,
+    "subject": "of Autumn\" (waltz)",
+    "subject_id": "Q4337616",
+    "update": "In what language is the work \"Dream of Autumn\" (waltz) written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 20068,
+    "subject": "doce trabajos de Hércules\" (historieta)",
+    "subject_id": "Q5980811",
+    "update": "What type of publication is \"Los doce trabajos de Hércules\" (historieta)?",
+    "ans": "comic book series"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 25278,
+    "subject": "the performers associated with \"The 'Gone with the Wind' of Punk Rock",
+    "subject_id": "Q7711670",
+    "update": "Who are the performers associated with \"The 'Gone with the Wind' of Punk Rock Samplers\"?",
+    "ans": "various artists"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 25280,
+    "subject": "with \"The Gone with the Wind of Punk Rock",
+    "subject_id": "Q7711670",
+    "update": "Which record label is associated with \"The Gone with the Wind of Punk Rock Samplers\"?",
+    "ans": "Kung Fu Records"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 25964,
+    "subject": "to John Coltrane - A Love Supreme\"",
+    "subject_id": "Q7840544",
+    "update": "What type of creative work is \"Tribute to John Coltrane - A Love Supreme\"?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 29984,
+    "subject": "no Uta ga Kikoeru yo\" by Momoko",
+    "subject_id": "Q11280170",
+    "update": "Which company produced the film \"Kaeru no Uta ga Kikoeru yo\" by Momoko?",
+    "ans": "Magic Bus"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 43399,
+    "subject": "and Green\" by Dancers",
+    "subject_id": "Q19905405",
+    "update": "In which catalog is the item \"Pink and Green\" by Dancers listed?",
+    "ans": "Degas et son œuvre"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 10093,
+    "subject": "BWV 121 \"Christum wir sollen loben",
+    "subject_id": "Q916168",
+    "update": "Who wrote the lyrics for BWV 121, \"Christum wir sollen loben schon\"?",
+    "ans": "Martin Luther"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 15404,
+    "subject": "the Great Pumpkin\" by Sam Winchester",
+    "subject_id": "Q1098424",
+    "update": "In what language is \"It's the Great Pumpkin\" by Sam Winchester?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 30307,
+    "subject": "in Truth\" related to in relation to Akhenaten",
+    "subject_id": "Q2829012",
+    "update": "What type of creative work is \"Dweller in Truth\" related to in relation to Akhenaten?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 38267,
+    "subject": "Always Sunny in Philadelphia\" from in season 8",
+    "subject_id": "Q3727888",
+    "update": "What country is \"It's Always Sunny in Philadelphia\" from in season 8?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 52491,
+    "subject": "sauce que murió de amor\" by Hebaristo",
+    "subject_id": "Q5893263",
+    "update": "What type of creative work is \"El sauce que murió de amor\" by Hebaristo?",
+    "ans": "short story"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 58882,
+    "subject": "of article is \"List of ambassadors to",
+    "subject_id": "Q6605713",
+    "update": "What type of article is \"List of ambassadors to Latvia\" considered as?",
+    "ans": "Wikimedia list article"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 60451,
+    "subject": "Carl associated with regarding \"My Childhood",
+    "subject_id": "Q6862535",
+    "update": "What significant event was Carl associated with regarding \"My Childhood Symphony\"?",
+    "ans": "71st Academy Awards"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 77098,
+    "subject": "Diana \"Di” Blythe",
+    "subject_id": "Q9206988",
+    "update": "What language is Diana \"Di” Blythe known to speak, write, or sign?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 79617,
+    "subject": "Arne Domnérus have in the context of the statement \"With Jimmy",
+    "subject_id": "Q10418256",
+    "update": "What role does Arne Domnérus have in the context of the statement \"With Jimmy Rowles\"?",
+    "ans": "featuring"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 86085,
+    "subject": "loup solitaire\" featuring Tokijirō",
+    "subject_id": "Q11552444",
+    "update": "Who directed the film \"le loup solitaire\" featuring Tokijirō?",
+    "ans": "Tai Katō"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 86086,
+    "subject": "loup solitaire\" by Tokijirō",
+    "subject_id": "Q11552444",
+    "update": "From which country originates the creative work \"le loup solitaire\" by Tokijirō?",
+    "ans": "Japan"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 87882,
+    "subject": "Na Ziarnku Grochu\" by Lata Ptaszek",
+    "subject_id": "Q11750577",
+    "update": "In what language is the work \"Księżniczka Na Ziarnku Grochu\" by Lata Ptaszek written?",
+    "ans": "Polish"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 87884,
+    "subject": "Lata Ptaszek release her music album \"Księżniczka Na Ziarnku",
+    "subject_id": "Q11750577",
+    "update": "Under which record label does Lata Ptaszek release her music album \"Księżniczka Na Ziarnku Grochu\"?",
+    "ans": "Polskie Nagrania Muza"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 95705,
+    "subject": "of creative work is \"Generation of Love - The",
+    "subject_id": "Q12860882",
+    "update": "What type of creative work is \"Generation of Love - The Album\"?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 99156,
+    "subject": "the show \"Who's the",
+    "subject_id": "Q14761264",
+    "update": "What notable event is associated with the show \"Who's the Boss\"?",
+    "ans": "86th Academy Awards"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 104723,
+    "subject": "neću da te zaboravim\" by Ciganka featuring Marta and Andjela",
+    "subject_id": "Q16088360",
+    "update": "Who is the performer associated with the musical work \"Nikad neću da te zaboravim\" by Ciganka featuring Marta and Andjela?",
+    "ans": "Toma Zdravković"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 104724,
+    "subject": "neću da te zaboravim\" by Ciganka / Marta / Andjela",
+    "subject_id": "Q16088360",
+    "update": "In which language is the work \"Nikad neću da te zaboravim\" by Ciganka / Marta / Andjela?",
+    "ans": "Serbian"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108130,
+    "subject": "Rock / Love Me / Two Hound Dogs\" by Diana",
+    "subject_id": "Q16539767",
+    "update": "What type of release is \"Jailhouse Rock / Love Me / Two Hound Dogs\" by Diana?",
+    "ans": "extended play"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108132,
+    "subject": "Hound Dogs\" by Diana",
+    "subject_id": "Q16539767",
+    "update": "In what format was the distribution of the songs \"Jailhouse Rock,\" \"Love Me,\" and \"Two Hound Dogs\" by Diana?",
+    "ans": "7\" EP"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108133,
+    "subject": "Rock / Love Me / Two Hound Dogs\" by Diana",
+    "subject_id": "Q16539767",
+    "update": "Where was the first edition of \"Jailhouse Rock / Love Me / Two Hound Dogs\" by Diana published?",
+    "ans": "Poland"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108134,
+    "subject": "Diana featuring the songs \"Love Me\" and \"Two Hound",
+    "subject_id": "Q16539767",
+    "update": "Under what record label was the album \"Jailhouse Rock\" by Diana, featuring the songs \"Love Me\" and \"Two Hound Dogs,\" released?",
+    "ans": "Pronit"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108174,
+    "subject": "as a Woman\" by Covers",
+    "subject_id": "Q16545475",
+    "update": "Who is the performer of \"Scream as a Woman\" by Covers?",
+    "ans": "Liv Moon"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108175,
+    "subject": "as a Woman\" by Covers",
+    "subject_id": "Q16545475",
+    "update": "Where was the first edition of \"Scream as a Woman\" by Covers published?",
+    "ans": "Japan"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108176,
+    "subject": "as a Woman\" by Covers",
+    "subject_id": "Q16545475",
+    "update": "In what format was the distribution of \"Scream as a Woman\" by Covers?",
+    "ans": "CD+DVD"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108696,
+    "subject": "glaive et la soie\" by Jules César",
+    "subject_id": "Q16647486",
+    "update": "What type of creative work is \"le glaive et la soie\" by Jules César?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 108697,
+    "subject": "Jules César is a part by being included in \"le glaive et la",
+    "subject_id": "Q16647486",
+    "update": "What is the book in which Jules César is a part by being included in \"le glaive et la soie\"?",
+    "ans": "Caesar's Women"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 109929,
+    "subject": "We Were Young\" by Pat Lynch",
+    "subject_id": "Q16908960",
+    "update": "What genre is the song \"When We Were Young\" by Pat Lynch?",
+    "ans": "pop music"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 110384,
+    "subject": "of the songs on \"Resisto Dancing - Songs of Compassionate",
+    "subject_id": "Q16968518",
+    "update": "What record label is associated with the marketing of the songs on \"Resisto Dancing - Songs of Compassionate Revolution\"?",
+    "ans": "Troubadour"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 114520,
+    "subject": "Pasionaria Statue of Dolores Ibarruri\" belong to on Clyde Street in Glasgow",
+    "subject_id": "Q17813517",
+    "update": "What genre does the creative work \"La Pasionaria, Statue of Dolores Ibarruri\" belong to on Clyde Street in Glasgow?",
+    "ans": "public art"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 116910,
+    "subject": "of creative work is \"Sound of Guitar - Kari Hillo soittaa",
+    "subject_id": "Q18678615",
+    "update": "What type of creative work is \"Sound of Guitar - Kari Hillo soittaa Kuoppamäkeä\"?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 116911,
+    "subject": "Hillo soittaa Kuoppamäkeä\" by Sound of Guitar",
+    "subject_id": "Q18678615",
+    "update": "What language is associated with the creative work \"Kari Hillo soittaa Kuoppamäkeä\" by Sound of Guitar?",
+    "ans": "no linguistic content"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 116967,
+    "subject": "with the artwork \"A Poultry Market with the Prodigal Son in the Background\" from \"The Four Elements:",
+    "subject_id": "Q18686580",
+    "update": "What religion is associated with the artwork \"A Poultry Market with the Prodigal Son in the Background\" from \"The Four Elements: Air\"?",
+    "ans": "Christianity"
+   },
+   {
+    "file": "wiki_big_edit_20240401_20240501.json",
+    "index": 119829,
+    "subject": "Always Sunny in Philadelphia\" originate from in season 10",
+    "subject_id": "Q19816618",
+    "update": "What country does the creative work \"It's Always Sunny in Philadelphia\" originate from in season 10?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 5531,
+    "subject": "Prince Leopold's work published titled \"Prince of",
+    "subject_id": "Q553168",
+    "update": "In which platform was Prince Leopold's work published, titled \"Prince of Hohenzollern\"?",
+    "ans": "Historika Wiki"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 10747,
+    "subject": "the film or TV show \"One Piece: Entering into the Grand",
+    "subject_id": "Q334881",
+    "update": "In what language was the film or TV show \"One Piece: Entering into the Grand Line\" originally created?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 13274,
+    "subject": "the soundtrack \"Hawks - Music from the Original",
+    "subject_id": "Q5685219",
+    "update": "What genre does the soundtrack \"Hawks - Music from the Original Soundtrack\" fall under?",
+    "ans": "stage and screen"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 13275,
+    "subject": "the soundtrack \"Hawks - Music from the Original",
+    "subject_id": "Q5685219",
+    "update": "In which language is the soundtrack \"Hawks - Music from the Original Soundtrack\" composed?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 14533,
+    "subject": "the performer associated with the musical work \"Return of the Son",
+    "subject_id": "Q1248603",
+    "update": "Who is the performer associated with the musical work \"Return of the Son of...\"?",
+    "ans": "Dweezil Zappa"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 14535,
+    "subject": "the creative work titled \"Return of the Son",
+    "subject_id": "Q1248603",
+    "update": "What language is associated with the creative work titled \"Return of the Son of...\"?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 14536,
+    "subject": "the 1st edition of \"Return of the Son",
+    "subject_id": "Q1248603",
+    "update": "Where was the 1st edition of \"Return of the Son of...\" published?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240501_20240601.json",
+    "index": 14537,
+    "subject": "of creative work is \"Return of the Son",
+    "subject_id": "Q1248603",
+    "update": "What type of creative work is \"Return of the Son of...\"?",
+    "ans": "live album"
+   }
+  ],
+  "absent-from-own-question": [
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 3520,
+    "subject": "Baroness Fritchie also known as Rennie Fritchie",
+    "subject_id": "Q2144088",
+    "update": "What is the family name of Baroness Fritchie, also known as Rennie Fritchie?",
+    "ans": "Tordoff"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 8448,
+    "subject": "October 22 2000 in Las Vegas Nevada",
+    "subject_id": "Q4545921",
+    "update": "Where was the musical composition/release recorded on October 22, 2000 in Las Vegas, Nevada?",
+    "ans": "MGM Grand Garden Arena"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 8500,
+    "subject": "Wembley Arena 30 5 00 in London England",
+    "subject_id": "Q4639692",
+    "update": "In what format was Wembley Arena 30 5 00 in London, England distributed?",
+    "ans": "2 × CD"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 9541,
+    "subject": "California Village in Pasadena California",
+    "subject_id": "Q5021167",
+    "update": "What specific classification does California Village in Pasadena, California fall under?",
+    "ans": "neighborhood"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 9639,
+    "subject": "Catalina Villas in Pasadena California",
+    "subject_id": "Q5051286",
+    "update": "What classification does Catalina Villas in Pasadena, California fall under?",
+    "ans": "neighborhood"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 10573,
+    "subject": "Frederick Laue Jr.'s House",
+    "subject_id": "Q5498247",
+    "update": "What material is Frederick Laue, Jr.'s House made from?",
+    "ans": "clapboard"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11364,
+    "subject": "Embassy of Uzbekistan in Washington D.C. have in the context of",
+    "subject_id": "Q5369913",
+    "update": "What identity does the Embassy of Uzbekistan in Washington, D.C. have in the context of a statement?",
+    "ans": "NRHP building"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11414,
+    "subject": "Frederick Laue Jr. House",
+    "subject_id": "Q5498247",
+    "update": "In which administrative territorial entity is Frederick Laue, Jr. House located?",
+    "ans": "Alma"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11658,
+    "subject": "1995 Manitoba provincial election what class were independent candidates",
+    "subject_id": "Q6017441",
+    "update": "In the 1995 Manitoba provincial election, what class were independent candidates considered as?",
+    "ans": "electoral list"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 15541,
+    "subject": "University belong to where Hayes and Orton Halls",
+    "subject_id": "Q7894475",
+    "update": "What class does University belong to, where Hayes and Orton Halls are a specific example?",
+    "ans": "building complex"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 16426,
+    "subject": "Battles of Parczew Jabłoń and Milanów",
+    "subject_id": "Q9173416",
+    "update": "In which country did the Battles of Parczew, Jabłoń, and Milanów take place?",
+    "ans": "Poland"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 18846,
+    "subject": "Queen of Wa known for being Friendly to Wei",
+    "subject_id": "Q11630468",
+    "update": "From which country does the Queen of Wa, known for being Friendly to Wei, originate?",
+    "ans": "Cao Wei"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 23292,
+    "subject": "al-ʻAbbās ibn Bakkār Ḍabbī",
+    "subject_id": "Q16126384",
+    "update": "Which language is spoken, written, or signed by al-ʻAbbās ibn Bakkār, Ḍabbī?",
+    "ans": "Arabic"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 23294,
+    "subject": "al-ʻAbbās ibn Bakkār as indicated by Ḍabbī",
+    "subject_id": "Q16126384",
+    "update": "What is the copyright status for works created by al-ʻAbbās ibn Bakkār, as indicated by Ḍabbī?",
+    "ans": "copyrights on works have expired"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 25258,
+    "subject": "Tolbooth Wynd Bridge in Leith Edinburgh",
+    "subject_id": null,
+    "update": "What type of item does the Tolbooth Wynd Bridge in Leith, Edinburgh carry?",
+    "ans": "unclassified road"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 25478,
+    "subject": "the results of the Victorian state election 1952",
+    "subject_id": "Q48815748",
+    "update": "What category does the results of the Victorian state election, 1952 fall into?",
+    "ans": "electoral result"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 25619,
+    "subject": "This Key\" in which Pikachu",
+    "subject_id": "Q18338966",
+    "update": "Who was the director of \"What's This Key?\" in which Pikachu appeared?",
+    "ans": "Kunihiko Yuyama"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 26468,
+    "subject": "May 14 2015",
+    "subject_id": "Q19764788",
+    "update": "What language is associated with the work or name dated May 14, 2015?",
+    "ans": "Chinese"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 26475,
+    "subject": "crafts from indigenous peoples showcased in Taipei Taiwan",
+    "subject_id": "Q19773354",
+    "update": "What language is associated with the excellent crafts from indigenous peoples showcased in Taipei, Taiwan?",
+    "ans": "Chinese"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 1503,
+    "subject": "of Archduchess Blanca the Archduchess Leopold Salvator of Austria",
+    "subject_id": "Q260532",
+    "update": "What is the family name of Archduchess Blanca, the Archduchess Leopold Salvator of Austria?",
+    "ans": "Bourbon"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 4035,
+    "subject": "of Ion son of Xuthus",
+    "subject_id": "Q853462",
+    "update": "Where is the tomb of Ion, son of Xuthus located?",
+    "ans": "Potami"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 9354,
+    "subject": "of Queen Volume",
+    "subject_id": "Q1764609",
+    "update": "In what language is \"The A-Z of Queen, Volume 1\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 9680,
+    "subject": "Mount Hicks also known as Saint Davids Dome",
+    "subject_id": null,
+    "update": "In which protected area is Mount Hicks, also known as Saint Davids Dome, located?",
+    "ans": "Westland Tai Poutini National Park"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 10472,
+    "subject": "Marie Thérèse also known as Madame Royale",
+    "subject_id": "Q1998006",
+    "update": "What language did Marie Thérèse, also known as Madame Royale, speak, write, or sign?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 11216,
+    "subject": "9th Earl of Argyll Archibald Campbell",
+    "subject_id": "Q2557180",
+    "update": "In which sovereign state was the 9th Earl of Argyll, Archibald Campbell, located?",
+    "ans": "Kingdom of Scotland"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 11826,
+    "subject": "Chastye located in or next to in Chastinsky District Perm Krai",
+    "subject_id": "Q2949619",
+    "update": "What body of water is Chastye located in or next to in Chastinsky District, Perm Krai?",
+    "ans": "Kama"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 14520,
+    "subject": "baron Subervie Jacques Gervais",
+    "subject_id": "Q3157954",
+    "update": "What is the occupation of baron Subervie, Jacques Gervais?",
+    "ans": "military personnel"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 14871,
+    "subject": "of solar eclipse is the event on October 2 2024",
+    "subject_id": "Q3577555",
+    "update": "What specific type of solar eclipse is the event on October 2, 2024, classified as?",
+    "ans": "annular solar eclipse"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 15330,
+    "subject": "South Park: Bigger Longer & Uncut",
+    "subject_id": null,
+    "update": "In what language is the soundtrack of South Park: Bigger, Longer & Uncut composed?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21565,
+    "subject": "of building is St Francis of Assisi Parish in Paddington NSW Australia",
+    "subject_id": "Q7593099",
+    "update": "What specific type of building is St Francis of Assisi Parish in Paddington, NSW, Australia?",
+    "ans": "church building"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21566,
+    "subject": "St Francis of Assisi Parish in Paddington NSW Australia",
+    "subject_id": "Q7593099",
+    "update": "In which administrative entity is St Francis of Assisi Parish in Paddington, NSW, Australia located?",
+    "ans": "New South Wales"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21567,
+    "subject": "of St Francis of Assisi Parish in Paddington NSW Australia",
+    "subject_id": "Q7593099",
+    "update": "What is the religion of St Francis of Assisi Parish in Paddington, NSW, Australia?",
+    "ans": "Catholicism"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 24589,
+    "subject": "dam under direct control of the Ministry of Land Infrastructure Transport and Tourism",
+    "subject_id": null,
+    "update": "In which country is the dam under direct control of the Ministry of Land, Infrastructure, Transport and Tourism located?",
+    "ans": "Japan"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 24839,
+    "subject": "Bureau of Economy Trade and Industry",
+    "subject_id": "Q11606460",
+    "update": "In which country is the Bureau of Economy, Trade, and Industry located?",
+    "ans": "Japan"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 34,
+    "subject": "Tierra del Fuego Province Argentina belong to in the list of monuments",
+    "subject_id": "Q3333",
+    "update": "Which continent does Tierra del Fuego Province, Argentina belong to in the list of monuments?",
+    "ans": "Antarctica"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 6345,
+    "subject": "Eugen Alexander Franz hold being the 1st Prince of Thurn and Taxis",
+    "subject_id": "Q475967",
+    "update": "What noble title did Eugen Alexander Franz hold, being the 1st Prince of Thurn and Taxis?",
+    "ans": "Fürst"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 13340,
+    "subject": "Copenhagen where is the Embassy of France",
+    "subject_id": "Q2841644",
+    "update": "In Copenhagen, where is the Embassy of France located?",
+    "ans": "Thott Mansion"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 14118,
+    "subject": "Evangelische Stadtkirche in Schlitz Vogelsbergkreis",
+    "subject_id": "Q2327415",
+    "update": "What heritage designation does the Evangelische Stadtkirche in Schlitz, Vogelsbergkreis hold?",
+    "ans": "cultural heritage monument in Hesse"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 20523,
+    "subject": "7/9/03 in New York New York",
+    "subject_id": "Q4642933",
+    "update": "Where was the 1st edition of the publication on 7/9/03 in New York, New York printed?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 20566,
+    "subject": "of creative work is \"A Part of America Therein\" released in 1981",
+    "subject_id": "Q4658706",
+    "update": "What form of creative work is \"A Part of America Therein,\" released in 1981?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 27914,
+    "subject": "Leo Kottke John Fahey and Peter Lang",
+    "subject_id": "Q6523942",
+    "update": "What type of creative work is the collaboration of Leo Kottke, John Fahey, and Peter Lang in?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 28740,
+    "subject": "PKK attack on May 24 1993",
+    "subject_id": "Q6796381",
+    "update": "Who was responsible for the PKK attack on May 24, 1993?",
+    "ans": "Kurdistan Workers' Party"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 28741,
+    "subject": "May 24 1993 PKK attack",
+    "subject_id": "Q6796381",
+    "update": "What type of weapon was used in the May 24, 1993 PKK attack?",
+    "ans": "SVD Dragunov"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 29887,
+    "subject": "Thin Air in the series where Nowhere Sideshow and Thin Air",
+    "subject_id": "Q7066658",
+    "update": "What comes immediately after Thin Air in the series where Nowhere, Sideshow, and Thin Air are part of?",
+    "ans": "Eye to Ear III"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 34943,
+    "subject": "the Causses and the Cévennes Mediterranean agro-pastoral Cultural",
+    "subject_id": "Q10444176",
+    "update": "In what language is the Causses and the Cévennes, Mediterranean agro-pastoral Cultural Landscape's name or work written?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 38757,
+    "subject": "Prince Anlu Xiao Zijing",
+    "subject_id": "Q11622039",
+    "update": "What is the given name of Prince Anlu, Xiao Zijing?",
+    "ans": "Zǐjìng"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 41286,
+    "subject": "Arrah where the Aranya Devi Temple",
+    "subject_id": "Q12415167",
+    "update": "Which continent is Arrah, where the Aranya Devi Temple is located, situated in?",
+    "ans": "Asia"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50469,
+    "subject": "of the County of Greenland in Denmark serving as the seat of",
+    "subject_id": "Q17511516",
+    "update": "What is the capital of the County of Greenland in Denmark, serving as the seat of government?",
+    "ans": "Nuuk"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50505,
+    "subject": "Ramparts Counterscarp Revetment Glacis and the Musketry Wall Of Southern Fort",
+    "subject_id": "Q17550083",
+    "update": "In which historic county can one find Ramparts, Counterscarp Revetment, Glacis, and the Musketry Wall Of Southern Fort?",
+    "ans": "Devon"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50531,
+    "subject": "Bridge at Queen Street Station Glasgow",
+    "subject_id": "Q17567616",
+    "update": "What obstacle does the Bridge at Queen Street Station, Glasgow, cross over?",
+    "ans": "Glasgow Queen Street railway station"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50548,
+    "subject": "Glen Eden Shore Road Cove and Kilcreggan Bridge",
+    "subject_id": "Q17571802",
+    "update": "In which historic county is Glen Eden, Shore Road, Cove, and Kilcreggan Bridge located?",
+    "ans": "Dunbartonshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50549,
+    "subject": "Bridge at Glen Eden Shore Road Cove and Kilcreggan",
+    "subject_id": "Q17571802",
+    "update": "What does the Bridge at Glen Eden, Shore Road, Cove and Kilcreggan carry?",
+    "ans": "driveway"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50665,
+    "subject": "The Old Redoubt and later Victorian Rifle Range Target located 540m south west of Berry Head Fort",
+    "subject_id": "Q17664040",
+    "update": "In which historic county is The Old Redoubt and later Victorian Rifle Range Target located, 540m south west of Berry Head Fort?",
+    "ans": "Devon"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50670,
+    "subject": "the current state of conservation for the manorial earthworks and fishponds in Rise Park including the site of Black Hall and Mote Hill",
+    "subject_id": "Q17675694",
+    "update": "What is the current state of conservation for the manorial earthworks and fishponds in Rise Park, including the site of Black Hall and Mote Hill?",
+    "ans": "demolished or destroyed"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50749,
+    "subject": "Probate Registry Of Wales Llandaff located within The High Court Of Justice",
+    "subject_id": "Q17741330",
+    "update": "In which historic county is the Probate Registry Of Wales, Llandaff located within The High Court Of Justice?",
+    "ans": "Glamorgan"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50869,
+    "subject": "Brunstane Road South located near the Brunstane Burn bridge in Edinburgh",
+    "subject_id": "Q17791466",
+    "update": "In which historic county is Brunstane Road South located, near the Brunstane Burn bridge in Edinburgh?",
+    "ans": "Midlothian"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50873,
+    "subject": "St Bernard's Bridge in India Place Edinburgh",
+    "subject_id": "Q17791497",
+    "update": "What body of water does St Bernard's Bridge in India Place, Edinburgh, cross over?",
+    "ans": "Water of Leith"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50874,
+    "subject": "St Bernard's Bridge in Edinburgh India Place",
+    "subject_id": "Q17791497",
+    "update": "What type of item is carried by St Bernard's Bridge in Edinburgh, India Place?",
+    "ans": "unclassified road"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50896,
+    "subject": "South of Pitscottie Ceres Burn",
+    "subject_id": "Q17796773",
+    "update": "What does the bridge South of Pitscottie, Ceres Burn carry?",
+    "ans": "farm road"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50897,
+    "subject": "Sunlight Cottages located within Kelvingrove Park at 2 Dumbarton Road Glasgow",
+    "subject_id": "Q17800018",
+    "update": "In which historic county is Sunlight Cottages located within Kelvingrove Park at 2 Dumbarton Road, Glasgow?",
+    "ans": "Lanarkshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50941,
+    "subject": "University Union located at 14-42 University Avenue Glasgow",
+    "subject_id": "Q17812332",
+    "update": "Who is the owner of University Union located at 14-42 University Avenue, Glasgow?",
+    "ans": "Glasgow University Union"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50943,
+    "subject": "Road Bridge over Fithie Burn in Baldovie Dundee",
+    "subject_id": "Q17812455",
+    "update": "What type of item is carried by the Road Bridge over Fithie Burn in Baldovie, Dundee?",
+    "ans": "unclassified road"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50944,
+    "subject": "Dundee Balmossie Bridge",
+    "subject_id": "Q17812463",
+    "update": "Which historic county is Dundee, Balmossie Bridge located in?",
+    "ans": "Angus"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50958,
+    "subject": "Manse Battlefield East Church located at 1220 Cathcart Road in Glasgow",
+    "subject_id": "Q17813735",
+    "update": "In which historic county is Manse, Battlefield East Church located at 1220 Cathcart Road in Glasgow?",
+    "ans": "Renfrewshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50959,
+    "subject": "Railway Footbridge located on Beach Lane West Ferry Dundee",
+    "subject_id": "Q17813799",
+    "update": "In which historic county is the Railway Footbridge located on Beach Lane, West Ferry, Dundee?",
+    "ans": "Angus"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50960,
+    "subject": "Railway Footbridge on Beach Lane West Ferry Dundee",
+    "subject_id": "Q17813799",
+    "update": "What is carried by the Railway Footbridge on Beach Lane, West Ferry, Dundee?",
+    "ans": "footpath"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50964,
+    "subject": "Railway Bridge in Pollokshaws West Station Pollokshaws Road Glasgow",
+    "subject_id": "Q17815488",
+    "update": "What line does the Railway Bridge in Pollokshaws West Station, Pollokshaws Road, Glasgow, carry?",
+    "ans": "Glasgow South Western Line"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50966,
+    "subject": "Footbridge at Callendar House in Callendar Park Falkirk",
+    "subject_id": "Q17816586",
+    "update": "What is carried by the Footbridge at Callendar House in Callendar Park, Falkirk?",
+    "ans": "footpath"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 50975,
+    "subject": "Purvies Hill Burn Sunken Garden Arniston House",
+    "subject_id": "Q17826720",
+    "update": "What does the footbridge at Purvies Hill Burn, Sunken Garden, Arniston House carry?",
+    "ans": "footpath"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 51014,
+    "subject": "Burial Ground of The Macnabs located in Innes Bhuidhe Killin",
+    "subject_id": "Q17839167",
+    "update": "In which historic county is the Burial Ground of The Macnabs located in Innes Bhuidhe, Killin?",
+    "ans": "Perthshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 51060,
+    "subject": "St James' Bridge in Gauze Street Paisley",
+    "subject_id": "Q17844222",
+    "update": "What does St James' Bridge in Gauze Street, Paisley, cross over?",
+    "ans": "White Cart Water"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 51072,
+    "subject": "Kerfield House Innerleithen Road Peebles",
+    "subject_id": "Q17845574",
+    "update": "What does the bridge at Kerfield House, Innerleithen Road, Peebles carry?",
+    "ans": "driveway"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 51087,
+    "subject": "Houndwood House located as associated with the Garden Bridge",
+    "subject_id": "Q17847704",
+    "update": "In which historic county is Houndwood House located, as associated with the Garden Bridge?",
+    "ans": "Berwickshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 51106,
+    "subject": "Cumledge located where the Suspension Bridge over Cumledge Burn",
+    "subject_id": "Q17850041",
+    "update": "In which historic county is Cumledge located, where the Suspension Bridge over Cumledge Burn stands?",
+    "ans": "Berwickshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 51109,
+    "subject": "Mill Road Earlston located within the Old Bridge Leader Water",
+    "subject_id": "Q17851985",
+    "update": "In which historic county is Mill Road, Earlston located within the Old Bridge Leader Water area?",
+    "ans": "Berwickshire"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52299,
+    "subject": "Marie-Antoinette seated in a blue coat and white dress holding a book in her hand",
+    "subject_id": "Q18719530",
+    "update": "In what language is the creative work featuring Marie-Antoinette seated in a blue coat and white dress, holding a book in her hand?",
+    "ans": "French"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52920,
+    "subject": "is Denial the only fact",
+    "subject_id": "Q19079651",
+    "update": "What form of creative work is Denial, the only fact, categorized as?",
+    "ans": "poem"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52956,
+    "subject": "and over like a",
+    "subject_id": "Q19090841",
+    "update": "What form of creative work is \"Over and over, like a Tune\"?",
+    "ans": "poem"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52999,
+    "subject": "This Chasm Sweet",
+    "subject_id": "Q19103757",
+    "update": "What type of creative work is \"Upon My Life\" by This Chasm, Sweet?",
+    "ans": "poem"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 53288,
+    "subject": "the Decree of the Presidium of the USSR Supreme Soviet on the formation of the Kostroma Oblast as part of the RSFSR on August 13 1944",
+    "subject_id": "Q19230470",
+    "update": "Who signed the Decree of the Presidium of the USSR Supreme Soviet on the formation of the Kostroma Oblast as part of the RSFSR on August 13, 1944?",
+    "ans": "Mikhail Ivanovich Kalinin"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 54439,
+    "subject": "of school № 5 in Donetsk Ukraine",
+    "subject_id": "Q19688965",
+    "update": "What category does the mosaics of school № 5 in Donetsk, Ukraine belong to?",
+    "ans": "cultural property"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 613,
+    "subject": "Devan Udayawongse known as Prince Devawongse Varoprakar",
+    "subject_id": "Q123032",
+    "update": "What award did Devan Udayawongse, known as Prince Devawongse Varoprakar, receive?",
+    "ans": "Order of Saint Alexander Nevsky"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 16694,
+    "subject": "petroleum oils and lubricants",
+    "subject_id": "Q4146210",
+    "update": "What broader category does petroleum, oils, and lubricants belong to?",
+    "ans": "organic matter"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 16822,
+    "subject": "of the Ministry of Family Labour and Social Policy",
+    "subject_id": "Q4294766",
+    "update": "Who is the presiding member of the Ministry of Family, Labour, and Social Policy?",
+    "ans": "Agnieszka Dziemianowicz-Bąk"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 25088,
+    "subject": "4 da Streets - Drugs Sex and Violence Vol.",
+    "subject_id": "Q7623632",
+    "update": "In what language is the creative work \"Strictly 4 da Streets - Drugs Sex and Violence, Vol. 1\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 30734,
+    "subject": "Prince Xiyang Xiao Ziming",
+    "subject_id": "Q11622043",
+    "update": "What is the given name of Prince Xiyang, Xiao Ziming?",
+    "ans": "Zǐmíng"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 31058,
+    "subject": "of ecclesiastical province is the ecclesiastical province of Naxos Andros Tinos and Mykonos",
+    "subject_id": "Q11777982",
+    "update": "What specific type of ecclesiastical province is the ecclesiastical province of Naxos, Andros, Tinos, and Mykonos?",
+    "ans": "Roman Catholic ecclesiastical province"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 31781,
+    "subject": "synagogue in Wiśniowa Lesser",
+    "subject_id": "Q11836548",
+    "update": "What designation has been given to the former synagogue in Wiśniowa, Lesser Poland?",
+    "ans": "immovable monument"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 34417,
+    "subject": "church in Desești Maramureș",
+    "subject_id": "Q12722216",
+    "update": "In which country is the wooden church in Desești, Maramureș located?",
+    "ans": "Pula"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39652,
+    "subject": "\"Bouzina fin d'été\" ou \"Paysage marocain\"",
+    "subject_id": "Q17490931",
+    "update": "In which country is the painting \"Bouzina, fin d'été\" ou \"Paysage marocain\" located?",
+    "ans": "France"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39747,
+    "subject": "Daily Record Building located at 20 26 28 Renfield Lane Glasgow",
+    "subject_id": "Q17568438",
+    "update": "Who was the architect of Daily Record Building located at 20, 26, 28 Renfield Lane, Glasgow?",
+    "ans": "Charles Rennie Mackintosh"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39818,
+    "subject": "Unione dei comuni Valli del Reno Lavino e",
+    "subject_id": "Q17639038",
+    "update": "What category does Unione dei comuni Valli del Reno, Lavino e Samoggia belong to?",
+    "ans": "municipality union"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39941,
+    "subject": "Gifford Water Bridge in Edinburgh Road Gifford",
+    "subject_id": "Q17794233",
+    "update": "What item is carried by the Gifford Water Bridge in Edinburgh Road, Gifford?",
+    "ans": "B6355 road"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39954,
+    "subject": "Burnside Bridge in Black Devon Saline",
+    "subject_id": "Q17795543",
+    "update": "What type of item does the Burnside Bridge in Black Devon, Saline carry?",
+    "ans": "unclassified road"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39962,
+    "subject": "Run of Six Iron Footbridges Over Burn in Cambo House Cambo Estate",
+    "subject_id": "Q17805649",
+    "update": "What does the Run of Six Iron Footbridges Over Burn in Cambo House, Cambo Estate, cross over?",
+    "ans": "Cambo Burn"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39971,
+    "subject": "Colstoun House located near the Colstoun Water bridge and East Lodge",
+    "subject_id": "Q17808229",
+    "update": "In which historic county is Colstoun House located, near the Colstoun Water bridge and East Lodge?",
+    "ans": "East Lothian"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 39988,
+    "subject": "Railway Viaduct in Bothwell Gardens Dunfermline",
+    "subject_id": "Q17816622",
+    "update": "What obstacle does the Railway Viaduct in Bothwell Gardens, Dunfermline, cross over?",
+    "ans": "A823 road"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 40001,
+    "subject": "Bridge at Cranstoun Dean Oxenfoord Castle",
+    "subject_id": "Q17827047",
+    "update": "What obstacle does the Bridge at Cranstoun Dean, Oxenfoord Castle, cross over?",
+    "ans": "stream in Cranston Dean"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 40010,
+    "subject": "Memorial Bridge in Ironmills Dalkeith",
+    "subject_id": "Q17827558",
+    "update": "What obstacle does the Memorial Bridge in Ironmills, Dalkeith, cross over?",
+    "ans": "River North Esk"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 40805,
+    "subject": "of structure is the ringwork and bailey in Place Wood 680m WSW of Wanstead Farm",
+    "subject_id": "Q17665202",
+    "update": "What specific type of structure is the ringwork and bailey in Place Wood, 680m WSW of Wanstead Farm?",
+    "ans": "ringwork castle"
+   }
+  ],
+  "collapsed-to-function-word": [
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 5581,
+    "subject": "In",
+    "subject_id": "Q3089073",
+    "update": "In what language is the creative work or name \"Happy\" written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 6185,
+    "subject": "What",
+    "subject_id": "Q124431312",
+    "update": "What type of creative work are mosquitoes an example of?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 7405,
+    "subject": "What",
+    "subject_id": "Q124431312",
+    "update": "What type of work are mosquitoes considered as a particular example of?",
+    "ans": "literary work"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 7593,
+    "subject": "Where",
+    "subject_id": "Q3588342",
+    "update": "Where was Emile Bertaux specifically born?",
+    "ans": "former 6th arrondissement of Paris"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 8116,
+    "subject": "Who",
+    "subject_id": "Q4179491",
+    "update": "Who was the production designer for the 1966 film \"Women\"?",
+    "ans": "Arseni Klopotovsky"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 10269,
+    "subject": "What",
+    "subject_id": "Q5350369",
+    "update": "What is the closest parent taxon of Ekbletomys within the classification?",
+    "ans": "Sigmodontinae"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 11639,
+    "subject": "What",
+    "subject_id": "Q6011384",
+    "update": "What specific geological landform is the Patagonic Meset an example of?",
+    "ans": "plateau"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 12267,
+    "subject": "In",
+    "subject_id": "Q6537417",
+    "update": "In which statistical territorial entity is Lewiston-Auburn located?",
+    "ans": "Lewiston-Auburn metropolitan area"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 12268,
+    "subject": "In",
+    "subject_id": "Q6537417",
+    "update": "In what language is creative work or names associated with Lewiston-Auburn conducted or written?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 12269,
+    "subject": "In",
+    "subject_id": "Q6537417",
+    "update": "In or next to which body of water is Lewiston-Auburn situated?",
+    "ans": "Androscoggin River"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 17185,
+    "subject": "What",
+    "subject_id": "Q125567999",
+    "update": "What type of creative work is a tornado classified as?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 20481,
+    "subject": "What",
+    "subject_id": "Q20600868",
+    "update": "What classification does Thatcher fall under?",
+    "ans": "profession"
+   },
+   {
+    "file": "wiki_big_edit_20240201_20240220.json",
+    "index": 25506,
+    "subject": "What",
+    "subject_id": "Q18178206",
+    "update": "What genre does Landscape fall into?",
+    "ans": "landscape painting"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 3810,
+    "subject": "In",
+    "subject_id": "Q796584",
+    "update": "In what language is tf-idf primarily used?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 4314,
+    "subject": "In",
+    "subject_id": "Q926138",
+    "update": "In what language is the work or name of Run-D.M.C.?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 15814,
+    "subject": "What",
+    "subject_id": "Q4372020",
+    "update": "What variety is a part of Chuukic-Pohnpeic?",
+    "ans": "Ponapeic"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 16234,
+    "subject": "What",
+    "subject_id": "Q4686689",
+    "update": "What type of creative work are adverbs a form of?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 17692,
+    "subject": "Where",
+    "subject_id": "Q5249788",
+    "update": "Where was the edition of 'Dedicated '88-'91' published geographically?",
+    "ans": "New Zealand"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 18875,
+    "subject": "In",
+    "subject_id": "Q1136221",
+    "update": "In what language was the hypothesis written or named?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21091,
+    "subject": "In",
+    "subject_id": null,
+    "update": "In which industry does Rieger-Kloss specialize?",
+    "ans": "manufacture of musical instruments"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21454,
+    "subject": "What",
+    "subject_id": "Q7547660",
+    "update": "What architectural style is Snell-Hitchcock designed in?",
+    "ans": "Prairie School architecture"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21455,
+    "subject": "Who",
+    "subject_id": "Q7547660",
+    "update": "Who was the architect responsible for designing Snell-Hitchcock?",
+    "ans": "Dwight H. Perkins"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 21652,
+    "subject": "In",
+    "subject_id": "Q606991",
+    "update": "In what format is the distribution of the symbol done?",
+    "ans": "compact disc"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 23115,
+    "subject": "What",
+    "subject_id": "Q9371786",
+    "update": "What is the copyright status of a pellet?",
+    "ans": "copyrighted"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 25955,
+    "subject": "Who",
+    "subject_id": "Q11980204",
+    "update": "Who is said to be the same as Kari-Anne?",
+    "ans": "Karianne"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 27324,
+    "subject": "In",
+    "subject_id": null,
+    "update": "In what language is the creative work \"melje mlinček\" by Anja Štefan written?",
+    "ans": "Slovene"
+   },
+   {
+    "file": "wiki_big_edit_20240220_20240301.json",
+    "index": 29768,
+    "subject": "What",
+    "subject_id": "Q16743225",
+    "update": "What type of funding scheme supports the project that was ravaged?",
+    "ans": "crowd funding"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 1675,
+    "subject": "In",
+    "subject_id": "Q37470110",
+    "update": "In what file format is mail stored that can be easily read by a program?",
+    "ans": "EMLX"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 2531,
+    "subject": "In",
+    "subject_id": "Q367152",
+    "update": "In which language is the exhibit presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 3913,
+    "subject": "What",
+    "subject_id": "Q672107",
+    "update": "What is the nature of the statement regarding the Ouija board?",
+    "ans": "disputed"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4088,
+    "subject": "which",
+    "subject_id": "Q711821",
+    "update": "In what language is the work or name associated with 'which' primarily conducted or presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4636,
+    "subject": "Which",
+    "subject_id": "Q5939639",
+    "update": "Which media franchise do humans belong to?",
+    "ans": "Star Wars"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 4999,
+    "subject": "What",
+    "subject_id": "Q905564",
+    "update": "What type of subclass is an oncosphere classified as?",
+    "ans": "hexacanth"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 5362,
+    "subject": "What",
+    "subject_id": "Q967733",
+    "update": "What albums by Moloko are statues a part of in chronological order?",
+    "ans": "Moloko's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 5675,
+    "subject": "Which",
+    "subject_id": "Q11254084",
+    "update": "Which edition or translation do we have a link to?",
+    "ans": "My"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 7224,
+    "subject": "of",
+    "subject_id": "Q5054605",
+    "update": "What albums contain the cause of death in chronological order?",
+    "ans": "Obituary's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 13238,
+    "subject": "What",
+    "subject_id": "Q126902972",
+    "update": "What position did the actor hold in Greek mythology?",
+    "ans": "king"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 14915,
+    "subject": "Which",
+    "subject_id": "Q5447727",
+    "update": "Which albums in Doro's discography does the fight belong to in chronological order?",
+    "ans": "Doro's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 15067,
+    "subject": "What",
+    "subject_id": "Q3095753",
+    "update": "What is the current state of use for Eugene-Springfield?",
+    "ans": "in use"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 15613,
+    "subject": "Who",
+    "subject_id": "Q126103527",
+    "update": "Who is the main creator of this journal?",
+    "ans": "Fabrice Neaud"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 16677,
+    "subject": "What",
+    "subject_id": "Q3411828",
+    "update": "What specific type of facility are penitentiaries considered examples of?",
+    "ans": "prison"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 16999,
+    "subject": "What",
+    "subject_id": "Q3500059",
+    "update": "What broader category does strapping belong to?",
+    "ans": "corporal punishment"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17387,
+    "subject": "What",
+    "subject_id": "Q3596273",
+    "update": "What type of creative work is Best Live?",
+    "ans": "live album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17388,
+    "subject": "Which",
+    "subject_id": "Q3596328",
+    "update": "Which albums are included in chronological order in Sottotono's albums \"In teoria\"?",
+    "ans": "Sottotono's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17722,
+    "subject": "Who",
+    "subject_id": "Q3703921",
+    "update": "Who is the author of the work 'De clarea'?",
+    "ans": "Sandro Baroni"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17723,
+    "subject": "In",
+    "subject_id": "Q3703921",
+    "update": "In what language is the work 'De clarea' written?",
+    "ans": "Italian"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 17725,
+    "subject": "What",
+    "subject_id": "Q3703921",
+    "update": "What is the copyright status of 'De clarea'?",
+    "ans": "copyrighted"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 19186,
+    "subject": "What",
+    "subject_id": "Q4025939",
+    "update": "What albums in chronological order include the voice drum device as a part?",
+    "ans": "Kansas' albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 19272,
+    "subject": "Which",
+    "subject_id": "Q4053095",
+    "update": "Who is the developer of Which?",
+    "ans": "The Game Creators"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 21262,
+    "subject": "In",
+    "subject_id": "Q4839735",
+    "update": "In which country is the concept of backsliding considered valid?",
+    "ans": "Australia"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 22300,
+    "subject": "Which",
+    "subject_id": "Q4356605",
+    "update": "Which collection does Amorphis' album \"Story\" belong to in terms of the band's albums?",
+    "ans": "Amorphis' albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 22945,
+    "subject": "In",
+    "subject_id": "Q124963732",
+    "update": "In which language do clowns typically perform or have their names in?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 24243,
+    "subject": "What",
+    "subject_id": "Q5454277",
+    "update": "What type of creative work is a firstborn?",
+    "ans": "novel"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 25945,
+    "subject": "In",
+    "subject_id": "Q5979410",
+    "update": "In which country was the first edition of the album \"Los Bunkers\" published?",
+    "ans": "Chile"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 26740,
+    "subject": "In",
+    "subject_id": "Q6111390",
+    "update": "In what country was the first edition of \"Romances Científicos\" published?",
+    "ans": "Colombia"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 28249,
+    "subject": "Which",
+    "subject_id": "Q6663400",
+    "update": "Which albums in chronological order include the loaf as a part?",
+    "ans": "moe.'s albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 30095,
+    "subject": "What",
+    "subject_id": "Q7144957",
+    "update": "What type of creative work is the patient?",
+    "ans": "studio album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 30097,
+    "subject": "In",
+    "subject_id": "Q7144957",
+    "update": "In which country was the first edition of the work by the patient published?",
+    "ans": "Australia"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 31192,
+    "subject": "In",
+    "subject_id": "Q2262296",
+    "update": "In which city was the seance group or organization formed?",
+    "ans": "Linköping"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 32481,
+    "subject": "Which",
+    "subject_id": "Q7784128",
+    "update": "Which albums in chronological order include the concept of thigmotactic?",
+    "ans": "Negativland's albums"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 37585,
+    "subject": "What",
+    "subject_id": "Q11184677",
+    "update": "What is ‘Need Love’ a part of in DEEN’s albums in chronological order?",
+    "ans": "DEEN's albums in chronological order"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 41897,
+    "subject": "Which",
+    "subject_id": "Q12835261",
+    "update": "Which company produced the film \"ADıNA günü\" in 2010?",
+    "ans": "ANS TV"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 41900,
+    "subject": "Who",
+    "subject_id": "Q12835359",
+    "update": "Who composed the music for the 1964 film \"Abidələr danışır\"?",
+    "ans": "Khayyam Mirzazade"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 41902,
+    "subject": "Who",
+    "subject_id": "Q12835376",
+    "update": "Who was the director of photography for the film \"Abşeron lövhələri\" in 2004?",
+    "ans": "Adil Abbas"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 41912,
+    "subject": "In",
+    "subject_id": "Q12836657",
+    "update": "In what language was the film \"Azərbaycan kauçuku\" originally created in 1983?",
+    "ans": "Azerbaijani"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 41913,
+    "subject": "Which",
+    "subject_id": "Q12836657",
+    "update": "Which company produced the film \"Azərbaycan kauçuku\" in 1983?",
+    "ans": "Azerbaijanfilm"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 42116,
+    "subject": "What",
+    "subject_id": "Q12982751",
+    "update": "What is the gender identity of Cēran?",
+    "ans": "male"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 42249,
+    "subject": "Who",
+    "subject_id": "Q12836657",
+    "update": "Who directed the 1983 film \"Azərbaycan kauçuku\"?",
+    "ans": "Rauf Nağıyev"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 49220,
+    "subject": "What",
+    "subject_id": "Q16996021",
+    "update": "What type of creative work is a lead vocalist typically associated with?",
+    "ans": "compilation album"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 49607,
+    "subject": "In",
+    "subject_id": "Q17061610",
+    "update": "In which country was the first edition of the album \"Soul Finger\" published?",
+    "ans": "United States of America"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52839,
+    "subject": "What",
+    "subject_id": "Q19040949",
+    "update": "What type of creative work is \"An Honest Tear\"?",
+    "ans": "poem"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 52960,
+    "subject": "a",
+    "subject_id": "Q19093651",
+    "update": "What type of creative work is \"Rearrange a Wife's affection!\"?",
+    "ans": "poem"
+   },
+   {
+    "file": "wiki_big_edit_20240301_20240320.json",
+    "index": 53139,
+    "subject": "In",
+    "subject_id": "Q19151297",
+    "update": "In which larger work was \"Nie Wiem\" published in?",
+    "ans": "Poezje zebrane (Orkan)/Tom I"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 1039,
+    "subject": "What",
+    "subject_id": "Q223066",
+    "update": "What is the stereoisomer of (+)-α-chlorohydrin?",
+    "ans": "(+/-)-α-chlorohydrin"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 1164,
+    "subject": "What",
+    "subject_id": "Q263274",
+    "update": "What architectural style is the Kremlin known for?",
+    "ans": "Slavic architecture"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 1698,
+    "subject": "What",
+    "subject_id": "Q426819",
+    "update": "What is the stereoisomer of (+)-benzoin?",
+    "ans": "(+/-)-benzoin"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 4365,
+    "subject": "In",
+    "subject_id": "Q423975",
+    "update": "In which taxon can γ-terpinene be found?",
+    "ans": "Homo sapiens"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 5895,
+    "subject": "Which",
+    "subject_id": "Q1141329",
+    "update": "Which isotope is a stereoisomer of Plutonium-239?",
+    "ans": "Plutonium 244"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 6548,
+    "subject": "What",
+    "subject_id": "Q1419713",
+    "update": "What is the stereoisomer of N2-methyl-guanosine?",
+    "ans": "N(2)-methylguanosine"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 7711,
+    "subject": "What",
+    "subject_id": "Q1138561",
+    "update": "What are larvae believed to be the same as, although this identification may be disputed?",
+    "ans": "Lemures"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 8579,
+    "subject": "What",
+    "subject_id": "Q1507734",
+    "update": "What class does José belong to as a particular example and member?",
+    "ans": "video game"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 8877,
+    "subject": "What",
+    "subject_id": "Q125210532",
+    "update": "What type of creative work is Mambo?",
+    "ans": "song"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 10300,
+    "subject": "What",
+    "subject_id": "Q2823620",
+    "update": "What is Radon-219 a stereoisomer of?",
+    "ans": "Radon-228"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 12074,
+    "subject": "In",
+    "subject_id": "Q3170851",
+    "update": "In what language is the creative work or name of Awayland presented?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 13361,
+    "subject": "In",
+    "subject_id": "Q3729441",
+    "update": "In what language is \"One Piece\" titled as \"Enies Lobby\"?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 15387,
+    "subject": "of",
+    "subject_id": "Q4337616",
+    "update": "From which country does the waltz \"Dream of Autumn\" originate?",
+    "ans": "United Kingdom"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 16655,
+    "subject": "What",
+    "subject_id": "Q4118935",
+    "update": "What type of class is Mare a specific example of?",
+    "ans": "populated place in Syria"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 19129,
+    "subject": "Where",
+    "subject_id": "Q5479918",
+    "update": "Where was the self-portrait \"Near Golgotha\" created?",
+    "ans": "Tahiti"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 21443,
+    "subject": "What",
+    "subject_id": "Q6322390",
+    "update": "What category does the J-Machine fall under as a specific example and member?",
+    "ans": "supercomputer"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 22038,
+    "subject": "In",
+    "subject_id": "Q3274361",
+    "update": "In what language does the machine operate or have as its name?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 24983,
+    "subject": "What",
+    "subject_id": "Q7600510",
+    "update": "What type of assessment was Star-Banner subjected to?",
+    "ans": "source reliability assessment"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 27062,
+    "subject": "What",
+    "subject_id": "Q7886778",
+    "update": "What classification does Union Station fall under?",
+    "ans": "type of station"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 27537,
+    "subject": "What",
+    "subject_id": "Q8076329",
+    "update": "What type of settlement is Uruq in Yemen?",
+    "ans": "village"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 28877,
+    "subject": "In",
+    "subject_id": "Q7142605",
+    "update": "In what language do passengers work or communicate in?",
+    "ans": "English"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 28907,
+    "subject": "What",
+    "subject_id": "Q10549186",
+    "update": "What route does Kristiansand-Hirtshals carry in Norway?",
+    "ans": "European route E39"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 31132,
+    "subject": "Are",
+    "subject_id": "Q3477857",
+    "update": "Which record label is Are a member of?",
+    "ans": "KPC Records"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 31790,
+    "subject": "Are",
+    "subject_id": "Q3477857",
+    "update": "What is the occupation of Are?",
+    "ans": "rapper"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 33275,
+    "subject": "In",
+    "subject_id": "Q18351474",
+    "update": "In what format was information distributed in this case?",
+    "ans": "compact disc"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 34882,
+    "subject": "What",
+    "subject_id": "Q13847605",
+    "update": "What is the stereoisomer of (-)-marmesin?",
+    "ans": "(+)-marmesin"
+   },
+   {
+    "file": "wiki_big_edit_20240320_20240401.json",
+    "index": 42105,
+    "subject": "What",
+    "subject_id": "Q19125964",
+    "update": "What specific classification does Bad-Baden belong to as a particular example or member?",
+    "ans": "version, edition or translation"
+   }
+  ]
+ }
+}

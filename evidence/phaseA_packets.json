@@ -1,0 +1,923 @@
+[
+ {
+  "audit_id": "wiki_big_edit_20240501_20240601.json:7058:Q706679:P407:Q37283709",
+  "released_row": {
+   "subject": "Duchy of Bar",
+   "subject_id": "Q706679",
+   "relation": "language of work or name",
+   "relation_id": "P407",
+   "object": "Catalan",
+   "object_id": "Q37283709",
+   "tag": "new",
+   "update_question": "In what language is the Duchy of Bar's creative work or name in?",
+   "ans": "Catalan"
+  },
+  "evidence": {
+   "snapshot_revision": 2166491587,
+   "snapshot_timestamp": "2024-05-28T02:18:59Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": false,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": 0.0
+  },
+  "model_class": "object-absent-unresolved",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240220_20240301.json:1159:Q184774:P427:Q55936638",
+  "released_row": {
+   "subject": "Red junglefowl",
+   "subject_id": "Q184774",
+   "relation": "taxonomic type",
+   "relation_id": "P427",
+   "object": "Gallus",
+   "object_id": "Q55936638",
+   "tag": "new",
+   "update_question": "What is the taxonomic type of Red junglefowl?",
+   "ans": "Gallus"
+  },
+  "evidence": {
+   "snapshot_revision": 2089947298,
+   "snapshot_timestamp": "2024-02-29T10:26:35Z",
+   "rho_WBE_main_answer_set": [
+    "Q222951"
+   ],
+   "rho_truthy_answer_set": [
+    "Q222951"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": false,
+   "actual_object_best_qid": "Q222951",
+   "actual_object_best_label": "Gallus",
+   "object_label_similarity": 1.0
+  },
+  "model_class": "object-qid-misattached",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240401_20240501.json:94493:Q12641094:P407:Q6654",
+  "released_row": {
+   "subject": "Red Tab",
+   "subject_id": "Q12641094",
+   "relation": "language of work or name",
+   "relation_id": "P407",
+   "object": "Croatian",
+   "object_id": "Q6654",
+   "tag": "new",
+   "update_question": "In what language is the creative work or name associated with Red Tab?",
+   "ans": "Croatian"
+  },
+  "evidence": {
+   "snapshot_revision": 2123666475,
+   "snapshot_timestamp": "2024-04-08T19:11:26Z",
+   "rho_WBE_main_answer_set": [
+    "Q6654"
+   ],
+   "rho_truthy_answer_set": [
+    "Q6654"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [
+    "main"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "endpoint-valid",
+  "model_endpoint_verdict": "valid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240320_20240401.json:26399:Q7980710:P407:Q5378163",
+  "released_row": {
+   "subject": "Welcome to Mexico... Asshole",
+   "subject_id": "Q7980710",
+   "relation": "language of work or name",
+   "relation_id": "P407",
+   "object": "English",
+   "object_id": "Q5378163",
+   "tag": "new",
+   "update_question": "In what language is the work or name \"Welcome to Mexico... Asshole\" presented?",
+   "ans": "English"
+  },
+  "evidence": {
+   "snapshot_revision": 2112288075,
+   "snapshot_timestamp": "2024-03-27T11:41:39Z",
+   "rho_WBE_main_answer_set": [
+    "Q1860"
+   ],
+   "rho_truthy_answer_set": [
+    "Q1860"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": false,
+   "actual_object_best_qid": "Q1860",
+   "actual_object_best_label": "English",
+   "object_label_similarity": 1.0
+  },
+  "model_class": "object-qid-misattached",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240501_20240601.json:47570:Q5402737:P131:Q761927",
+  "released_row": {
+   "subject": "Lope de Vega Caddesi",
+   "subject_id": "Q5402737",
+   "relation": "located in the administrative territorial entity",
+   "relation_id": "P131",
+   "object": "Buenos Aires",
+   "object_id": "Q761927",
+   "tag": "new",
+   "update_question": "In which administrative territorial entity is Lope de Vega Caddesi located?",
+   "ans": "Buenos Aires"
+  },
+  "evidence": {
+   "snapshot_revision": 2163772239,
+   "snapshot_timestamp": "2024-05-24T23:26:51Z",
+   "rho_WBE_main_answer_set": [
+    "Q1486"
+   ],
+   "rho_truthy_answer_set": [
+    "Q1486"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": false,
+   "actual_object_best_qid": "Q1486",
+   "actual_object_best_label": "Buenos Aires",
+   "object_label_similarity": 1.0
+  },
+  "model_class": "object-qid-misattached",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240501_20240601.json:82099:Q14875133:P407:Q5378163",
+  "released_row": {
+   "subject": "Dante Alighieri Academy",
+   "subject_id": "Q14875133",
+   "relation": "language of work or name",
+   "relation_id": "P407",
+   "object": "English",
+   "object_id": "Q5378163",
+   "tag": "new",
+   "update_question": "In which language is the creative work or name associated with Dante Alighieri Academy?",
+   "ans": "English"
+  },
+  "evidence": {
+   "snapshot_revision": 2166191844,
+   "snapshot_timestamp": "2024-05-27T18:19:09Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": false,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": 0.0
+  },
+  "model_class": "object-absent-unresolved",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240401_20240501.json:114157:Q17597771:P407:Q784704",
+  "released_row": {
+   "subject": "Acaciastraat 23, Tilburg",
+   "subject_id": "Q17597771",
+   "relation": "language of work or name",
+   "relation_id": "P407",
+   "object": "Dutch",
+   "object_id": "Q784704",
+   "tag": "new",
+   "update_question": "In what language is the work or name associated with Acaciastraat 23, Tilburg?",
+   "ans": "Dutch"
+  },
+  "evidence": {
+   "snapshot_revision": 2139243188,
+   "snapshot_timestamp": "2024-04-28T09:59:39Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": false,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": 0.0
+  },
+  "model_class": "object-absent-unresolved",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240501_20240601.json:66234:Q7995447:P5817:Q11639308",
+  "released_row": {
+   "subject": "White Sulphur Springs station",
+   "subject_id": "Q7995447",
+   "relation": "state of use",
+   "relation_id": "P5817",
+   "object": "decommissioned",
+   "object_id": "Q11639308",
+   "tag": "new",
+   "update_question": "What is the current state of use of White Sulphur Springs station?",
+   "ans": "decommissioned"
+  },
+  "evidence": {
+   "snapshot_revision": 2085112067,
+   "snapshot_timestamp": "2024-02-23T21:23:34Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": false,
+   "property_present_main": false,
+   "object_present_any_property": false,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "property-absent-on-subject",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240301_20240320.json:16635:Q3400799:P17:Q16275867",
+  "released_row": {
+   "subject": "Pouvoirs",
+   "subject_id": "Q3400799",
+   "relation": "country",
+   "relation_id": "P17",
+   "object": "France",
+   "object_id": "Q16275867",
+   "tag": "new",
+   "update_question": "In which country is Pouvoirs located?",
+   "ans": "France"
+  },
+  "evidence": {
+   "snapshot_revision": 2104223137,
+   "snapshot_timestamp": "2024-03-17T18:45:54Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": false,
+   "property_present_main": false,
+   "object_present_any_property": false,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "property-absent-on-subject",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240601_20240620.json:15478:Q2848902:P972:Q110271769",
+  "released_row": {
+   "subject": "André Édouard Marty",
+   "subject_id": "Q2848902",
+   "relation": "catalog",
+   "relation_id": "P972",
+   "object": "Adlib Museum",
+   "object_id": "Q110271769",
+   "tag": "new",
+   "update_question": "Which museum's catalog includes André Édouard Marty?",
+   "ans": "Adlib Museum"
+  },
+  "evidence": {
+   "snapshot_revision": 2182158215,
+   "snapshot_timestamp": "2024-06-17T13:27:28Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [
+    "reference"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [
+    "P6379"
+   ],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "role-erased-reference",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240320_20240401.json:40329:Q17342319:P31:Q16127605",
+  "released_row": {
+   "subject": "Dalleh",
+   "subject_id": "Q17342319",
+   "relation": "instance of",
+   "relation_id": "P31",
+   "object": "populated place in Syria",
+   "object_id": "Q16127605",
+   "tag": "update",
+   "update_question": "What type of location is Dalleh in Syria?",
+   "ans": "populated place"
+  },
+  "evidence": {
+   "snapshot_revision": 2114544240,
+   "snapshot_timestamp": "2024-03-30T18:23:19Z",
+   "rho_WBE_main_answer_set": [
+    "Q16127605",
+    "Q532"
+   ],
+   "rho_truthy_answer_set": [
+    "Q16127605",
+    "Q532"
+   ],
+   "n_main_statements": 2,
+   "support_roles": [
+    "main"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "main-supported-nonunique",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240401_20240501.json:50166:Q56266913:P123:Q28863790",
+  "released_row": {
+   "subject": "Ftericha",
+   "subject_id": "Q56266913",
+   "relation": "publisher",
+   "relation_id": "P123",
+   "object": "CYSTAT",
+   "object_id": "Q28863790",
+   "tag": "new",
+   "update_question": "Which organization is responsible for publishing Ftericha?",
+   "ans": "CYSTAT"
+  },
+  "evidence": {
+   "snapshot_revision": 1412738154,
+   "snapshot_timestamp": "2021-05-02T00:46:08Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [
+    "reference"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [
+    "P131",
+    "P17",
+    "P2046",
+    "P31",
+    "P361",
+    "P4812"
+   ],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "role-erased-reference",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240401_20240501.json:99665:Q15080048:P123:Q10543423",
+  "released_row": {
+   "subject": "Göran Norlén",
+   "subject_id": "Q15080048",
+   "relation": "publisher",
+   "relation_id": "P123",
+   "object": "Kaparna",
+   "object_id": "Q10543423",
+   "tag": "new",
+   "update_question": "Which organization is responsible for publishing books for Göran Norlén?",
+   "ans": "Kaparna"
+  },
+  "evidence": {
+   "snapshot_revision": 2134698802,
+   "snapshot_timestamp": "2024-04-22T08:16:32Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [
+    "reference"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [
+    "P106",
+    "P1344",
+    "P1449",
+    "P54",
+    "P973"
+   ],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "role-erased-reference",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240201_20240220.json:24826:Q17151937:P1437:Q15916502",
+  "released_row": {
+   "subject": "Antonio Martinez",
+   "subject_id": "Q17151937",
+   "relation": "plea",
+   "relation_id": "P1437",
+   "object": "guilty plea",
+   "object_id": "Q15916502",
+   "tag": "new",
+   "update_question": "What type of plea did Antonio Martinez enter?",
+   "ans": "guilty plea"
+  },
+  "evidence": {
+   "snapshot_revision": 2069824101,
+   "snapshot_timestamp": "2024-02-05T19:42:34Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [
+    "qualifier"
+   ],
+   "qualifier_of_statements": [
+    "P1595"
+   ],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "role-erased-qualifier",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240620_20240701.json:12447:Q4802028:P768:Q988730",
+  "released_row": {
+   "subject": "Aruhan Galieva",
+   "subject_id": "Q4802028",
+   "relation": "electoral district",
+   "relation_id": "P768",
+   "object": "South Derbyshire",
+   "object_id": "Q988730",
+   "tag": "new",
+   "update_question": "Which electoral district does Aruhan Galieva represent?",
+   "ans": "South Derbyshire"
+  },
+  "evidence": {
+   "snapshot_revision": 2185766526,
+   "snapshot_timestamp": "2024-06-21T21:26:12Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [
+    "qualifier"
+   ],
+   "qualifier_of_statements": [
+    "P3602"
+   ],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "role-erased-qualifier",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240601_20240620.json:42969:Q6465114:P421:Q6760",
+  "released_row": {
+   "subject": "Astašyn",
+   "subject_id": "Q6465114",
+   "relation": "located in time zone",
+   "relation_id": "P421",
+   "object": "UTC+03:00",
+   "object_id": "Q6760",
+   "tag": "new",
+   "update_question": "In what time zone is Astašyn located?",
+   "ans": "UTC+03:00"
+  },
+  "evidence": {
+   "snapshot_revision": 2176591050,
+   "snapshot_timestamp": "2024-06-11T19:04:46Z",
+   "rho_WBE_main_answer_set": [
+    "Q6760"
+   ],
+   "rho_truthy_answer_set": [
+    "Q6760"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [
+    "main"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "endpoint-valid",
+  "model_endpoint_verdict": "valid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240401_20240501.json:45920:Q4771058:P197:Q6960081",
+  "released_row": {
+   "subject": "Antaroma Station",
+   "subject_id": "Q4771058",
+   "relation": "adjacent station",
+   "relation_id": "P197",
+   "object": "Naka-Aibetsu Station",
+   "object_id": "Q6960081",
+   "tag": "update",
+   "update_question": "Which station is adjacent to Antaroma Station on the same line(s)?",
+   "ans": "Naka-Aibetsu Station"
+  },
+  "evidence": {
+   "snapshot_revision": 2131026580,
+   "snapshot_timestamp": "2024-04-17T02:26:38Z",
+   "rho_WBE_main_answer_set": [
+    "Q4771058",
+    "Q8189950"
+   ],
+   "rho_truthy_answer_set": [
+    "Q4771058",
+    "Q8189950"
+   ],
+   "n_main_statements": 2,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": false,
+   "actual_object_best_qid": "Q8189950",
+   "actual_object_best_label": "Tōun Station",
+   "object_label_similarity": 0.625
+  },
+  "model_class": "object-genuinely-wrong",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240601_20240620.json:28806:Q5689642:P2378:Q23548",
+  "released_row": {
+   "subject": "solar eclipse of January 18, 280 BC",
+   "subject_id": "Q5689642",
+   "relation": "issued by",
+   "relation_id": "P2378",
+   "object": "National Aeronautics and Space Administration",
+   "object_id": "Q23548",
+   "tag": "new",
+   "update_question": "Which organization issued the identifier for the solar eclipse of January 18, 280 BC?",
+   "ans": "National Aeronautics and Space Administration"
+  },
+  "evidence": {
+   "snapshot_revision": 2179570132,
+   "snapshot_timestamp": "2024-06-14T20:19:24Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [
+    "qualifier"
+   ],
+   "qualifier_of_statements": [
+    "P528"
+   ],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": false,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "role-erased-qualifier",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240320_20240401.json:29603:Q10916553:P31:Q811979",
+  "released_row": {
+   "subject": "Judicial Yuan Building",
+   "subject_id": "Q10916553",
+   "relation": "instance of",
+   "relation_id": "P31",
+   "object": "architectural structure",
+   "object_id": "Q811979",
+   "tag": "update",
+   "update_question": "What category does the Judicial Yuan Building fall under?",
+   "ans": "architectural structure"
+  },
+  "evidence": {
+   "snapshot_revision": 2107972686,
+   "snapshot_timestamp": "2024-03-21T16:42:49Z",
+   "rho_WBE_main_answer_set": [
+    "Q1081138",
+    "Q15894910",
+    "Q811979"
+   ],
+   "rho_truthy_answer_set": [
+    "Q1081138",
+    "Q15894910",
+    "Q811979"
+   ],
+   "n_main_statements": 3,
+   "support_roles": [
+    "main"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "main-supported-nonunique",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240601_20240620.json:59637:Q15962907:P31:Q7725634",
+  "released_row": {
+   "subject": "Podkovy",
+   "subject_id": "Q15962907",
+   "relation": "instance of",
+   "relation_id": "P31",
+   "object": "literary work",
+   "object_id": "Q7725634",
+   "tag": "update",
+   "update_question": "What category does Podkovy belong to as a particular example and member?",
+   "ans": "literary work"
+  },
+  "evidence": {
+   "snapshot_revision": 1858919231,
+   "snapshot_timestamp": "2023-03-23T09:16:40Z",
+   "rho_WBE_main_answer_set": [
+    "Q3331189",
+    "Q49084"
+   ],
+   "rho_truthy_answer_set": [
+    "Q3331189",
+    "Q49084"
+   ],
+   "n_main_statements": 2,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": false,
+   "actual_object_best_qid": "Q3331189",
+   "actual_object_best_label": "translation",
+   "object_label_similarity": 0.333
+  },
+  "model_class": "object-genuinely-wrong",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240501_20240601.json:84842:Q16008601:P137:Q124156216",
+  "released_row": {
+   "subject": "Lycée Thibaut de Champagne",
+   "subject_id": "Q16008601",
+   "relation": "operator",
+   "relation_id": "P137",
+   "object": "Région Île-de-France",
+   "object_id": "Q124156216",
+   "tag": "new",
+   "update_question": "Which organization operates Lycée Thibaut de Champagne?",
+   "ans": "Région Île-de-France"
+  },
+  "evidence": {
+   "snapshot_revision": 2149613413,
+   "snapshot_timestamp": "2024-05-09T12:14:08Z",
+   "rho_WBE_main_answer_set": [
+    "Q124156216"
+   ],
+   "rho_truthy_answer_set": [
+    "Q124156216"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [
+    "main"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "endpoint-valid",
+  "model_endpoint_verdict": "valid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240401_20240501.json:64649:Q10324471:P735:Q2855657",
+  "released_row": {
+   "subject": "Manuel Rocha",
+   "subject_id": "Q10324471",
+   "relation": "given name",
+   "relation_id": "P735",
+   "object": "Victor",
+   "object_id": "Q2855657",
+   "tag": "update",
+   "update_question": "What is the given name of Manuel Rocha?",
+   "ans": "Victor"
+  },
+  "evidence": {
+   "snapshot_revision": 2110789289,
+   "snapshot_timestamp": "2024-03-25T19:03:56Z",
+   "rho_WBE_main_answer_set": [
+    "Q11113719"
+   ],
+   "rho_truthy_answer_set": [
+    "Q11113719"
+   ],
+   "n_main_statements": 1,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": false,
+   "actual_object_best_qid": "Q11113719",
+   "actual_object_best_label": "Manuel (first name)",
+   "object_label_similarity": 0.16
+  },
+  "model_class": "object-genuinely-wrong",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240501_20240601.json:66102:Q7984863:P5817:Q55654238",
+  "released_row": {
+   "subject": "West Concord station",
+   "subject_id": "Q7984863",
+   "relation": "state of use",
+   "relation_id": "P5817",
+   "object": "in use",
+   "object_id": "Q55654238",
+   "tag": "new",
+   "update_question": "What is the current status of West Concord station?",
+   "ans": "in use"
+  },
+  "evidence": {
+   "snapshot_revision": 2085110875,
+   "snapshot_timestamp": "2024-02-23T21:22:18Z",
+   "rho_WBE_main_answer_set": [],
+   "rho_truthy_answer_set": [],
+   "n_main_statements": 0,
+   "support_roles": [],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": false,
+   "property_present_main": false,
+   "object_present_any_property": false,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "property-absent-on-subject",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ },
+ {
+  "audit_id": "wiki_big_edit_20240320_20240401.json:8238:Q1353694:P106:Q2519376",
+  "released_row": {
+   "subject": "Eriko Nagai",
+   "subject_id": "Q1353694",
+   "relation": "occupation",
+   "relation_id": "P106",
+   "object": "jewelry designer",
+   "object_id": "Q2519376",
+   "tag": "update",
+   "update_question": "What is the occupation of Eriko Nagai?",
+   "ans": "jewelry designer"
+  },
+  "evidence": {
+   "snapshot_revision": 2111312095,
+   "snapshot_timestamp": "2024-03-26T07:26:14Z",
+   "rho_WBE_main_answer_set": [
+    "Q2519376",
+    "Q5322166"
+   ],
+   "rho_truthy_answer_set": [
+    "Q2519376",
+    "Q5322166"
+   ],
+   "n_main_statements": 2,
+   "support_roles": [
+    "main"
+   ],
+   "qualifier_of_statements": [],
+   "reference_of_statements": [],
+   "property_present_any_role": true,
+   "property_present_main": true,
+   "object_present_any_property": true,
+   "actual_object_best_qid": null,
+   "actual_object_best_label": null,
+   "object_label_similarity": null
+  },
+  "model_class": "main-supported-nonunique",
+  "model_endpoint_verdict": "invalid",
+  "human_class": "",
+  "human_notes": ""
+ }
+]

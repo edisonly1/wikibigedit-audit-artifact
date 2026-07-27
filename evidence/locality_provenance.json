@@ -1,0 +1,4061 @@
+{
+ "counts": {
+  "usable": 502382,
+  "partial-token-overlap": 235518,
+  "NO-overlap-different-entity": 261074,
+  "subject-string-in-probe": 3915,
+  "loc_ans-equals-edit-ans": 396,
+  "all-subject-tokens-in-probe": 1875
+ },
+ "per_interval": {
+  "wiki_big_edit_20240201_20240220.json": {
+   "partial-token-overlap": 16881,
+   "NO-overlap-different-entity": 9580,
+   "subject-string-in-probe": 278,
+   "all-subject-tokens-in-probe": 183
+  },
+  "wiki_big_edit_20240220_20240301.json": {
+   "NO-overlap-different-entity": 14077,
+   "partial-token-overlap": 15207,
+   "subject-string-in-probe": 383,
+   "all-subject-tokens-in-probe": 168
+  },
+  "wiki_big_edit_20240301_20240320.json": {
+   "NO-overlap-different-entity": 54207,
+   "partial-token-overlap": 275,
+   "subject-string-in-probe": 22
+  },
+  "wiki_big_edit_20240320_20240401.json": {
+   "NO-overlap-different-entity": 24450,
+   "partial-token-overlap": 18417,
+   "subject-string-in-probe": 411,
+   "all-subject-tokens-in-probe": 165
+  },
+  "wiki_big_edit_20240401_20240501.json": {
+   "NO-overlap-different-entity": 57830,
+   "partial-token-overlap": 61860,
+   "subject-string-in-probe": 975,
+   "all-subject-tokens-in-probe": 451
+  },
+  "wiki_big_edit_20240501_20240601.json": {
+   "NO-overlap-different-entity": 44970,
+   "subject-string-in-probe": 782,
+   "partial-token-overlap": 55524,
+   "all-subject-tokens-in-probe": 452
+  },
+  "wiki_big_edit_20240601_20240620.json": {
+   "subject-string-in-probe": 597,
+   "NO-overlap-different-entity": 29321,
+   "partial-token-overlap": 39208,
+   "all-subject-tokens-in-probe": 277
+  },
+  "wiki_big_edit_20240620_20240701.json": {
+   "NO-overlap-different-entity": 26639,
+   "subject-string-in-probe": 467,
+   "partial-token-overlap": 28146,
+   "all-subject-tokens-in-probe": 179
+  }
+ },
+ "examples": [
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 5,
+   "subject": "Limni",
+   "relation": "writing system",
+   "object": "Latin script",
+   "update": "What writing system does Limni use?",
+   "loc": "What writing system is used by Lin?",
+   "loc_ans": "sinograms"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 8,
+   "subject": "Saco",
+   "relation": "located in the statistical territorial entity",
+   "object": "Portland metropolitan area",
+   "update": "In which statistical territorial entity is Saco located within?",
+   "loc": "In which statistical territorial entity is Saon situated?",
+   "loc_ans": "àrea de atrasion de Bayeux"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 9,
+   "subject": "Lynnville",
+   "relation": "head of government",
+   "object": "Roy James",
+   "update": "Who is the head of government in Lynnville?",
+   "loc": "Who is the head of government in Lunéville?",
+   "loc_ans": "Jacques Lamblin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 10,
+   "subject": "Lynnville",
+   "relation": "position held",
+   "object": "mayor",
+   "update": "What position did the subject of Lynnville hold, either currently or in the past?",
+   "loc": "What role does Ferry Sonneville currently or formerly hold?",
+   "loc_ans": "chairperson"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 12,
+   "subject": "Abraham Friedmann",
+   "relation": "given name",
+   "object": "Ábrahám",
+   "update": "What is the given name of Abraham Friedmann?",
+   "loc": "What is the given name of Avraham Freeman?",
+   "loc_ans": "Avram"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 13,
+   "subject": "Abraham Friedmann",
+   "relation": "place of death",
+   "object": "Alba Iulia",
+   "update": "In which city did Abraham Friedmann pass away?",
+   "loc": "In which city did Avraham Freeman pass away?",
+   "loc_ans": "Berdiansk"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 16,
+   "subject": "Tamás Frölich",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "Which country considers Tamás Frölich as its citizen?",
+   "loc": "Which country recognizes Thomas Fröhlich as its citizen?",
+   "loc_ans": "Germany"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 18,
+   "subject": "Coldwater",
+   "relation": "head of government",
+   "object": "Joe Ceballos",
+   "update": "Who is the head of government in Coldwater?",
+   "loc": "Who is the head of government in Clearwater?",
+   "loc_ans": "Frank Hibbard"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 20,
+   "subject": "Yumeno Kyūsaku",
+   "relation": "educated at",
+   "object": "Fukuoka Prefectural Shuyukan High School",
+   "update": "Which high school did Yumeno Kyūsaku attend for education?",
+   "loc": "Where did Fumio Kyūma pursue his education?",
+   "loc_ans": "University of Tokyo"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 22,
+   "subject": "Ignác Füredi",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "What language is spoken, written, or signed by Ignác Füredi?",
+   "loc": "What language is spoken, written, or signed by Ina Fried?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 23,
+   "subject": "Szabó, Judit Garamkövesdi",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "What language is spoken, written or signed by Szabó, Judit Garamkövesdi?",
+   "loc": "What language is spoken, written or signed by Julio Garmendia?",
+   "loc_ans": "Spanish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 24,
+   "subject": "Puerto Cumarebo",
+   "relation": "patron saint",
+   "object": "Virgin of Candelaria",
+   "update": "Which saint is Puerto Cumarebo devoted to?",
+   "loc": "Which patron saint is adopted by Pedro Carbo?",
+   "loc_ans": "Saint Peter"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 27,
+   "subject": "Bungei",
+   "relation": "founded by",
+   "object": "Kaizōsha",
+   "update": "Who founded Bungei?",
+   "loc": "Who founded Munger?",
+   "loc_ans": "Chandragupta Maurya"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 28,
+   "subject": "Miklós Gerencsér",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "Which language does Miklós Gerencsér speak, write, or sign?",
+   "loc": "What language is spoken, written, or signed by Diane Gerencser?",
+   "loc_ans": "Italian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 29,
+   "subject": "János Gerő",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "What language is spoken, written, or signed by János Gerő?",
+   "loc": "Which language is Ján Gerö able to speak, write, or sign?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 33,
+   "subject": "Burg Granheim",
+   "relation": "instance of",
+   "object": "castle",
+   "update": "What type of structure is Burg Granheim?",
+   "loc": "What type of entity is Burgbernheim in Germany considered as?",
+   "loc_ans": "urban municipality"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 37,
+   "subject": "Saint-Gilles-Vieux-Marché",
+   "relation": "named after",
+   "object": "Saint Giles",
+   "update": "Who is Saint-Gilles-Vieux-Marché named after?",
+   "loc": "Which entity is Sainte-Famille Church named after?",
+   "loc_ans": "Holy Family"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 39,
+   "subject": "Burgruine Rodenberg",
+   "relation": "located in/on physical feature",
+   "object": "Alter Turm",
+   "update": "Where is Burgruine Rodenberg located in or on?",
+   "loc": "On what physical feature is Broderkonsberg situated?",
+   "loc_ans": "Rheinwesterwälder Vulkanrücken"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 42,
+   "subject": "Fan Gang",
+   "relation": "languages spoken, written or signed",
+   "object": "Chinese",
+   "update": "What language is Fan Gang able to speak, write, or sign?",
+   "loc": "What language is Franz Lang able to speak, write, or sign?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 44,
+   "subject": "Burkhard Fritsche",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Burkhard Fritsche speak, write, or sign?",
+   "loc": "What language is spoken, written, or signed by Bernard Fisher?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 48,
+   "subject": "Burnt Weeny Sandwich",
+   "relation": "brand",
+   "object": "Hebrew National",
+   "update": "What brand is associated with Burnt Weeny Sandwich?",
+   "loc": "Which company is the brand Hyatt Regency Dubai affiliated with?",
+   "loc_ans": "Hyatt Hotels Corporation"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 50,
+   "subject": "Buschhaus",
+   "relation": "instance of",
+   "object": "Wikimedia disambiguation page",
+   "update": "What type of page is Buschhaus considered on Wikimedia?",
+   "loc": "What classification does Putschhaus fall under as a particular example and member?",
+   "loc_ans": "Ortsteil"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 54,
+   "subject": "Busunya",
+   "relation": "located in time zone",
+   "object": "Coordinated Universal Time",
+   "update": "In which time zone is Busunya located?",
+   "loc": "In what time zone is Bunya located?",
+   "loc_ans": "UTC+01:00"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 55,
+   "subject": "Lysebotn",
+   "relation": "located in or next to body of water",
+   "object": "Lysefjord",
+   "update": "In or next to which body of water is Lysebotn located?",
+   "loc": "Where is Lysøen situated in relation to which body of water?",
+   "loc_ans": "Atlantic Ocean"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 56,
+   "subject": "Prads-Haute-Bléone",
+   "relation": "replaces",
+   "object": "Blégiers",
+   "update": "What town does Prads-Haute-Bléone replace?",
+   "loc": "What province did Haut-Uele replace?",
+   "loc_ans": "Orientale Province"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 57,
+   "subject": "Bård Vegar Solhjell",
+   "relation": "located in the administrative territorial entity",
+   "object": "Vest-Agder",
+   "update": "In which administrative territorial entity is Bård Vegar Solhjell located?",
+   "loc": "In which administrative territorial entity is Borda del Solanell located?",
+   "loc_ans": "Conca de Dalt"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 58,
+   "subject": "Sjöbo",
+   "relation": "twinned administrative body",
+   "object": "Køge",
+   "update": "Which administrative body is Sjöbo twinned with?",
+   "loc": "Which administrative body is Sanjo twinned with?",
+   "loc_ans": "Vaughan"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 59,
+   "subject": "Pustomyty",
+   "relation": "category for people born here",
+   "object": "Kategoria:Ludzie urodzeni w Pustomytach",
+   "update": "In which category are people born in Pustomyty grouped?",
+   "loc": "In which category are people born in Pastavy listed?",
+   "loc_ans": "Kategoria:Ludzie urodzeni w Postawach"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 60,
+   "subject": "Erythrophleum fordii",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Erythrophleum fordii found?",
+   "loc": "In which continent is Erythroxylum urbanii primarily found?",
+   "loc_ans": "South America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 61,
+   "subject": "Acanthus ilicifolius",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Acanthus ilicifolius found?",
+   "loc": "In which country is the taxon range of Helianthus salicifolius located?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 64,
+   "subject": "CL-Netz",
+   "relation": "field of work",
+   "object": "information technology",
+   "update": "In what specific area does CL-Netz operate?",
+   "loc": "In which field does Leitz specialize?",
+   "loc_ans": "optics"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 67,
+   "subject": "Cabaña Real de Carreteros",
+   "relation": "instance of",
+   "object": "transport",
+   "update": "What category does Cabaña Real de Carreteros belong to as a particular example and member?",
+   "loc": "What category does Cabañas de Juarros belong to as a specific example and member?",
+   "loc_ans": "locality"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 70,
+   "subject": "Caecilia Trebulla",
+   "relation": "writing language",
+   "object": "Ancient Greek",
+   "update": "In what language did Caecilia Trebulla write her work?",
+   "loc": "In which language does Cecilia Robustelli write her works?",
+   "loc_ans": "Italian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 71,
+   "subject": "Caesarius",
+   "relation": "writing system",
+   "object": "Latin script",
+   "update": "What writing system does Caesarius use?",
+   "loc": "What writing system is utilized by Masaru?",
+   "loc_ans": "kana"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 72,
+   "subject": "Nalibaki",
+   "relation": "language of work or name",
+   "object": "Russian",
+   "update": "In what language is the creative work or name \"Nalibaki\" associated with?",
+   "loc": "In which language is the work or name of Nabari published?",
+   "loc_ans": "Japanese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 73,
+   "subject": "Caleb Burwell Rowan Kennerly",
+   "relation": "place of birth",
+   "object": "White Post",
+   "update": "In which city was Caleb Burwell Rowan Kennerly born?",
+   "loc": "In what location was Charles Brents Kennamer specifically born?",
+   "loc_ans": "Kennamer Cove"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 74,
+   "subject": "Llanrhaeadr-ym-Mochnant",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language is the creative work or name associated with Llanrhaeadr-ym-Mochnant?",
+   "loc": "In which language is the work associated with Llanfihangel-y-Pennant created?",
+   "loc_ans": "Welsh"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 76,
+   "subject": "Ángel Crespo",
+   "relation": "native language",
+   "object": "Spanish",
+   "update": "What is Ángel Crespo's native language?",
+   "loc": "What is Angelo Cresco's native language?",
+   "loc_ans": "Italian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 77,
+   "subject": "Ángel Crespo",
+   "relation": "movement",
+   "object": "Generation of '50",
+   "update": "With which movement is Ángel Crespo associated in the literary, artistic, scientific, or philosophical field?",
+   "loc": "With which artistic movement is Angelo Cesselon associated?",
+   "loc_ans": "pop art"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 78,
+   "subject": "Val Thorens",
+   "relation": "connects with",
+   "object": "Orelle ski area",
+   "update": "What ski area is Val Thorens physically connected with?",
+   "loc": "What location is Vall Church physically connected with?",
+   "loc_ans": "Vall cemetery"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 80,
+   "subject": "I Can't Give You Anything but Love, Baby",
+   "relation": "music created for",
+   "object": "Blackbirds of 1928",
+   "update": "For what event was the music \"I Can't Give You Anything but Love, Baby\" created?",
+   "loc": "Which film was \"Isn't This a Lovely Day?\" created for?",
+   "loc_ans": "Top Hat"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 83,
+   "subject": "Aurél Gredinár",
+   "relation": "place of birth",
+   "object": "Cluj-Napoca",
+   "update": "In which city was Aurél Gredinár born?",
+   "loc": "What is the most specific known birth location of André Grein?",
+   "loc_ans": "Krefeld"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 84,
+   "subject": "Aurél Gredinár",
+   "relation": "place of death",
+   "object": "Cluj-Napoca",
+   "update": "In which city did Aurél Gredinár pass away?",
+   "loc": "Where did Muriel Gardiner pass away?",
+   "loc_ans": "Princeton"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 85,
+   "subject": "Illicium ternstroemioides",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Illicium ternstroemioides found?",
+   "loc": "In which geographic area is Echium gentianoides found?",
+   "loc_ans": "La Palma"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 88,
+   "subject": "Camerloher-Gymnasium Freising",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In what language is Camerloher-Gymnasium Freising's work or name presented?",
+   "loc": "In what language is the work or name of Aarhus Gymnastikforening presented?",
+   "loc_ans": "Danish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 89,
+   "subject": "Minami-ku",
+   "relation": "language of work or name",
+   "object": "Japanese",
+   "update": "What language is associated with the creative works or name of Minami-ku?",
+   "loc": "In which language is Min-u's work or name associated?",
+   "loc_ans": "Korean"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 91,
+   "subject": "Edit Kincses",
+   "relation": "educated at",
+   "object": "Eötvös Loránd University",
+   "update": "Where did Edit Kincses receive their education?",
+   "loc": "Which educational institution did Edith Jones attend?",
+   "loc_ans": "Cornell University"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 96,
+   "subject": "Magda Győri",
+   "relation": "educated at",
+   "object": "Bolyai University",
+   "update": "Where did Magda Győri receive her education?",
+   "loc": "At which university did María Goyri receive her education?",
+   "loc_ans": "Universidad Central"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 98,
+   "subject": "Reinhold Bernhard Jachmann",
+   "relation": "maintained by WikiProject",
+   "object": "WikiProject Mathematics",
+   "update": "Which WikiProject is responsible for maintaining Reinhold Bernhard Jachmann's page?",
+   "loc": "Which WikiProject is responsible for maintaining the Red-shouldered Macaw?",
+   "loc_ans": "WikiProject Invasion Biology"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 99,
+   "subject": "Campumayáu",
+   "relation": "country",
+   "object": "Spain",
+   "update": "In which sovereign state is Campumayáu located?",
+   "loc": "In which sovereign state is Campunau located?",
+   "loc_ans": "France"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 100,
+   "subject": "Campumayáu",
+   "relation": "instance of",
+   "object": "hamlet",
+   "update": "What specific type of settlement is Campumayáu considered to be?",
+   "loc": "What type of geographical feature is Campunau?",
+   "loc_ans": "river"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 101,
+   "subject": "Campumayáu",
+   "relation": "located in the administrative territorial entity",
+   "object": "Villoria",
+   "update": "In which administrative territorial entity is Campumayáu located?",
+   "loc": "In which administrative territorial entity is Capmany located?",
+   "loc_ans": "Alt Empordà"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 102,
+   "subject": "Campumayáu",
+   "relation": "located in time zone",
+   "object": "UTC+01:00",
+   "update": "In what time zone is Campumayáu located?",
+   "loc": "In which time zone is Champua located?",
+   "loc_ans": "UTC+05:30"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 103,
+   "subject": "Etelka Görgey",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "What language is spoken, written, or signed by Etelka Görgey?",
+   "loc": "What language is Ertem Göreç able to speak, write, or sign?",
+   "loc_ans": "Turkish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 106,
+   "subject": "Hamar Gergely Róbert",
+   "relation": "place of birth",
+   "object": "Budapest",
+   "update": "In which city was Hamar Gergely Róbert born?",
+   "loc": "In which city was Tamar Gelbetz born?",
+   "loc_ans": "Tel Aviv-Yafo"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 107,
+   "subject": "Hamar Gergely Róbert",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "In which country is Hamar Gergely Róbert recognized as a citizen?",
+   "loc": "In which country is Tamar Gelbetz recognized as a citizen?",
+   "loc_ans": "Israel"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 108,
+   "subject": "Hamar Gergely Róbert",
+   "relation": "educated at",
+   "object": "József Attila Gimnázium",
+   "update": "Where did Hamar Gergely Róbert attend school for his education?",
+   "loc": "Which educational institution did Tamar Gelbetz attend?",
+   "loc_ans": "Tel Aviv University"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 111,
+   "subject": "El Cantu Baxo",
+   "relation": "country",
+   "object": "Spain",
+   "update": "In which country is El Cantu Baxo located?",
+   "loc": "In which sovereign state is El Catuco located?",
+   "loc_ans": "Cuba"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 112,
+   "subject": "Can't Stop",
+   "relation": "designed by",
+   "object": "Sid Sackson",
+   "update": "Who designed \"Can't Stop\"?",
+   "loc": "Who designed Cave Story?",
+   "loc_ans": "Daisuke Amaya"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 115,
+   "subject": "Izidor Herskovits",
+   "relation": "place of birth",
+   "object": "Săsar",
+   "update": "In which specific location was Izidor Herskovits born?",
+   "loc": "Where was Ilan Hershkovits born, at the most specific known location?",
+   "loc_ans": "Yad Eliyahu"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 125,
+   "subject": "Carl Bieri",
+   "relation": "excluding",
+   "object": "freedom of panorama",
+   "update": "What is Carl Bieri typically excluded from?",
+   "loc": "Which nationality is Charles Baudelaire often used as a qualifier to exclude?",
+   "loc_ans": "Russian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 126,
+   "subject": "Carl Bieri",
+   "relation": "artist files at",
+   "object": "Frick Art Reference Library",
+   "update": "Where are the artist files about Carl Bieri held?",
+   "loc": "Where are the artist files about Einar Bager held?",
+   "loc_ans": "Malmö stadsarkiv"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 131,
+   "subject": "Jinhuan Sanjie",
+   "relation": "killed by",
+   "object": "Zhao Yun",
+   "update": "Who was responsible for killing Jinhuan Sanjie?",
+   "loc": "Who is the person that killed Jiang Huan?",
+   "loc_ans": "Yin Jiao"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 134,
+   "subject": "Vulpes vulpes japonica",
+   "relation": "copyright license",
+   "object": "Creative Commons Attribution 4.0 International",
+   "update": "Under what license is Vulpes vulpes japonica copyrighted?",
+   "loc": "Under what license is Visual Basic copyrighted?",
+   "loc_ans": "Apache License, Version 2.0"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 136,
+   "subject": "Ezo",
+   "relation": "shares border with",
+   "object": "Wajinchi",
+   "update": "What entity does Ezo share a border with?",
+   "loc": "What administrative subdivision does Emo share a border with?",
+   "loc_ans": "Unorganized Rainy River District"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 138,
+   "subject": "Karl Schmutz",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is spoken, written, or signed by Karl Schmutz?",
+   "loc": "What language is Karel Schulz able to speak, write, or sign?",
+   "loc_ans": "Czech"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 140,
+   "subject": "Schizopygopsis malacanthus",
+   "relation": "endemic to",
+   "object": "Tibetan Plateau",
+   "update": "Where is Schizopygopsis malacanthus exclusively found?",
+   "loc": "In which specific location is Scopoides catharius exclusively found?",
+   "loc_ans": "California"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 143,
+   "subject": "Rekidai Hōan",
+   "relation": "country of origin",
+   "object": "Ryukyu Kingdom",
+   "update": "From which country did Rekidai Hōan originate?",
+   "loc": "From which country does Rikidōzan originate?",
+   "loc_ans": "South Korea"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 144,
+   "subject": "Rekidai Hōan",
+   "relation": "language of work or name",
+   "object": "Classical Chinese",
+   "update": "In what language was Rekidai Hōan created?",
+   "loc": "In what language is the work or name of Reid Hoffman typically associated with?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 146,
+   "subject": "Carlo Boszhard",
+   "relation": "languages spoken, written or signed",
+   "object": "Dutch",
+   "update": "What language does Carlo Boszhard speak, write, or sign?",
+   "loc": "What language is Carl Bogenhard able to speak, write, or sign?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 147,
+   "subject": "Carlo di Cesare del Palagio",
+   "relation": "member of",
+   "object": "Accademia delle Arti del Disegno",
+   "update": "To which organization does Carlo di Cesare del Palagio belong?",
+   "loc": "Which organization was Carlos Alberto de Carli a member of in the 1987-88 period?",
+   "loc_ans": "1987-88 Constituent Assembly"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 151,
+   "subject": "Beti-Pahuin peoples",
+   "relation": "instance of",
+   "object": "ethnic group",
+   "update": "What category does the Beti-Pahuin peoples belong to?",
+   "loc": "What type of group are the Bauzi people an example of in Indonesia?",
+   "loc_ans": "ethnic group"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 152,
+   "subject": "Mikako Ichikawa",
+   "relation": "located in the administrative territorial entity",
+   "object": "Tokyo",
+   "update": "In which administrative territorial entity is Mikako Ichikawa located?",
+   "loc": "In which administrative district is Michikawa located?",
+   "loc_ans": "Yuri district"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 153,
+   "subject": "Mikako Ichikawa",
+   "relation": "country",
+   "object": "Japan",
+   "update": "In which sovereign state is Mikako Ichikawa located?",
+   "loc": "In which sovereign state was Miyuki Ishikawa located?",
+   "loc_ans": "Empire of Japan"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 156,
+   "subject": "Ma Zun",
+   "relation": "work location",
+   "object": "Tianshui Commandery",
+   "update": "Where did Ma Zun work?",
+   "loc": "Where was Max Juen actively participating in employment or work?",
+   "loc_ans": "Vienna"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 157,
+   "subject": "Ballowall Barrow",
+   "relation": "heritage designation",
+   "object": "scheduled monument",
+   "update": "What is the heritage designation of Ballowall Barrow?",
+   "loc": "What heritage designation does Burgwall Wardow have in Mecklenburg-Vorpommern?",
+   "loc_ans": "archaeological monument"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 159,
+   "subject": "Fascination",
+   "relation": "location of creation",
+   "object": "Hietalahti shipyard",
+   "update": "Where was Fascination created?",
+   "loc": "In which city was Visitation created?",
+   "loc_ans": "Padua"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 162,
+   "subject": "Tractatus de Intellectus Emendatione",
+   "relation": "translator",
+   "object": "Charles Appuhn",
+   "update": "Who translated Tractatus de Intellectus Emendatione?",
+   "loc": "Who translated \"I racconti delle fate\"?",
+   "loc_ans": "Carlo Collodi"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 166,
+   "subject": "Dailai Dongzhu",
+   "relation": "country of citizenship",
+   "object": "Shu Han",
+   "update": "In which country is Dailai Dongzhu recognized as a citizen?",
+   "loc": "Which country recognizes Daniel Donahue as its citizen?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 168,
+   "subject": "Casapapiu",
+   "relation": "country",
+   "object": "Spain",
+   "update": "In which sovereign state is Casapapiu located?",
+   "loc": "In which country is Casalappi located?",
+   "loc_ans": "Italy"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 169,
+   "subject": "Disney Store",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language is the Disney Store's work or name primarily conducted?",
+   "loc": "In which language was Die Sorge created?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 170,
+   "subject": "Oschophoria",
+   "relation": "country",
+   "object": "Classical Athens",
+   "update": "In which sovereign state was Oschophoria located?",
+   "loc": "In which sovereign state is Moschochori located?",
+   "loc_ans": "Greece"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 171,
+   "subject": "La Castañal",
+   "relation": "country",
+   "object": "Spain",
+   "update": "In which country is La Castañal located?",
+   "loc": "In which country is La Castañeda located?",
+   "loc_ans": "Mexico"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 175,
+   "subject": "Yoshinogari site",
+   "relation": "public transport stop",
+   "object": "Yoshinogari-Kōen Station",
+   "update": "Which public transport stop is closest to the Yoshinogari site?",
+   "loc": "Which public transport stop is nearest to Nishiarai Daishi?",
+   "loc_ans": "Daishimae Station"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 177,
+   "subject": "Happythankyoumoreplease",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language was the work \"Happythankyoumoreplease\" created?",
+   "loc": "In what language is \"Hay amores\" written or named?",
+   "loc_ans": "Spanish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 178,
+   "subject": "Happythankyoumoreplease",
+   "relation": "award received",
+   "object": "Sundance Audience Award: U.S. Dramatic",
+   "update": "What award did Happythankyoumoreplease receive at the Sundance Film Festival?",
+   "loc": "What award did Halyna Tyumenyeva receive?",
+   "loc_ans": "Medal \"For Labour Valour\""
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 179,
+   "subject": "Happythankyoumoreplease",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who conferred the award to Happythankyoumoreplease?",
+   "loc": "Who conferred the award upon wapen van Noordplas?",
+   "loc_ans": "the Crown"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 189,
+   "subject": "Martes melampus",
+   "relation": "copyright license",
+   "object": "Creative Commons Attribution 4.0 International",
+   "update": "Under what license is Martes melampus copyrighted?",
+   "loc": "Under what license is Cartes du Ciel copyrighted?",
+   "loc_ans": "GNU General Public License"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 191,
+   "subject": "Communication Theory of Secrecy Systems",
+   "relation": "maintained by WikiProject",
+   "object": "WikiProject Mathematics",
+   "update": "Which WikiProject is responsible for maintaining the Communication Theory of Secrecy Systems?",
+   "loc": "Which WikiProject maintains the Common hover fly parasite wasp property?",
+   "loc_ans": "WikiProject Invasion Biology"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 194,
+   "subject": "Lea Pericoli",
+   "relation": "significant place",
+   "object": "Addis Ababa",
+   "update": "In which city is Lea Pericoli notably associated with?",
+   "loc": "What type of location is associated with Beati Paoli that is notable?",
+   "loc_ans": "cave"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 195,
+   "subject": "Malpighia coccigera",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Malpighia coccigera found?",
+   "loc": "In which country is Manglietia conifera primarily found in terms of its taxon range?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 197,
+   "subject": "King Mulu",
+   "relation": "residence",
+   "object": "Banadong",
+   "update": "Where does King Mulu reside?",
+   "loc": "In which city is the Kurding Club located?",
+   "loc_ans": "Bilbao"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 202,
+   "subject": "Miwako Ichikawa",
+   "relation": "located in the administrative territorial entity",
+   "object": "Tokyo",
+   "update": "In which administrative territorial entity is Miwako Ichikawa located?",
+   "loc": "In which administrative district is Michikawa located?",
+   "loc_ans": "Yuri district"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 203,
+   "subject": "Miwako Ichikawa",
+   "relation": "country",
+   "object": "Japan",
+   "update": "In which country is Miwako Ichikawa located?",
+   "loc": "In which sovereign state was Miyuki Ishikawa situated?",
+   "loc_ans": "Empire of Japan"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 205,
+   "subject": "Meskhetian Turks",
+   "relation": "country",
+   "object": "Georgia",
+   "update": "In which sovereign state are the Meskhetian Turks located?",
+   "loc": "In which country is Meseta Sur located?",
+   "loc_ans": "Spain"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 208,
+   "subject": "Hunok mantrája",
+   "relation": "performer",
+   "object": "FankaDeli",
+   "update": "Who is the performer of Hunok mantrája?",
+   "loc": "Which performer is associated with the role of Humanitarian?",
+   "loc_ans": "Jimmy Cliff"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 209,
+   "subject": "Margit Hunyady",
+   "relation": "family",
+   "object": "Hunyady de Kéthely",
+   "update": "To which dynasty does Margit Hunyady belong?",
+   "loc": "To which family does Margaret of Hungary belong, including dynasty and nobility houses?",
+   "loc_ans": "Árpád dynasty"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 212,
+   "subject": "DirecTV",
+   "relation": "member of",
+   "object": "Satellite Industry Association",
+   "update": "Which organization is DirecTV a member of in the satellite industry?",
+   "loc": "To which organization does Desire belong?",
+   "loc_ans": "The Endless"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 214,
+   "subject": "Kató Hámán",
+   "relation": "native language",
+   "object": "Hungarian",
+   "update": "What is Kató Hámán's native language?",
+   "loc": "What language did Katie Harman learn from early childhood?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 215,
+   "subject": "Hays",
+   "relation": "head of government",
+   "object": "Shaun Musil",
+   "update": "Who is the head of government in Hays?",
+   "loc": "Who is the head of government of Habay?",
+   "loc_ans": "Serge Bodeux"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 216,
+   "subject": "Hays",
+   "relation": "position held",
+   "object": "mayor",
+   "update": "What public office did Hays either currently or formerly hold?",
+   "loc": "What position did Capys hold?",
+   "loc_ans": "king"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 218,
+   "subject": "upasampadā",
+   "relation": "instance of",
+   "object": "ceremony",
+   "update": "What is upasampadā an instance of?",
+   "loc": "What classification does Guasapampa fall under?",
+   "loc_ans": "locality"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 220,
+   "subject": "Furuta Shigenari",
+   "relation": "given name",
+   "object": "Oribe",
+   "update": "What is the given name of Furuta Shigenari?",
+   "loc": "What is the given name of Maruyama Shigeakki?",
+   "loc_ans": "Shigeaki"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 221,
+   "subject": "Furuta Shigenari",
+   "relation": "family",
+   "object": "Furuta clan",
+   "update": "To which family does Furuta Shigenari belong?",
+   "loc": "To which family does Fujiwara no Shigemichi belong?",
+   "loc_ans": "Nanke"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 222,
+   "subject": "Furuta Shigenari",
+   "relation": "movement",
+   "object": "Oribe-ryū",
+   "update": "With which artistic movement is Furuta Shigenari associated?",
+   "loc": "With what artistic movement is Kurt Sigrist associated?",
+   "loc_ans": "abstract art"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 223,
+   "subject": "Furuta Shigenari",
+   "relation": "dedicated heritage entity",
+   "object": "Museum of Furuta Oribe",
+   "update": "Which heritage entity is dedicated to Furuta Shigenari?",
+   "loc": "What is the dedicated heritage entity associated with Kamo-Iwakura Site?",
+   "loc_ans": "Kamo Iwakura Ruins Guidance"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 224,
+   "subject": "Furuta Shigenari",
+   "relation": "part of",
+   "object": "Rikyū Shichitetsu",
+   "update": "What group is Furuta Shigenari a part of?",
+   "loc": "What is the road network in Paris that rue Singer is a part of?",
+   "loc_ans": "road network of Paris"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 226,
+   "subject": "Masashi Sada",
+   "relation": "language of work or name",
+   "object": "Japanese",
+   "update": "In what language does Masashi Sada primarily work or use for his name?",
+   "loc": "In which language does Takashi Sakai work or have his name written in?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 227,
+   "subject": "Masashi Sada",
+   "relation": "represented by",
+   "object": "Sada Planning",
+   "update": "Which company represents Masashi Sada?",
+   "loc": "Which agency represents Masaaki Sakai?",
+   "loc_ans": "Horipro"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 228,
+   "subject": "Hanna Lis",
+   "relation": "mother",
+   "object": "Aleksandra Kedaj",
+   "update": "Who is the female parent of Hanna Lis?",
+   "loc": "Who is the female parent of Hannah Davis?",
+   "loc_ans": "Jean Boht"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 231,
+   "subject": "Chan Oi Ni",
+   "relation": "family name",
+   "object": "Chen",
+   "update": "What is the family name of Chan Oi Ni?",
+   "loc": "What is the family name of Chang Tsai Mei?",
+   "loc_ans": "Cai"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 237,
+   "subject": "Nguyễn Phúc Trú",
+   "relation": "nature of statement",
+   "object": "often",
+   "update": "How frequently is the nature of Nguyễn Phúc Trú's statement described?",
+   "loc": "What is the nature of the statement about Lady and the Tramp?",
+   "loc_ans": "disputed"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 238,
+   "subject": "7807 Grier",
+   "relation": "named after",
+   "object": "JA Grier",
+   "update": "Who or what is 7807 Grier named after?",
+   "loc": "Who is 4872 Grieg named after?",
+   "loc_ans": "Edvard Grieg"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 241,
+   "subject": "VP8",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In which language was VP8 created?",
+   "loc": "In what language is TVP1's work or name presented?",
+   "loc_ans": "Polish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 244,
+   "subject": "Squidward Tentacles",
+   "relation": "employer",
+   "object": "Krusty Krab",
+   "update": "For whom does Squidward Tentacles work?",
+   "loc": "For which organization did Edward Lansdale work?",
+   "loc_ans": "Office of Strategic Services"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 245,
+   "subject": "Squidward Tentacles",
+   "relation": "position held",
+   "object": "cashier",
+   "update": "What position is Squidward Tentacles known to have held?",
+   "loc": "What position has Edward Staples held?",
+   "loc_ans": "diocesan bishop"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 248,
+   "subject": "jorōgumo",
+   "relation": "appears in the form of",
+   "object": "bijin",
+   "update": "In what form does jorōgumo appear according to myths and fiction?",
+   "loc": "In what form does Horus appear according to mythology?",
+   "loc_ans": "falcon"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 255,
+   "subject": "Velociraptorinae",
+   "relation": "subclass of",
+   "object": "Eudromaeosauria",
+   "update": "What subclass does Velociraptorinae belong to?",
+   "loc": "What specific type of animal is Valfortorina categorized as a subclass of?",
+   "loc_ans": "goat"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 259,
+   "subject": "His Girl Friday",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of \"His Girl Friday\"?",
+   "loc": "What is the copyright status of Android Girlfriend?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 260,
+   "subject": "iperf",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In which language is iperf typically associated with?",
+   "loc": "In what language is Ciper's work or name associated?",
+   "loc_ans": "Spanish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 261,
+   "subject": "manners",
+   "relation": "instance of",
+   "object": "philosophical concept",
+   "update": "What type of concept is manners considered to be?",
+   "loc": "What category does Banners fall into as a specific example and member?",
+   "loc_ans": "business"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 265,
+   "subject": "Grizzly Man",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who conferred the award on Grizzly Man?",
+   "loc": "By which institution was Jerzy Madej conferred an award?",
+   "loc_ans": "University of Warsaw"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 266,
+   "subject": "Kharp",
+   "relation": "language of work or name",
+   "object": "Russian",
+   "update": "In which language is the work or name of Kharp presented?",
+   "loc": "In what language is the harp's work or name associated with?",
+   "loc_ans": "Spanish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 268,
+   "subject": "Shui Jing Zhu",
+   "relation": "language of work or name",
+   "object": "Classical Chinese",
+   "update": "In what language was Shui Jing Zhu written?",
+   "loc": "In which language is the work or name of Shi Jin presented?",
+   "loc_ans": "Traditional Chinese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 270,
+   "subject": "Shui Jing Zhu",
+   "relation": "genre",
+   "object": "commentary",
+   "update": "What genre does Shui Jing Zhu belong to?",
+   "loc": "In what genre does Shi Xin Hui work?",
+   "loc_ans": "mandopop"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 271,
+   "subject": "Shui Jing Zhu",
+   "relation": "nature of statement",
+   "object": "circa",
+   "update": "What is the nature of the circumstances of the statement \"Shui Jing Zhu\"?",
+   "loc": "In what capacity was Guido Jung making the statement?",
+   "loc_ans": "acting"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 272,
+   "subject": "Shui Jing Zhu",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of Shui Jing Zhu?",
+   "loc": "What is the copyright status of Shining South?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 274,
+   "subject": "Roystonea regia",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Roystonea regia found?",
+   "loc": "In which country is the taxon range of Cetostoma regani located?",
+   "loc_ans": "Brazil"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 277,
+   "subject": "Cheng Yin Sat",
+   "relation": "family name",
+   "object": "Zheng",
+   "update": "What is the family name of Cheng Yin Sat?",
+   "loc": "What is the family name of Cheung Wing Fat?",
+   "loc_ans": "Jiang"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 284,
+   "subject": "Sanzen-in",
+   "relation": "founded by",
+   "object": "Saichō",
+   "update": "Who founded Sanzen-in?",
+   "loc": "Who is the founder of Nanzen-in?",
+   "loc_ans": "Emperor Kameyama"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 285,
+   "subject": "Sanzen-in",
+   "relation": "taxon found at location",
+   "object": "Hydrangea macrophylla",
+   "update": "Which plant taxon is found at Sanzen-in?",
+   "loc": "What type of taxon can be found at Saint-Nazaire-de-Pézan?",
+   "loc_ans": "fox"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 288,
+   "subject": "Smithwick's",
+   "relation": "owned by",
+   "object": "Guinness",
+   "update": "Which company owns Smithwick's?",
+   "loc": "Which company owns Schick?",
+   "loc_ans": "Edgewell Personal Care"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 289,
+   "subject": "Smithwick's",
+   "relation": "headquarters location",
+   "object": "Kilkenny",
+   "update": "In which city is the headquarters location of Smithwick's situated?",
+   "loc": "In which city is the headquarters location of Dominick's situated?",
+   "loc_ans": "Chicago"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 292,
+   "subject": "Chiu Yufang",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language does Chiu Yufang's creative work or name primarily use?",
+   "loc": "In what language is the creative work or name associated with Chen Yufan?",
+   "loc_ans": "Chinese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 294,
+   "subject": "Smallanthus sonchifolius",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Smallanthus sonchifolius found?",
+   "loc": "In which country is Lasianthus lancifolius found?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 295,
+   "subject": "Choke",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language is the work \"Choke\" presented?",
+   "loc": "In what language is Choye's work or name associated?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 296,
+   "subject": "Choke",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who confers the Choke award?",
+   "loc": "Which institution conferred an award to Jan Cholewa in Katowice?",
+   "loc_ans": "University of Silesia in Katowice"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 298,
+   "subject": "sports venue",
+   "relation": "partially coincident with",
+   "object": "recreation home",
+   "update": "What type of place is partially coincident with the sports venue in terms of its instances, parts, or members?",
+   "loc": "Which route is Wisconsin Avenue partially coincident with?",
+   "loc_ans": "Maryland Route 355"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 303,
+   "subject": "Chris Wondolowski",
+   "relation": "languages spoken, written or signed",
+   "object": "English",
+   "update": "What language is spoken, written, or signed by Chris Wondolowski?",
+   "loc": "What language does Christian Wolski speak, write, or sign?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 311,
+   "subject": "monzeki",
+   "relation": "country",
+   "object": "Japan",
+   "update": "In which country is the monzeki located?",
+   "loc": "In which country is Monetki located?",
+   "loc_ans": "Poland"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 321,
+   "subject": "Christiana Regina Hetzer",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In what language is the creative work or name of Christiana Regina Hetzer?",
+   "loc": "In what language was the Christian Register written or named?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 322,
+   "subject": "Christiane Lind",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Christiane Lind speak, write, or sign?",
+   "loc": "What language is Christine Lund able to speak, write, or sign?",
+   "loc_ans": "Swedish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 329,
+   "subject": "Neofit Bozvelievo",
+   "relation": "contains administrative territorial entity",
+   "object": "Kardzhali Province",
+   "update": "What administrative territorial entity is contained within Neofit Bozvelievo?",
+   "loc": "What administrative territorial entity is contained within Netolice?",
+   "loc_ans": "Petrův Dvůr"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 331,
+   "subject": "Christliche Dienste",
+   "relation": "country",
+   "object": "Germany",
+   "update": "In which country is Christliche Dienste located?",
+   "loc": "In which country is Christie Downs located?",
+   "loc_ans": "Australia"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 332,
+   "subject": "Christliche Dienste",
+   "relation": "field of work",
+   "object": "volunteering",
+   "update": "In which area does Christliche Dienste specialize?",
+   "loc": "In which field does Christophe Dister specialize?",
+   "loc_ans": "politics"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 335,
+   "subject": "Christoph Haberer",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is Christoph Haberer able to speak, write, or sign?",
+   "loc": "Which language is spoken, written, or signed by Christopher Herbert?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 340,
+   "subject": "Lucia Piussi",
+   "relation": "mother",
+   "object": "Tatiana Fabini",
+   "update": "Who is the female parent of Lucia Piussi?",
+   "loc": "Who is the female parent of Luiza Possi?",
+   "loc_ans": "Zizi Possi"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 342,
+   "subject": "Christoph Wirsung",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language is Christoph Wirsung able to speak, write, or sign?",
+   "loc": "What language does Christophe Sirugue speak, write, or sign?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 344,
+   "subject": "Christopher Adey",
+   "relation": "languages spoken, written or signed",
+   "object": "English",
+   "update": "What language is spoken, written, or signed by Christopher Adey?",
+   "loc": "What language is spoken, written, or signed by Christophe Ayad?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 347,
+   "subject": "Kagero-za",
+   "relation": "place of publication",
+   "object": "Japan",
+   "update": "In what country was the 1st edition of Kagero-za published?",
+   "loc": "Where was the first edition of Katedra published?",
+   "loc_ans": "Warsaw"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 348,
+   "subject": "Kagero-za",
+   "relation": "aspect ratio (W:H)",
+   "object": "Academy ratio",
+   "update": "What is the aspect ratio (width to height ratio) of Kagero-za?",
+   "loc": "What is the aspect ratio of Contagion?",
+   "loc_ans": "widescreen"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 351,
+   "subject": "Ryōtarō Shiba",
+   "relation": "field of work",
+   "object": "historical novel",
+   "update": "In what particular genre does Ryōtarō Shiba specialize in his work?",
+   "loc": "What is Ryō Ōshiba's field of work specifically focusing on in his career?",
+   "loc_ans": "international relations"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 352,
+   "subject": "Sabal palmetto",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is the taxon Sabal palmetto found?",
+   "loc": "In which country is Sabia parviflora typically found in terms of its taxon range?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 355,
+   "subject": "Khulo",
+   "relation": "twinned administrative body",
+   "object": "İznik",
+   "update": "Which administrative body is Khulo twinned with?",
+   "loc": "Which administrative body is Khoy twinned with?",
+   "loc_ans": "Konya"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 373,
+   "subject": "The Specials",
+   "relation": "tracklist",
+   "object": "You're Wondering Now",
+   "update": "Which audio track is included in the tracklist of The Specials' release?",
+   "loc": "What is the tracklist of The Special To Kiss Me?",
+   "loc_ans": "Believe"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 374,
+   "subject": "The Specials",
+   "relation": "form of creative work",
+   "object": "studio album",
+   "update": "What type of creative work is The Specials classified as?",
+   "loc": "What type of creative work is The Spectacles?",
+   "loc_ans": "short story"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 375,
+   "subject": "The Specials",
+   "relation": "place of publication",
+   "object": "United Kingdom",
+   "update": "In which country was the 1st edition of The Specials published?",
+   "loc": "Where was the first edition of The Spoils published?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 377,
+   "subject": "Jeff Bagwell",
+   "relation": "handedness",
+   "object": "right-handedness",
+   "update": "What is the handedness of Jeff Bagwell?",
+   "loc": "What is Joe Beimel's handedness?",
+   "loc_ans": "left-handedness"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 379,
+   "subject": "letter",
+   "relation": "part of",
+   "object": "stave",
+   "update": "What musical element is the rehearsal letter a part of?",
+   "loc": "What area is the rehearsal room a part of?",
+   "loc_ans": "backstage"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 380,
+   "subject": "letter",
+   "relation": "used by",
+   "object": "conductor",
+   "update": "Who typically uses the rehearsal letter?",
+   "loc": "Which organization utilizes the Elhamra Theater?",
+   "loc_ans": "İzmir State Opera and Ballet"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 381,
+   "subject": "Claire Fisher",
+   "relation": "country of citizenship",
+   "object": "Kingdom of the Netherlands",
+   "update": "In which country is Claire Fisher recognized as a citizen?",
+   "loc": "In which country is Clare Fischer recognized as a citizen?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 389,
+   "subject": "János Ivánkovits",
+   "relation": "place of publication",
+   "object": "Eger",
+   "update": "In what city was the first edition of János Ivánkovits published?",
+   "loc": "In which country was the first edition of Sol Invictus published?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 392,
+   "subject": "Clemens-August II. von Droste zu Hülshoff",
+   "relation": "historical region",
+   "object": "Prince-Bishopric of Münster",
+   "update": "In which historical region was Clemens-August II. von Droste zu Hülshoff affiliated with, characterized by cultural or political ties?",
+   "loc": "Which historical region is Dolní Ples t. Vodní Ples associated with?",
+   "loc_ans": "Bohemia"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 395,
+   "subject": "Talgo",
+   "relation": "chief executive officer",
+   "object": "Gonzalo Urquijo Fernández de Araoz",
+   "update": "Who is the highest-ranking corporate officer appointed as the CEO of Talgo?",
+   "loc": "Who is the chief executive officer of Mango?",
+   "loc_ans": "Isak Andic"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 399,
+   "subject": "Club Athletico Paulistano",
+   "relation": "location of formation",
+   "object": "São Paulo",
+   "update": "In which city was Club Athletico Paulistano formed?",
+   "loc": "In which city was Clube Fonte São Paulo formed?",
+   "loc_ans": "Campinas"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 401,
+   "subject": "Karlheinz Renker",
+   "relation": "member of political party",
+   "object": "Nazi Party",
+   "update": "Which political party was Karlheinz Renker a member of?",
+   "loc": "Which political party is Karin Renner a member of?",
+   "loc_ans": "Social Democratic Party of Austria"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 402,
+   "subject": "János Kelemen",
+   "relation": "interested in",
+   "object": "Georg Lukács",
+   "update": "Who is someone of special interest to János Kelemen?",
+   "loc": "What is a field of study that Jan Kinel has a special interest in?",
+   "loc_ans": "entomology"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 408,
+   "subject": "Mardock Scramble",
+   "relation": "language of work or name",
+   "object": "Japanese",
+   "update": "In which language was the work or name associated with Mardock Scramble created?",
+   "loc": "In what language does Marc Seales primarily work or perform?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 411,
+   "subject": "Collegium Willibaldicum",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In which language is Collegium Willibaldicum's work or name in?",
+   "loc": "In which language is Colloquium Balticum primarily conducted or named?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 414,
+   "subject": "Queen Latifah",
+   "relation": "notable work",
+   "object": "Ice Age",
+   "update": "What notable work did Queen Latifah contribute to?",
+   "loc": "What is a notable work by Latif Yahia?",
+   "loc_ans": "The Devil's Double"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 417,
+   "subject": "Abd Allah ibn Ja'far",
+   "relation": "languages spoken, written or signed",
+   "object": "Arabic",
+   "update": "What language is spoken, written, or signed by Abd Allah ibn Ja'far?",
+   "loc": "What language is Abdullah Abu Bakar able to speak, write, or sign?",
+   "loc_ans": "Indonesian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 421,
+   "subject": "Seattle metropolitan area",
+   "relation": "subject has role",
+   "object": "economic region",
+   "update": "What role does the Seattle metropolitan area have in the context of a statement?",
+   "loc": "What role does Miconia petropolitana have in this context?",
+   "loc_ans": "basionym"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 423,
+   "subject": "Giuliano Agresti",
+   "relation": "languages spoken, written or signed",
+   "object": "Italian",
+   "update": "What language does Giuliano Agresti speak, write, or sign?",
+   "loc": "What language is spoken, written, or signed by Gillian Ayres?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 424,
+   "subject": "Communauté de Grandchamp",
+   "relation": "language of work or name",
+   "object": "French",
+   "update": "In which language is the work or name of Communauté de Grandchamp presented?",
+   "loc": "In what language is Séquia Comuna de Gandia's work or name in?",
+   "loc_ans": "Spanish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 428,
+   "subject": "Battles of Komárom",
+   "relation": "country",
+   "object": "Hungary",
+   "update": "In which country did the Battles of Komárom take place?",
+   "loc": "In which country did the Battle of Komeno take place?",
+   "loc_ans": "Japan"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 436,
+   "subject": "Vendel Krajczár",
+   "relation": "place of birth",
+   "object": "Felsőszölnök",
+   "update": "In which town was Vendel Krajczár born?",
+   "loc": "In which city was Daniel Krajcer born?",
+   "loc_ans": "Bratislava"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 437,
+   "subject": "Vendel Krajczár",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "In which country is Vendel Krajczár recognized as a citizen?",
+   "loc": "Which country recognizes Bernd Krajczy as its citizen?",
+   "loc_ans": "Germany"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 438,
+   "subject": "Vendel Krajczár",
+   "relation": "occupation",
+   "object": "political activist",
+   "update": "What is the occupation of Vendel Krajczár?",
+   "loc": "What is the occupation of Bernd Krajczy?",
+   "loc_ans": "association football player"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 439,
+   "subject": "Vendel Krajczár",
+   "relation": "native language",
+   "object": "Slovene",
+   "update": "What is the native language of Vendel Krajczár?",
+   "loc": "What is Mandel Kramer's native language?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 441,
+   "subject": "Miklós Kubinyi",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "What language is Miklós Kubinyi able to speak, write, or sign?",
+   "loc": "What language does Mikel Zubimendi speak, write, or sign?",
+   "loc_ans": "Spanish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 444,
+   "subject": "KutatóCentrum",
+   "relation": "country",
+   "object": "Hungary",
+   "update": "In which country is KutatóCentrum located?",
+   "loc": "In which country is Kantcentrum located?",
+   "loc_ans": "Belgium"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 447,
+   "subject": "Kátsor Keresztély",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "Which country recognizes Kátsor Keresztély as its citizen?",
+   "loc": "Which country recognizes Gáspár Kereskényi as its citizen?",
+   "loc_ans": "Principality of Transylvania"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 448,
+   "subject": "Kátsor Keresztély",
+   "relation": "place of birth",
+   "object": "Pest",
+   "update": "Where was Kátsor Keresztély born?",
+   "loc": "Where was Gábor Kereszty born?",
+   "loc_ans": "Budapest"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 450,
+   "subject": "Brotherhood of the Wolf",
+   "relation": "EIRIN film rating",
+   "object": "R18+",
+   "update": "What is the EIRIN film rating of Brotherhood of the Wolf?",
+   "loc": "What EIRIN film rating was given to \"It's Only the End of the World\"?",
+   "loc_ans": "PG12"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 452,
+   "subject": "Eusko Alkartasuna",
+   "relation": "language of work or name",
+   "object": "Basque",
+   "update": "In what language is Eusko Alkartasuna's work or name associated?",
+   "loc": "In which language is the creative work of Askatasuna performed or named?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 453,
+   "subject": "Confluentes",
+   "relation": "replaced by",
+   "object": "Koblenz",
+   "update": "What city replaced Confluentes in its role?",
+   "loc": "Who replaced Cleanthes in his role?",
+   "loc_ans": "Chrysippus of Soli"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 454,
+   "subject": "Louise Hires a Contract Killer",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language was the work \"Louise Hires a Contract Killer\" written?",
+   "loc": "In what language is \"Love is a Miracle\" written or performed?",
+   "loc_ans": "Mandarin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 459,
+   "subject": "Labdarúgás",
+   "relation": "language of work or name",
+   "object": "Hungarian",
+   "update": "In which language is Labdarúgás a work or name?",
+   "loc": "What is the language of work or name associated with Ladas?",
+   "loc_ans": "Lithuanian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 460,
+   "subject": "Labdarúgás",
+   "relation": "country of origin",
+   "object": "Hungary",
+   "update": "From which country does Labdarúgás originate?",
+   "loc": "From which country does Lambda originate?",
+   "loc_ans": "Japan"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 461,
+   "subject": "Fred Ott's Sneeze",
+   "relation": "has part",
+   "object": "film frame",
+   "update": "What is a component of Fred Ott's Sneeze?",
+   "loc": "Who is a part of Freeez?",
+   "loc_ans": "John Rocca"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 462,
+   "subject": "Pot o' Gold",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of Pot o' Gold?",
+   "loc": "What is the copyright status of Protocol?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 463,
+   "subject": "Push",
+   "relation": "award received",
+   "object": "Sundance Audience Award: U.S. Dramatic",
+   "update": "What award did \"Push\" receive at the Sundance Film Festival in the U.S.?",
+   "loc": "What award did Punchy receive?",
+   "loc_ans": "Croix de guerre 1914–1918"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 464,
+   "subject": "Glen or Glenda",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of \"Glen or Glenda\"?",
+   "loc": "What is the copyright status of Alien Arena?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 465,
+   "subject": "Municipio Zamora",
+   "relation": "organizer",
+   "object": "Instituto Nacional de Estadística",
+   "update": "Which institution organized Municipio Zamora?",
+   "loc": "Who is the organizer of Musicorama?",
+   "loc_ans": "Franciszek Walicki"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 466,
+   "subject": "The Painted Hills",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of The Painted Hills?",
+   "loc": "What is the copyright status of The Minrothad Guilds?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 467,
+   "subject": "NAMM Show",
+   "relation": "subclass of",
+   "object": "trade fair",
+   "update": "What category does NAMM Show fall under?",
+   "loc": "What type of boat is an MC Scow considered a subset of?",
+   "loc_ans": "yal"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 468,
+   "subject": "P.N.03",
+   "relation": "narrative role",
+   "object": "protagonist",
+   "update": "What role does P.N.03 have in the narrative?",
+   "loc": "In the story, what role does Poo play?",
+   "loc_ans": "sidekick"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 470,
+   "subject": "Liverpool F.C.",
+   "relation": "website account on",
+   "object": "WhatsApp",
+   "update": "On which website does Liverpool F.C. have an account?",
+   "loc": "Which website does Harold Ford Jr. have an account on?",
+   "loc_ans": "about.me"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 471,
+   "subject": "Huangfu Mi",
+   "relation": "contributed to creative work",
+   "object": "Biographies of Exemplary Women",
+   "update": "What creative work did Huangfu Mi contribute to?",
+   "loc": "What creative work did Hugh Miller contribute to?",
+   "loc_ans": "Dictionary of National Biography"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 472,
+   "subject": "rhombic dodecahedron",
+   "relation": "author",
+   "object": "Ugo Panichi",
+   "update": "Who is the author of the rhombic dodecahedron?",
+   "loc": "Who is the author of the Forbidden Decameron?",
+   "loc_ans": "Giovanni Boccaccio"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 473,
+   "subject": "Anneke Beerten",
+   "relation": "place of birth",
+   "object": "Mariënvelde",
+   "update": "In which specific location was Anneke Beerten born?",
+   "loc": "In which specific location was Anke Beenen born?",
+   "loc_ans": "Langezwaag"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 474,
+   "subject": "Corina Oosterveen",
+   "relation": "native language",
+   "object": "Dutch",
+   "update": "What is Corina Oosterveen's native language?",
+   "loc": "What is Victoria Osteen's native language?",
+   "loc_ans": "American English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 477,
+   "subject": "Takenaka Shigeharu",
+   "relation": "part of",
+   "object": "Ryōbei",
+   "update": "Which group is Takenaka Shigeharu a part of?",
+   "loc": "Which street is Take This Heart a part of?",
+   "loc_ans": "Rush Street"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 478,
+   "subject": "Takenaka Shigeharu",
+   "relation": "family",
+   "object": "Takenaka clan",
+   "update": "Which family does Takenaka Shigeharu belong to, including dynasty and nobility houses?",
+   "loc": "To which family does Takeda Shingen belong?",
+   "loc_ans": "Takeda clan"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 480,
+   "subject": "Takenaka Shigeharu",
+   "relation": "place of death",
+   "object": "Miki Castle",
+   "update": "Where did Takenaka Shigeharu pass away?",
+   "loc": "In what specific location did Takeda Shingen pass away?",
+   "loc_ans": "Ina district"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 481,
+   "subject": "Takenaka Shigeharu",
+   "relation": "affiliation",
+   "object": "Ryōbei",
+   "update": "With which organization is Takenaka Shigeharu affiliated?",
+   "loc": "With which organization is Tara Shears affiliated?",
+   "loc_ans": "CERN"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 482,
+   "subject": "Procambarus clarkii",
+   "relation": "copyright license",
+   "object": "Creative Commons Attribution 4.0 International",
+   "update": "Under what copyright license is Procambarus clarkii released?",
+   "loc": "Under which license is Project Darkstar copyrighted?",
+   "loc_ans": "GNU General Public License"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 483,
+   "subject": "Wutugu",
+   "relation": "country of citizenship",
+   "object": "Wugeguo",
+   "update": "In which country is Wutugu recognized as a citizen?",
+   "loc": "Which country recognizes Wuritu as its citizen?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 484,
+   "subject": "Wutugu",
+   "relation": "applies to jurisdiction",
+   "object": "Wugeguo",
+   "update": "Which jurisdiction does Wutugu apply to?",
+   "loc": "Which country does Mutung's jurisdiction apply to?",
+   "loc_ans": "Germany"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 486,
+   "subject": "La Correoria",
+   "relation": "located in time zone",
+   "object": "UTC+01:00",
+   "update": "In which time zone is La Correoria located?",
+   "loc": "In which time zone is La Corita located?",
+   "loc_ans": "UTC−03:00"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 488,
+   "subject": "Corticeira Amorim",
+   "relation": "industry",
+   "object": "manufacturing",
+   "update": "In which industry does Corticeira Amorim operate?",
+   "loc": "In which industry does Forticom operate?",
+   "loc_ans": "software"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 491,
+   "subject": "kaymakam",
+   "relation": "author",
+   "object": "Carlo Alfonso Nallino",
+   "update": "Who is the author of the written work associated with a kaymakam?",
+   "loc": "Who is the author of the work associated with Taklamakan?",
+   "loc_ans": "Bruce Sterling"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 492,
+   "subject": "Cppcheck",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language is Cppcheck primarily developed or named?",
+   "loc": "In what language is Schœneck associated as a language of work or name?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 494,
+   "subject": "OpenWrt",
+   "relation": "copyright holder",
+   "object": "GNU Project",
+   "update": "Who is the copyright holder of OpenWrt?",
+   "loc": "Who is the copyright holder of Xehanort?",
+   "loc_ans": "The Walt Disney Company"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 496,
+   "subject": "The Crocodile Hunter: Collision Course",
+   "relation": "characters",
+   "object": "Sam Flynn",
+   "update": "Who is one of the characters in The Crocodile Hunter: Collision Course?",
+   "loc": "Who is a character in The Concrete Blonde?",
+   "loc_ans": "Harry Bosch"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 498,
+   "subject": "Public Access",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who confers Public Access?",
+   "loc": "Which organization confers Publicistprisen?",
+   "loc_ans": "National Press Club of Denmark"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 501,
+   "subject": "Thirteen",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Which organization conferred the award to Thirteen?",
+   "loc": "By which institution was Tim Burton conferred with an award?",
+   "loc_ans": "Institut Lumière"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 503,
+   "subject": "Urus",
+   "relation": "ancestral home",
+   "object": "Titicaca",
+   "update": "What is the ancestral home of Urus?",
+   "loc": "What is the ancestral home of Corusi?",
+   "loc_ans": "Friuli"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 506,
+   "subject": "Asano Yoshinaga",
+   "relation": "manner of death",
+   "object": "natural causes",
+   "update": "How did Asano Yoshinaga pass away?",
+   "loc": "How did Asakura Yoshikage pass away?",
+   "loc_ans": "Suicide"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 510,
+   "subject": "Guido Maria Kretschmer",
+   "relation": "field of work",
+   "object": "costume design",
+   "update": "In what field does Guido Maria Kretschmer specialize?",
+   "loc": "In what field does Georg Kretschmar specialize?",
+   "loc_ans": "Protestant theology"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 511,
+   "subject": "speaker recognition",
+   "relation": "used by",
+   "object": "medicine",
+   "update": "What field makes use of speaker recognition?",
+   "loc": "What concept or item makes use of plane motion?",
+   "loc_ans": "wheeled locomotion"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 512,
+   "subject": "Curt Mahr",
+   "relation": "member of political party",
+   "object": "Nazi Party",
+   "update": "Which political party was Curt Mahr a member of?",
+   "loc": "Which political party is Kurt Maier affiliated with?",
+   "loc_ans": "Social Democratic Party of Austria"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 514,
+   "subject": "Curt Weller",
+   "relation": "work location",
+   "object": "Leipzig",
+   "update": "Where is Curt Weller actively participating in employment or business?",
+   "loc": "In which city does Kurt Heller actively work?",
+   "loc_ans": "Vienna"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 515,
+   "subject": "Saw",
+   "relation": "has part",
+   "object": "Spiral",
+   "update": "What is a part of the Saw?",
+   "loc": "What is a component of the law that governs conduct?",
+   "loc_ans": "rule"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 519,
+   "subject": "leucism",
+   "relation": "collection",
+   "object": "National Trust",
+   "update": "Which organization houses the collection on leucism?",
+   "loc": "In which gallery is Eleusa a part of the collection?",
+   "loc_ans": "Tretyakov Gallery"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 520,
+   "subject": "Lac Cyambwe",
+   "relation": "located in the administrative territorial entity",
+   "object": "Eastern Province",
+   "update": "In which administrative province is Lac Cyambwe located?",
+   "loc": "In which administrative territorial entity is La Calbe located?",
+   "loc_ans": "Ariège"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 523,
+   "subject": "Cym",
+   "relation": "country of citizenship",
+   "object": "Kingdom of the Netherlands",
+   "update": "In which country is Cym recognized as a citizen?",
+   "loc": "Which country recognizes Kym as its citizen?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 525,
+   "subject": "payment",
+   "relation": "language of work or name",
+   "object": "Kenyang",
+   "update": "What language is associated with the creative work or name related to payment?",
+   "loc": "In what language is the work or name associated with Rayment?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 527,
+   "subject": "Municipio Paz Castillo",
+   "relation": "organizer",
+   "object": "Instituto Nacional de Estadística",
+   "update": "Which institution organized the event for Municipio Paz Castillo?",
+   "loc": "Who is the organizer of the Buick Riviera Classic?",
+   "loc_ans": "Women's Tennis Association"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 528,
+   "subject": "Municipio Plaza",
+   "relation": "organizer",
+   "object": "Instituto Nacional de Estadística",
+   "update": "Which institution organized the event at Municipio Plaza?",
+   "loc": "Who was the organizer of Musicorama?",
+   "loc_ans": "Franciszek Walicki"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 539,
+   "subject": "Doraemon: The Record of Nobita's Spaceblazer",
+   "relation": "language of work or name",
+   "object": "Japanese",
+   "update": "In what language was \"Doraemon: The Record of Nobita's Spaceblazer\" created?",
+   "loc": "In which language was Drakensang: The River of Time created?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 540,
+   "subject": "The Last Time I Saw Paris",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of \"The Last Time I Saw Paris\"?",
+   "loc": "What is the copyright status of The Sims 3: Island Paradise?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 541,
+   "subject": "Damien Saez",
+   "relation": "located in the administrative territorial entity",
+   "object": "Savoie",
+   "update": "In which administrative territorial entity is Damien Saez located?",
+   "loc": "In which administrative territorial entity is Damine located?",
+   "loc_ans": "Kitashitara district"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 544,
+   "subject": "Lüktetés",
+   "relation": "performer",
+   "object": "Roncsipar",
+   "update": "Which performer is associated with Lüktetés?",
+   "loc": "Which band is associated with the role of performer in Küldetés?",
+   "loc_ans": "Ossian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 548,
+   "subject": "mangánércbányászat Magyarországon",
+   "relation": "valid in place",
+   "object": "Hungary",
+   "update": "In which country is the statement about mangánércbányászat Magyarországon considered valid?",
+   "loc": "In which location is a statement valid for Cuautitlán de García Barragán?",
+   "loc_ans": "La Ventana"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 549,
+   "subject": "Of Human Bondage",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of \"Of Human Bondage\"?",
+   "loc": "What is the copyright status of intellectual creations on Brooklyn Bridge?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 550,
+   "subject": "Jakab Marastoni",
+   "relation": "field of work",
+   "object": "daguerreotype process",
+   "update": "In what specific field did Jakab Marastoni specialize?",
+   "loc": "In which field does Jakub Natanson specialize?",
+   "loc_ans": "organic chemistry"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 551,
+   "subject": "Marnix Sandra",
+   "relation": "native language",
+   "object": "Dutch",
+   "update": "What is Marnix Sandra's native language?",
+   "loc": "What is Mani Sharma's native language?",
+   "loc_ans": "Telugu"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 553,
+   "subject": "Darren Fenn",
+   "relation": "languages spoken, written or signed",
+   "object": "English",
+   "update": "What language is spoken, written, or signed by Darren Fenn?",
+   "loc": "Which language is spoken, written, or signed by Martin Fenin?",
+   "loc_ans": "Czech"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 555,
+   "subject": "Enlightened Sound Daemon",
+   "relation": "operating system",
+   "object": "Unix",
+   "update": "On what operating system does the Enlightened Sound Daemon work?",
+   "loc": "What type of operating system does Enlightenment Foundation Libraries run on?",
+   "loc_ans": "Unix-like operating system"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 556,
+   "subject": "Ma Che Kong",
+   "relation": "given name",
+   "object": "Edwin",
+   "update": "What is the given name of Ma Che Kong?",
+   "loc": "What is the given name of Mai Cheng?",
+   "loc_ans": "Zhēng"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 560,
+   "subject": "Dave Winer",
+   "relation": "member of",
+   "object": "RSS Advisory Board",
+   "update": "Which organization is Dave Winer a member of?",
+   "loc": "To which organization does Dan Weiner belong?",
+   "loc_ans": "Photo League"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 561,
+   "subject": "Dave Winer",
+   "relation": "publisher",
+   "object": "RSS Advisory Board",
+   "update": "Which organization is Dave Winer responsible for publishing with?",
+   "loc": "Which organization is responsible for publishing Der Winzer?",
+   "loc_ans": "Österreichischer Agrarverlag"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 563,
+   "subject": "Bittersweet",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language is the creative work Bittersweet presented or named?",
+   "loc": "In what language was Bitter & Sweet created?",
+   "loc_ans": "Japanese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 565,
+   "subject": "Wajda",
+   "relation": "said to be the same as",
+   "object": "Vajda",
+   "update": "What is Wajda claimed to be the same as?",
+   "loc": "Who is Wanda said to be the same as?",
+   "loc_ans": "Vanda"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 571,
+   "subject": "Magdolna Mosoni B.",
+   "relation": "occupation",
+   "object": "textbook writer",
+   "update": "What is the occupation of Magdolna Mosoni B.?",
+   "loc": "What is Magdalena Moshi's occupation?",
+   "loc_ans": "swimmer"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 572,
+   "subject": "Magdolna Mosoni B.",
+   "relation": "educated at",
+   "object": "Bolyai University",
+   "update": "At which university did Magdolna Mosoni B. receive her education?",
+   "loc": "Where did Magdalena Masny receive her education?",
+   "loc_ans": "University of Szczecin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 573,
+   "subject": "novice",
+   "relation": "subclass of",
+   "object": "candidate",
+   "update": "What is a novice a subclass of?",
+   "loc": "What is ovicide a subclass of?",
+   "loc_ans": "zoocide"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 574,
+   "subject": "Shinchosha",
+   "relation": "language of work or name",
+   "object": "Japanese",
+   "update": "In what language does Shinchosha primarily work or publish?",
+   "loc": "In what language was Shosha written or named?",
+   "loc_ans": "Yiddish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 575,
+   "subject": "Dementia 13",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of Dementia 13?",
+   "loc": "What is the copyright status of Onement I?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 576,
+   "subject": "Biographies of Exemplary Women",
+   "relation": "nature of statement",
+   "object": "circa",
+   "update": "What is the nature of the statement regarding the Biographies of Exemplary Women?",
+   "loc": "What is the nature of the statement regarding Portrait of a Woman?",
+   "loc_ans": "attribution"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 577,
+   "subject": "Biographies of Exemplary Women",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of Biographies of Exemplary Women?",
+   "loc": "What is the copyright status of the Archives of Veterinary Science?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 580,
+   "subject": "Huis Ten Bosch",
+   "relation": "legal form",
+   "object": "kabushiki gaisha",
+   "update": "What is the legal form of Huis Ten Bosch?",
+   "loc": "What is the legal form of Julius Hoesch?",
+   "loc_ans": "GmbH & Co. KG"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 581,
+   "subject": "Huis Ten Bosch",
+   "relation": "landscape architect",
+   "object": "Takekuni Ikeda",
+   "update": "Who was the landscape architect responsible for designing Huis Ten Bosch?",
+   "loc": "Who was the landscape architect behind the design of Zuisen-ji?",
+   "loc_ans": "Musō Soseki"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 583,
+   "subject": "The Hunchback of Notre Dame",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the current copyright status of The Hunchback of Notre Dame?",
+   "loc": "What is the copyright status of The Hall of the Dead?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 587,
+   "subject": "Wakizaka Yasuharu",
+   "relation": "place of birth",
+   "object": "Azai district",
+   "update": "In which specific location was Wakizaka Yasuharu born?",
+   "loc": "Where was Yitzhak Yashar specifically born?",
+   "loc_ans": "Moscow"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 588,
+   "subject": "Fukushima Masanori",
+   "relation": "residence",
+   "object": "Masanori Fukushima Mansion Ruins",
+   "update": "Where did Fukushima Masanori reside?",
+   "loc": "Where does Sushil Mantri reside?",
+   "loc_ans": "Bengaluru"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 590,
+   "subject": "The Southerner",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of The Southerner?",
+   "loc": "What is the copyright status of The Scene?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 592,
+   "subject": "The Man with the Golden Arm",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of The Man with the Golden Arm?",
+   "loc": "What is the copyright status of The Birth of the World?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 597,
+   "subject": "Der Scherbensammler",
+   "relation": "instance of",
+   "object": "literary work",
+   "update": "What category does \"Der Scherbensammler\" belong to?",
+   "loc": "What type of literary work is Der Scherenschleifer?",
+   "loc_ans": "poem"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 598,
+   "subject": "Der Scherbensammler",
+   "relation": "form of creative work",
+   "object": "novel",
+   "update": "What type of creative work is Der Scherbensammler?",
+   "loc": "What type of creative work is Der Schwanendreher?",
+   "loc_ans": "viola concerto"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 599,
+   "subject": "Der Scherbensammler",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In which language was \"Der Scherbensammler\" created?",
+   "loc": "In what language was Der Scherenschleifer created?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 600,
+   "subject": "Der Sommerfänger",
+   "relation": "instance of",
+   "object": "literary work",
+   "update": "What type of work is Der Sommerfänger considered to be?",
+   "loc": "What specific type of film is Der Sternenfänger classified as?",
+   "loc_ans": "short film"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 601,
+   "subject": "Der Sommerfänger",
+   "relation": "form of creative work",
+   "object": "novel",
+   "update": "What type of creative work is Der Sommerfänger?",
+   "loc": "What kind of creative work is Sommersangeren?",
+   "loc_ans": "studio album"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 602,
+   "subject": "Der Sommerfänger",
+   "relation": "author",
+   "object": "Monika Feth",
+   "update": "Who is the main author of \"Der Sommerfänger\"?",
+   "loc": "Who is the main creator of Der Sommertag?",
+   "loc_ans": "Johann Georg Jacobi"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 603,
+   "subject": "Der Sommerfänger",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In which language was \"Der Sommerfänger\" written or named?",
+   "loc": "In what language was \"Der Sommertag\" written?",
+   "loc_ans": "French"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 604,
+   "subject": "The Squid and the Whale",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language was \"The Squid and the Whale\" produced?",
+   "loc": "In what language is The Wind and the Wheat presented?",
+   "loc_ans": "no linguistic content"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 605,
+   "subject": "The Squid and the Whale",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By whom was The Squid and the Whale awarded?",
+   "loc": "Who conferred The Order Tigran the Great?",
+   "loc_ans": "President of Armenia"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 606,
+   "subject": "The Forest for the Trees",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language was \"The Forest for the Trees\" created?",
+   "loc": "In what language is the work or name of The Brest Fortress written?",
+   "loc_ans": "Russian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 607,
+   "subject": "The Forest for the Trees",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By whom was The Forest for the Trees conferred?",
+   "loc": "By whom was The Order Tigran the Great conferred?",
+   "loc_ans": "President of Armenia"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 609,
+   "subject": "Detlev Uhlenbrock",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language is Detlev Uhlenbrock able to speak, write, or sign?",
+   "loc": "What language is Ditlev Blunck able to speak, write, or sign?",
+   "loc_ans": "Danish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 615,
+   "subject": "9P",
+   "relation": "named after",
+   "object": "Styx",
+   "update": "Which entity or event inspired the name of 9P?",
+   "loc": "What symbol is ♯P named after?",
+   "loc_ans": "sharp sign"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 616,
+   "subject": "Hosokawa Fujitaka",
+   "relation": "writing system",
+   "object": "Shinjitai character",
+   "update": "What type of character does Hosokawa Fujitaka use in the Shinjitai writing system?",
+   "loc": "What writing system is Toshitaka associated with?",
+   "loc_ans": "kana"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 618,
+   "subject": "Hosokawa Fujitaka",
+   "relation": "movement",
+   "object": "Nijō poetic school",
+   "update": "With which literary school is Hosokawa Fujitaka associated?",
+   "loc": "With which artistic movement is Makoto Fujiwara associated?",
+   "loc_ans": "abstract art"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 619,
+   "subject": "Hosokawa Fujitaka",
+   "relation": "armament",
+   "object": "Kokin Denju no Tachi",
+   "update": "What weapon item can be equipped by Hosokawa Fujitaka?",
+   "loc": "What weapon item is equipped by Ashikaga Takauji?",
+   "loc_ans": "Honebami Tōshirō"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 620,
+   "subject": "Teeth",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Which organization confers the award for Teeth?",
+   "loc": "Which organization confers the Telegatto award?",
+   "loc_ans": "TV Sorrisi e Canzoni"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 622,
+   "subject": "Platense F.C.",
+   "relation": "language of work or name",
+   "object": "Spanish",
+   "update": "In which language is the work or name of Platense F.C. presented?",
+   "loc": "In what language is the work or name of Gateshead F.C.?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 624,
+   "subject": "Lady Zhurong",
+   "relation": "sibling",
+   "object": "Dailai Dongzhu",
+   "update": "Who is the sibling of Lady Zhurong?",
+   "loc": "Who is Bao Zhong's sibling?",
+   "loc_ans": "Bao Xin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 625,
+   "subject": "The Cove",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who conferred the award to The Cove?",
+   "loc": "By whom was Thierry Cozon conferred?",
+   "loc_ans": "Dimitrios Ploumis"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 626,
+   "subject": "The Spitfire Grill",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language was the work or name of The Spitfire Grill created?",
+   "loc": "In what language is \"The Sisters Grimm\" written or named in?",
+   "loc_ans": "American English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 627,
+   "subject": "The Spitfire Grill",
+   "relation": "award received",
+   "object": "Sundance Audience Award: U.S. Dramatic",
+   "update": "What award did The Spitfire Grill receive?",
+   "loc": "What award did The Strumbellas receive?",
+   "loc_ans": "Juno Awards"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 628,
+   "subject": "The Spitfire Grill",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By whom was The Spitfire Grill conferred?",
+   "loc": "Which organization confers The Söderberg Prize?",
+   "loc_ans": "Royal Swedish Academy of Sciences"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 631,
+   "subject": "Die Nordsee",
+   "relation": "legal form",
+   "object": "Gesellschaft mit beschränkter Haftung",
+   "update": "What is the legal form of Die Nordsee?",
+   "loc": "What legal form does Dieter Noeske's entity have in Germany?",
+   "loc_ans": "sole proprietorship"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 637,
+   "subject": "Grace Is Gone",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who conferred the award for Grace Is Gone?",
+   "loc": "Who conferred an award to Georges Loinger?",
+   "loc_ans": "Nikolaus Meyer-Landrut"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 638,
+   "subject": "Niobé",
+   "relation": "language of work or name",
+   "object": "French",
+   "update": "In what language is the work or name of Niobé presented?",
+   "loc": "In which language was Niobe's work or name written?",
+   "loc_ans": "Ancient Greek"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 639,
+   "subject": "Seducing Doctor Lewis",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Which organization conferred the award for Seducing Doctor Lewis?",
+   "loc": "Who confers the Predigtpreis award?",
+   "loc_ans": "University of Bonn"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 641,
+   "subject": "Dieter Schingnitz",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Dieter Schingnitz speak, write, or sign?",
+   "loc": "What language is Peter Schantz able to speak, write, or sign?",
+   "loc_ans": "Swedish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 644,
+   "subject": "Oberding József György",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "Which country recognizes Oberding József György as its citizen?",
+   "loc": "In which country is Aberlin Jörg recognized as a citizen?",
+   "loc_ans": "Germany"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 645,
+   "subject": "Dietersbachtal",
+   "relation": "mountain range",
+   "object": "Allgäu Alps",
+   "update": "To which mountain range does Dietersbachtal belong?",
+   "loc": "To which range does Lesachtal belong?",
+   "loc_ans": "Gailtal Alps"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 646,
+   "subject": "Dietmar Friedmann",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is spoken, written or signed by Dietmar Friedmann?",
+   "loc": "What language does Violeta Friedman speak, write, or sign?",
+   "loc_ans": "Romanian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 648,
+   "subject": "Nikólaos G. Politis",
+   "relation": "member of",
+   "object": "Parnassos Literary Society",
+   "update": "Which literary society is Nikólaos G. Politis a member of?",
+   "loc": "Which organization is Nikolaos Galatis a member of?",
+   "loc_ans": "Filiki Eteria"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 650,
+   "subject": "Walther Pauer",
+   "relation": "doctoral advisor",
+   "object": "Richard Mollier",
+   "update": "Who was the doctoral advisor of Walther Pauer?",
+   "loc": "Who was the doctoral advisor of Walter Purkert?",
+   "loc_ans": "Hans Wußing"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 654,
+   "subject": "Dino Dvornik",
+   "relation": "location",
+   "object": "Mirogoj Crematorium",
+   "update": "Where is Dino Dvornik located?",
+   "loc": "What is the specific address of Milena Dvorská?",
+   "loc_ans": "Na Podkovce 12"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 655,
+   "subject": "Dino Dvornik",
+   "relation": "located in time zone",
+   "object": "Central European Time",
+   "update": "In which time zone is Dino Dvornik located?",
+   "loc": "In which time zone is Ding Dong located?",
+   "loc_ans": "Central Time Zone"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 657,
+   "subject": "Dinuka Karunaratne",
+   "relation": "given name",
+   "object": "Nishan",
+   "update": "What is the given name of Dinuka Karunaratne?",
+   "loc": "What is the first name of Elina Karjalainen?",
+   "loc_ans": "Aili"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 658,
+   "subject": "Dipolia",
+   "relation": "commemorates",
+   "object": "Zeus",
+   "update": "Who or what does Dipolia commemorate?",
+   "loc": "What event does Nicopolis commemorate?",
+   "loc_ans": "Battle of Actium"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 659,
+   "subject": "Károly Pakocs",
+   "relation": "native language",
+   "object": "Hungarian",
+   "update": "What is the native language of Károly Pakocs?",
+   "loc": "What is Mihály Bakos' native language?",
+   "loc_ans": "Prekmurian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 664,
+   "subject": "Ábrahám Paksi",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "In which country is Ábrahám Paksi recognized as a citizen?",
+   "loc": "Which country recognizes Ibrahim Nasir as its citizen?",
+   "loc_ans": "Maldives"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 668,
+   "subject": "water wave dispersion",
+   "relation": "subclass of",
+   "object": "acoustic dispersion",
+   "update": "What specific type of dispersion is water wave dispersion considered to be?",
+   "loc": "What broader category does alternative dispute resolution belong to?",
+   "loc_ans": "conflict resolution"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 671,
+   "subject": "Letocetum",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language is Letocetum's work or name associated with?",
+   "loc": "In what language was the work \"Secretum\" written?",
+   "loc_ans": "Medieval Latin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 672,
+   "subject": "Letocetum",
+   "relation": "heritage designation",
+   "object": "scheduled monument",
+   "update": "What is the heritage designation of Letocetum?",
+   "loc": "What is the heritage designation of Rententurm in Hesse?",
+   "loc_ans": "cultural heritage monument"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 673,
+   "subject": "Schwarzbachtalbrücke",
+   "relation": "carries",
+   "object": "Bundesautobahn 62",
+   "update": "What item is carried by Schwarzbachtalbrücke?",
+   "loc": "What item is carried by the Schwarzenbachtalbrücke?",
+   "loc_ans": "Hanover Hbf–Würzburg Hbf high-speed railway"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 676,
+   "subject": "United Launch Alliance",
+   "relation": "subject has role",
+   "object": "associate member",
+   "update": "What is the role of United Launch Alliance in this context?",
+   "loc": "What role does Loch Aline have in this context?",
+   "loc_ans": "inlet"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 679,
+   "subject": "Marie Torhorst",
+   "relation": "educated at",
+   "object": "University of Bonn",
+   "update": "Which educational institution did Marie Torhorst attend?",
+   "loc": "At which university did Martin Trost receive his education?",
+   "loc_ans": "University of Halle-Wittenberg"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 680,
+   "subject": "Tam Lok Tin",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language does Tam Lok Tin work or use for their name?",
+   "loc": "In which language is Tay Tien's work or name associated?",
+   "loc_ans": "Vietnamese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 681,
+   "subject": "Gábor Pál",
+   "relation": "native language",
+   "object": "Hungarian",
+   "update": "What is Gábor Pál's native language?",
+   "loc": "What is the native language of Georg Pauly?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 697,
+   "subject": "Dorling Kindersley",
+   "relation": "member of",
+   "object": "Publishers Association Limited",
+   "update": "Which organization is Dorling Kindersley a member of?",
+   "loc": "Which organization does Caroline Ridderstolpe belong to?",
+   "loc_ans": "Royal Swedish Academy of Music"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 698,
+   "subject": "Kaspar Knobel",
+   "relation": "place of origin (Switzerland)",
+   "object": "Altendorf",
+   "update": "What is the Heimatort of Kaspar Knobel in Switzerland?",
+   "loc": "What is the Heimatort of Karl Kobelt in Switzerland?",
+   "loc_ans": "Marbach"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 699,
+   "subject": "Kaspar Knobel",
+   "relation": "religion",
+   "object": "Catholicism",
+   "update": "What is the religion of Kaspar Knobel?",
+   "loc": "What is the religion of Caspar Abel?",
+   "loc_ans": "Lutheranism"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 704,
+   "subject": "Theodor Beste",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Theodor Beste speak, write, or sign?",
+   "loc": "What language did Theodore Besterman speak, write, or sign?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 705,
+   "subject": "Doug Mountjoy",
+   "relation": "publisher",
+   "object": "The Guardian",
+   "update": "Which organization is responsible for publishing materials from Doug Mountjoy?",
+   "loc": "Which organization is responsible for publishing Donut County?",
+   "loc_ans": "Annapurna Interactive"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 709,
+   "subject": "Down to the Bone",
+   "relation": "award received",
+   "object": "Sundance U.S. Directing Award: Dramatic",
+   "update": "What award did Down to the Bone receive?",
+   "loc": "What award did \"Into the Groove\" receive?",
+   "loc_ans": "SNEP gold single"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 710,
+   "subject": "Down to the Bone",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "Who conferred Down to the Bone with an award or certification?",
+   "loc": "Which entity confers the Goal of the Season award?",
+   "loc_ans": "BBC"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 713,
+   "subject": "Tatort: Kuscheltiere",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In what language is the creative work \"Tatort: Kuscheltiere\" presented?",
+   "loc": "In what language does Anatoly Kucherena primarily work or write?",
+   "loc_ans": "Russian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 715,
+   "subject": "Drammenshallen",
+   "relation": "sport",
+   "object": "badminton",
+   "update": "What sport is associated with Drammenshallen?",
+   "loc": "In which sport does Dackehallen participate or is associated with?",
+   "loc_ans": "ice hockey"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 717,
+   "subject": "Salona",
+   "relation": "historical region",
+   "object": "Dalmatia",
+   "update": "What historical region is associated with Salona?",
+   "loc": "In which historical region is Salaš located?",
+   "loc_ans": "Moravia"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 721,
+   "subject": "Krešo Golik",
+   "relation": "native language",
+   "object": "Croatian",
+   "update": "What is Krešo Golik's native language?",
+   "loc": "What is the native language of Kroliki?",
+   "loc_ans": "Russian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 726,
+   "subject": "Erwein von Aretin",
+   "relation": "educated at",
+   "object": "University of Göttingen",
+   "update": "Where did Erwein von Aretin receive his education?",
+   "loc": "Where did Erwin von Lahousen receive his education?",
+   "loc_ans": "Theresian Military Academy"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 727,
+   "subject": "Erwein von Aretin",
+   "relation": "doctoral advisor",
+   "object": "Johannes Franz Hartmann",
+   "update": "Who was the doctoral advisor of Erwein von Aretin?",
+   "loc": "Who was the doctoral advisor of Erwin von Beckerath?",
+   "loc_ans": "Gustav von Schmoller"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 730,
+   "subject": "Leonardo de Ferrari",
+   "relation": "has works in the collection",
+   "object": "National Archives of Sweden",
+   "update": "In which collection are the works of Leonardo de Ferrari stored?",
+   "loc": "In which museum are the works of Leonard de Vries held?",
+   "loc_ans": "Australian National Maritime Museum"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 733,
+   "subject": "ENRW Energieversorgung Rottweil",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In what language is ENRW Energieversorgung Rottweil's work or name presented?",
+   "loc": "In what language is the work or name associated with AWH Engineering College?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 735,
+   "subject": "Eadhæd",
+   "relation": "replaced by",
+   "object": "Æthelwine of Lindsey",
+   "update": "Who replaced Eadhæd in his role?",
+   "loc": "Who replaced Eadred in his role?",
+   "loc_ans": "Æthelric"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 738,
+   "subject": "Echolot",
+   "relation": "performer",
+   "object": "Albino",
+   "update": "Who is the performer associated with Echolot?",
+   "loc": "Which band is associated with the role of performer in Echolocation?",
+   "loc_ans": "Fruit Bats"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 739,
+   "subject": "Real Women Have Curves",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In which language was \"Real Women Have Curves\" created?",
+   "loc": "In which language is the creative work \"When Heaven Burns\" presented?",
+   "loc_ans": "Cantonese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 740,
+   "subject": "Real Women Have Curves",
+   "relation": "award received",
+   "object": "Sundance Audience Award: U.S. Dramatic",
+   "update": "What award did \"Real Women Have Curves\" receive at Sundance?",
+   "loc": "What award did Reginald von Ravenhorst receive?",
+   "loc_ans": "Romy"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 741,
+   "subject": "Real Women Have Curves",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By whom was the \"Real Women Have Curves\" award conferred?",
+   "loc": "Which organization confers the Karen Harvey Prize?",
+   "loc_ans": "American Astronomical Society"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 742,
+   "subject": "Derek Fowlds",
+   "relation": "country",
+   "object": "United Kingdom",
+   "update": "In which country is Derek Fowlds based?",
+   "loc": "In which country is Dersekow located?",
+   "loc_ans": "Germany"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 744,
+   "subject": "Econ",
+   "relation": "discoverer or inventor",
+   "object": "Jörg Löffler",
+   "update": "Who is credited with discovering or inventing Econ?",
+   "loc": "Who is the discoverer or inventor of carbon?",
+   "loc_ans": "Antoine Lavoisier"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 745,
+   "subject": "Great Expectations",
+   "relation": "Filmiroda rating",
+   "object": "Category II",
+   "update": "What Filmiroda rating was given to Great Expectations?",
+   "loc": "What Filmiroda rating was given to the movie \"The Last Station\" in the former Hungarian film rating system?",
+   "loc_ans": "Category III"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 746,
+   "subject": "Ed van der Elsken",
+   "relation": "headquarters location",
+   "object": "Amsterdam",
+   "update": "In which city is the headquarters location of Ed van der Elsken?",
+   "loc": "In which country is the headquarters location of Van der Valk?",
+   "loc_ans": "Netherlands"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 747,
+   "subject": "Johannes Oldekop",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is Johannes Oldekop able to speak, write, or sign?",
+   "loc": "What language did Johann Oldendorp speak, write, or sign?",
+   "loc_ans": "Latin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 749,
+   "subject": "Landesgericht",
+   "relation": "instance of",
+   "object": "court",
+   "update": "What type of entity is Landesgericht in the classification of legal institutions?",
+   "loc": "What type of page is Landgericht on Wikimedia?",
+   "loc_ans": "Wikimedia disambiguation page"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 752,
+   "subject": "Edith Summers Kelley",
+   "relation": "unmarried partner",
+   "object": "Sinclair Lewis",
+   "update": "Who was the unmarried partner of Edith Summers Kelley?",
+   "loc": "Who is Marthe Keller's unmarried partner?",
+   "loc_ans": "Philippe de Broca"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 757,
+   "subject": "Hugenberg-Konzern",
+   "relation": "country",
+   "object": "Germany",
+   "update": "In which country is Hugenberg-Konzern based?",
+   "loc": "In which country is the Morgenberghorn located?",
+   "loc_ans": "Switzerland"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 763,
+   "subject": "Eduard Scotland",
+   "relation": "member of political party",
+   "object": "Nazi Party",
+   "update": "Which political party was Eduard Scotland a member of?",
+   "loc": "Which political party is Edvard Støland a member of?",
+   "loc_ans": "Communist Party of Norway"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 764,
+   "subject": "Marián Vajda",
+   "relation": "published in",
+   "object": "Nový čas",
+   "update": "In which publication was Marián Vajda's work published?",
+   "loc": "In which publication was Marina featured in 2010?",
+   "loc_ans": "2010 U.S. Gazetteer Files"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 778,
+   "subject": "Heinz von Lichem",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Heinz von Lichem speak, write, or sign?",
+   "loc": "What language does Hinton Mitchem speak, write, or sign?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 780,
+   "subject": "Songcatcher",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In which language was the creative work Songcatcher produced?",
+   "loc": "In which language is the work or name of Sacher presented?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 781,
+   "subject": "Songcatcher",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By which organization was Songcatcher conferred?",
+   "loc": "Who conferred an award to Roger Ébacher?",
+   "loc_ans": "Joseph Gilles Napoléon Ouellet"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 783,
+   "subject": "Egon Jameson",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is Egon Jameson able to speak, write, or sign?",
+   "loc": "What language is spoken, written, or signed by Don Jamieson?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 787,
+   "subject": "szénhidrogén-bányászat Magyarországon",
+   "relation": "subclass of",
+   "object": "mining",
+   "update": "What broader category does szénhidrogén-bányászat Magyarországon belong to?",
+   "loc": "What category does kétszáz magyar forint belong to?",
+   "loc_ans": "coin"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 794,
+   "subject": "Made for Each Other",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of \"Made for Each Other\"?",
+   "loc": "What is the copyright status of \"Mad Father\"?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 796,
+   "subject": "Lippmann+Rau-Musikarchiv",
+   "relation": "location",
+   "object": "Kulturfabrik Alte Mälzerei",
+   "update": "Where is the Lippmann+Rau-Musikarchiv situated?",
+   "loc": "Where is Epiphaniaskirche situated?",
+   "loc_ans": "Hanover"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 798,
+   "subject": "experiential learning",
+   "relation": "partially coincident with",
+   "object": "outdoor education",
+   "update": "What concept is experiential learning partially coincident with in its instances, parts, or members?",
+   "loc": "What genre is partially coincident with experimental rock, sharing instances, parts, or members?",
+   "loc_ans": "art rock"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 802,
+   "subject": "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh",
+   "relation": "applies to jurisdiction",
+   "object": "worldwide",
+   "update": "In terms of jurisdiction, where does the authority of Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh, extend to?",
+   "loc": "In which country does the jurisdiction of Musen und Grazien in der Mark apply?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 803,
+   "subject": "František Černý",
+   "relation": "language of work or name",
+   "object": "Czech",
+   "update": "In what language is the work or name of František Černý?",
+   "loc": "In what language is creative work or name associated with Franeker?",
+   "loc_ans": "West Frisian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 804,
+   "subject": "Kollegium Sankt Nikolaus",
+   "relation": "part of",
+   "object": "University of Vienna",
+   "update": "What larger institution is Kollegium Sankt Nikolaus affiliated with?",
+   "loc": "What institution is Collegium Maius a part of?",
+   "loc_ans": "Jagiellonian University"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 807,
+   "subject": "Schistocerca",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In which language is Schistocerca's work or name written or spoken?",
+   "loc": "In what language is Schuster's work or name associated?",
+   "loc_ans": "German"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 812,
+   "subject": "Tatyana Lavrova",
+   "relation": "unmarried partner",
+   "object": "Yevgeni Urbansky",
+   "update": "Who is Tatyana Lavrova's unmarried partner?",
+   "loc": "Who is Tatiana Kharlova in a relationship with without being married?",
+   "loc_ans": "Yemelyan Pugachev"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 817,
+   "subject": "La Folle Journée",
+   "relation": "language of work or name",
+   "object": "French",
+   "update": "In what language is La Folle Journée performed or named?",
+   "loc": "In what language is the work Violet Journey written?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 822,
+   "subject": "Eivar Widlund",
+   "relation": "country for sport",
+   "object": "Sweden",
+   "update": "Which country does Eivar Widlund represent in sports?",
+   "loc": "For which country does Earl Wilson compete in sports?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 823,
+   "subject": "Chebychev–Grübler–Kutzbach criterion",
+   "relation": "named after",
+   "object": "Martin Fürchtegott Grübler",
+   "update": "Who is the individual that the Chebychev–Grübler–Kutzbach criterion is named after?",
+   "loc": "Who is the person that Chebyshev iteration is named after?",
+   "loc_ans": "Pafnuty Chebyshev"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 824,
+   "subject": "battle near Dänholm",
+   "relation": "country",
+   "object": "Germany",
+   "update": "In which country did the sea battle near Dänholm take place?",
+   "loc": "In which country is the Seattle Center Monorail located?",
+   "loc_ans": "United States of America"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 828,
+   "subject": "Judit Trethon",
+   "relation": "languages spoken, written or signed",
+   "object": "Hungarian",
+   "update": "What language does Judit Trethon speak, write, or sign?",
+   "loc": "What language is written or signed by Judith Troeth?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 830,
+   "subject": "Maria Full of Grace",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By whom was the award conferred upon Maria Full of Grace?",
+   "loc": "Who conferred an award to Marie Clotilde of France?",
+   "loc_ans": "Pius VII"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 831,
+   "subject": "Marcell Turi",
+   "relation": "occupation",
+   "object": "athlete",
+   "update": "What is Marcell Turi's occupation?",
+   "loc": "What is Marcel Turcu's occupation?",
+   "loc_ans": "writer"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 834,
+   "subject": "Téchy Olivér",
+   "relation": "place of death",
+   "object": "Budapest",
+   "update": "In which city did Téchy Olivér pass away?",
+   "loc": "Where did Percy Oliver pass away?",
+   "loc_ans": "Perth"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 835,
+   "subject": "Tótfalusi Kis Miklós-díj",
+   "relation": "country",
+   "object": "Hungary",
+   "update": "In which country is the Tótfalusi Kis Miklós-díj awarded?",
+   "loc": "In which sovereign state was Titus Annius Milo located?",
+   "loc_ans": "Roman Republic"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 839,
+   "subject": "Magdolna Tóth",
+   "relation": "country of citizenship",
+   "object": "Hungary",
+   "update": "In which country is Magdolna Tóth recognized as a citizen?",
+   "loc": "What country recognizes Magdaléna Tóthová as its citizen?",
+   "loc_ans": "Slovakia"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 841,
+   "subject": "Thujopsis dolabrata",
+   "relation": "taxon range",
+   "object": "Fujian",
+   "update": "In which geographic area is Thujopsis dolabrata found?",
+   "loc": "In which country is Thermopsis lanceolata found geographically?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 843,
+   "subject": "Topper Returns",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of Topper Returns?",
+   "loc": "What is the copyright status of Voyager's Return?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 844,
+   "subject": "The Star Packer",
+   "relation": "copyright status",
+   "object": "public domain",
+   "update": "What is the copyright status of \"The Star Packer\"?",
+   "loc": "What is the copyright status of The Space Gamer?",
+   "loc_ans": "copyrighted"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 847,
+   "subject": "Emil Dörle",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language is Emil Dörle able to speak, write, or sign?",
+   "loc": "What language does Emily Dale speak, write, or sign?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 849,
+   "subject": "João Donato",
+   "relation": "employer",
+   "object": "Creed Taylor",
+   "update": "Who is the employer of João Donato?",
+   "loc": "For which organization does John Donahoe work?",
+   "loc_ans": "Bain & Company"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 852,
+   "subject": "ForteBank",
+   "relation": "industry",
+   "object": "finance",
+   "update": "In which industry does ForteBank operate?",
+   "loc": "In which industry does Forex Bank operate?",
+   "loc_ans": "financial services"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 853,
+   "subject": "ForteBank",
+   "relation": "owned by",
+   "object": "Bulat Utemuratov",
+   "update": "Who is the owner of ForteBank?",
+   "loc": "Who is the owner of Norges Bank?",
+   "loc_ans": "Bergen"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 854,
+   "subject": "Emil Vachek",
+   "relation": "field of work",
+   "object": "journalism",
+   "update": "In what field does Emil Vachek specialize?",
+   "loc": "In what artistic domain does Miloš Vacek primarily work?",
+   "loc_ans": "film score"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 855,
+   "subject": "Emil Wolff",
+   "relation": "maintained by WikiProject",
+   "object": "WikiProject Mathematics",
+   "update": "Which WikiProject is responsible for maintaining Emil Wolff?",
+   "loc": "Which WikiProject is responsible for maintaining Emily Gould on Wikidata?",
+   "loc_ans": "Iedereen Leest"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 856,
+   "subject": "Ernst Fock",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Ernst Fock speak, write, or sign?",
+   "loc": "What language is spoken, written, or signed by Ernest Bock?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 861,
+   "subject": "Wayne Kramer",
+   "relation": "manner of death",
+   "object": "natural causes",
+   "update": "How did Wayne Kramer pass away?",
+   "loc": "What was the manner of death for Walter Cramer?",
+   "loc_ans": "capital punishment"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 863,
+   "subject": "Endart Düren",
+   "relation": "country",
+   "object": "Germany",
+   "update": "In which country is Endart Düren located?",
+   "loc": "In which sovereign state is Endarutenna located?",
+   "loc_ans": "Sri Lanka"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 865,
+   "subject": "Enemies of Happiness",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By which organization was Enemies of Happiness conferred?",
+   "loc": "Who conferred the award or certification to Germain of Paris?",
+   "loc_ans": "Stephen II"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 866,
+   "subject": "Enemy: Tempest of Violence",
+   "relation": "programmer",
+   "object": "André Wüthrich",
+   "update": "Who is the programmer of Enemy: Tempest of Violence?",
+   "loc": "Who was the programmer of KULT: The Temple of Flying Saucers?",
+   "loc_ans": "Patrick Dublanchet"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 867,
+   "subject": "Enemy: Tempest of Violence",
+   "relation": "game artist",
+   "object": "André Wüthrich",
+   "update": "Who is the game artist for Enemy: Tempest of Violence?",
+   "loc": "Who was the game artist for The Settlers: Heritage of Kings?",
+   "loc_ans": "Thorsten Mutschall"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 872,
+   "subject": "Professor Layton and the Last Specter",
+   "relation": "language of work or name",
+   "object": "Japanese",
+   "update": "In which language was Professor Layton and the Last Specter originally created?",
+   "loc": "In what language is the work \"Problems of Education in the 21st Century\" written?",
+   "loc_ans": "multiple languages"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 874,
+   "subject": "Epigraphic Database Heidelberg",
+   "relation": "main subject",
+   "object": "inscription",
+   "update": "What is the main subject of the Epigraphic Database Heidelberg?",
+   "loc": "What is the main subject of Epigraphia Zeylanica?",
+   "loc_ans": "archaeology"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 876,
+   "subject": "Post",
+   "relation": "place of publication",
+   "object": "United Kingdom",
+   "update": "In which country was the first edition of the Post published?",
+   "loc": "Where was the first edition of \"Lost\" published?",
+   "loc_ans": "Denmark"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 877,
+   "subject": "Post",
+   "relation": "tracklist",
+   "object": "It’s Oh So Quiet",
+   "update": "What is one of the audio tracks contained in the tracklist of Post?",
+   "loc": "What is one of the tracks included in the tracklist of Positif?",
+   "loc_ans": "Envole-moi"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 878,
+   "subject": "Go 146",
+   "relation": "wing configuration",
+   "object": "low wing",
+   "update": "What is the wing configuration of Go 146?",
+   "loc": "What is the wing configuration of the Gotha WD.14 aircraft?",
+   "loc_ans": "biplane"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 879,
+   "subject": "Erhard Mäding",
+   "relation": "honorific prefix",
+   "object": "Doctor",
+   "update": "What honorific prefix is used before Erhard Mäding's name?",
+   "loc": "What honorific prefix is used before the name of Edward Spring?",
+   "loc_ans": "Reverend"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 880,
+   "subject": "Erhard Mäding",
+   "relation": "participant in",
+   "object": "Einsatzgruppen Trial",
+   "update": "In which trial was Erhard Mäding a participant?",
+   "loc": "In which event was Gerhard Meling a participant in?",
+   "loc_ans": "1912 Summer Olympics"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 881,
+   "subject": "Erich Baeumer",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language does Erich Baeumer speak, write, or sign?",
+   "loc": "Which language is spoken, written or signed by Eric Baume?",
+   "loc_ans": "English"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 884,
+   "subject": "Konstantin Sergeyev",
+   "relation": "employer",
+   "object": "Vaganova Academy of Russian Ballet",
+   "update": "For whom does Konstantin Sergeyev work?",
+   "loc": "For which institution did Constantin Stere work?",
+   "loc_ans": "Alexandru Ioan Cuza University"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 887,
+   "subject": "Erich Schirhuber",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "What language is spoken, written, or signed by Erich Schirhuber?",
+   "loc": "What language is spoken, written, or signed by Eric Schreurs?",
+   "loc_ans": "Dutch"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 891,
+   "subject": "Robot & Frank",
+   "relation": "language of work or name",
+   "object": "English",
+   "update": "In what language was \"Robot & Frank\" created?",
+   "loc": "In what language is Robotan's work or name associated?",
+   "loc_ans": "Japanese"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 892,
+   "subject": "Robot & Frank",
+   "relation": "award received",
+   "object": "Alfred P. Sloan Prize",
+   "update": "What award did Robot & Frank receive?",
+   "loc": "What prestigious award did Robert J. Frankel receive for Outstanding Trainer?",
+   "loc_ans": "Eclipse Award for Outstanding Trainer"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 893,
+   "subject": "Robot & Frank",
+   "relation": "conferred by",
+   "object": "Sundance Institute",
+   "update": "By whom was Robot & Frank given an award?",
+   "loc": "By which university was Robert O. Fink conferred?",
+   "loc_ans": "Yale University"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 895,
+   "subject": "Ernst Ludwig Julius von Lenthe",
+   "relation": "field of work",
+   "object": "diplomacy",
+   "update": "In what specific area does Ernst Ludwig Julius von Lenthe work?",
+   "loc": "In which field of work does Ernest Ludvig Ipsen specialize?",
+   "loc_ans": "art of painting"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 896,
+   "subject": "Ernst Rebentisch",
+   "relation": "field of work",
+   "object": "surgery",
+   "update": "In what specific area does Ernst Rebentisch work?",
+   "loc": "In which field does Ernest Roberts specialize?",
+   "loc_ans": "classics"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 898,
+   "subject": "Ernst Schiebold",
+   "relation": "educated at",
+   "object": "Leipzig University",
+   "update": "Where did Ernst Schiebold receive his education?",
+   "loc": "Where did Ernest Schmidt attend for his education?",
+   "loc_ans": "Pittsburg State University"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 900,
+   "subject": "laser scanning",
+   "relation": "language of work or name",
+   "object": "German",
+   "update": "In what language is laser scanning primarily associated?",
+   "loc": "In which language was the raster scan created?",
+   "loc_ans": "Italian"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 903,
+   "subject": "chain mortiser",
+   "relation": "powered by",
+   "object": "electric motor",
+   "update": "What type of motor powers the chain mortiser?",
+   "loc": "What type of engine does Neoplan Jumbocruiser use for power?",
+   "loc_ans": "diesel engine"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 909,
+   "subject": "GeGeGe no Kitarō",
+   "relation": "derivative work",
+   "object": "Graveyard Kitaro",
+   "update": "What is the derivative work of GeGeGe no Kitarō?",
+   "loc": "What is the name of the derivative work created from Gente come noi?",
+   "loc_ans": "Mensen zoals jij"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 913,
+   "subject": "Hungerburgbahn",
+   "relation": "heritage designation",
+   "object": "Denkmalgeschütztes Objekt",
+   "update": "What is the heritage designation of Hungerburgbahn?",
+   "loc": "What designation does Heuneburg have as a site in Germany?",
+   "loc_ans": "cultural heritage monument"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 914,
+   "subject": "Klaus Vater",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is spoken, written, or signed by Klaus Vater?",
+   "loc": "Which language is spoken, written, or signed by Claus Walter?",
+   "loc_ans": "Danish"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 916,
+   "subject": "Katō Yoshiaki",
+   "relation": "manner of death",
+   "object": "natural causes",
+   "update": "How did Katō Yoshiaki pass away?",
+   "loc": "How did Kira Yoshinaka die?",
+   "loc_ans": "homicide"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 917,
+   "subject": "Katō Yoshiaki",
+   "relation": "place of burial",
+   "object": "Ōtani Sobyō",
+   "update": "Where is Katō Yoshiaki buried?",
+   "loc": "Where is Kira Yoshinaka buried?",
+   "loc_ans": "Banshō-in Kōun-ji"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 918,
+   "subject": "sancai",
+   "relation": "country of origin",
+   "object": "Tang dynasty",
+   "update": "Which dynasty was sancai pottery from?",
+   "loc": "From which country does suan cai originate?",
+   "loc_ans": "People's Republic of China"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 919,
+   "subject": "sancai",
+   "relation": "collection",
+   "object": "National Trust",
+   "update": "In which collection is sancai a part of?",
+   "loc": "Which museum is Bibanca a part of?",
+   "loc_ans": "Museo Banca di Sassari"
+  },
+  {
+   "file": "wiki_big_edit_20240201_20240220.json",
+   "index": 920,
+   "subject": "Eugen Gantter",
+   "relation": "languages spoken, written or signed",
+   "object": "German",
+   "update": "Which language is Eugen Gantter able to speak, write, or sign?",
+   "loc": "What language does Eugeny Giner speak, write, or sign?",
+   "loc_ans": "Russian"
+  }
+ ]
+}

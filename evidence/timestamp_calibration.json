@@ -1,0 +1,2942 @@
+[
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 24658,
+  "subject_id": "Q2438603",
+  "property_id": "P6104",
+  "object_id": "Q115218380",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": true,
+   "object_in_main": true,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 43912,
+  "subject_id": "Q6963053",
+  "property_id": "P19",
+  "object_id": "Q19660",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 68782,
+  "subject_id": "Q7587815",
+  "property_id": "P84",
+  "object_id": "Q5079993",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240220_20240301.json",
+  "index": 11346,
+  "subject_id": "Q2631329",
+  "property_id": "P658",
+  "object_id": "Q4811317",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 68457,
+  "subject_id": "Q7504702",
+  "property_id": "P1376",
+  "object_id": "Q20408634",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 35525,
+  "subject_id": "Q3554213",
+  "property_id": "P57",
+  "object_id": "Q117860457",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": true,
+   "object_in_main": true,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240220_20240301.json",
+  "index": 1512,
+  "subject_id": "Q261374",
+  "property_id": "P1412",
+  "object_id": "Q35497",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240320_20240401.json",
+  "index": 30173,
+  "subject_id": "Q11348231",
+  "property_id": "P449",
+  "object_id": "Q212128",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": true,
+   "object_in_main": true,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240301_20240320.json",
+  "index": 15935,
+  "subject_id": "Q3268487",
+  "property_id": "P175",
+  "object_id": "Q137042",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240220_20240301.json",
+  "index": 24058,
+  "subject_id": "Q11068335",
+  "property_id": "P735",
+  "object_id": "Q124631978",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 83539,
+  "subject_id": "Q15821610",
+  "property_id": "P463",
+  "object_id": "Q3784697",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 3129,
+  "subject_id": "Q92756",
+  "property_id": "P2868",
+  "object_id": "Q18748039",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 77981,
+  "subject_id": "Q9696878",
+  "property_id": "P7763",
+  "object_id": "Q71887839",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 40784,
+  "subject_id": "Q4389591",
+  "property_id": "P241",
+  "object_id": "Q796754",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240320_20240401.json",
+  "index": 30365,
+  "subject_id": "Q11438003",
+  "property_id": "P20",
+  "object_id": "Q10382938",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 73946,
+  "subject_id": "Q8022516",
+  "property_id": "P2868",
+  "object_id": "Q47162123",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 2859,
+  "subject_id": "Q604832",
+  "property_id": "P1382",
+  "object_id": "Q125497790",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 21866,
+  "subject_id": "Q7058738",
+  "property_id": "P17",
+  "object_id": "Q19971019",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 3801,
+  "subject_id": "Q247410",
+  "property_id": "P407",
+  "object_id": "Q4137247",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240301_20240320.json",
+  "index": 26547,
+  "subject_id": "Q6047302",
+  "property_id": "P407",
+  "object_id": "Q5378163",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 7241,
+  "subject_id": "Q596370",
+  "property_id": "P937",
+  "object_id": "Q23903593",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 61571,
+  "subject_id": "Q7175670",
+  "property_id": "P6886",
+  "object_id": "Q5378163",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 53975,
+  "subject_id": "Q5466056",
+  "property_id": "P65",
+  "object_id": "Q23789293",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 53566,
+  "subject_id": "Q5183594",
+  "property_id": "P65",
+  "object_id": "Q23789293",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 68314,
+  "subject_id": "Q8768523",
+  "property_id": "P1037",
+  "object_id": "Q125961367",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 42716,
+  "subject_id": "Q17780350",
+  "property_id": "P7959",
+  "object_id": "Q189912",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240301_20240320.json",
+  "index": 49942,
+  "subject_id": "Q17223689",
+  "property_id": "P407",
+  "object_id": "Q115861446",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240201_20240220.json",
+  "index": 23795,
+  "subject_id": "Q16510687",
+  "property_id": "P131",
+  "object_id": "Q3657833",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 3687,
+  "subject_id": "Q242090",
+  "property_id": "P463",
+  "object_id": "Q9346234",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 43994,
+  "subject_id": "Q6014722",
+  "property_id": "P16",
+  "object_id": "Q39056720",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240301_20240320.json",
+  "index": 32178,
+  "subject_id": "Q7735329",
+  "property_id": "P437",
+  "object_id": "Q226528",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 48034,
+  "subject_id": "Q5264137",
+  "property_id": "P17",
+  "object_id": "Q668",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 57858,
+  "subject_id": "Q6457533",
+  "property_id": "P31",
+  "object_id": "Q108465955",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": true,
+   "object_in_main": true,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 13234,
+  "subject_id": "Q4884228",
+  "property_id": "P452",
+  "object_id": "Q1799415",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 24529,
+  "subject_id": "Q4057190",
+  "property_id": "P31",
+  "object_id": "Q4131030",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 95434,
+  "subject_id": "Q12798862",
+  "property_id": "P17",
+  "object_id": "Q27103168",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 89308,
+  "subject_id": "Q16886667",
+  "property_id": "P31",
+  "object_id": "Q132241",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 49758,
+  "subject_id": "Q10346435",
+  "property_id": "P1412",
+  "object_id": "Q347358",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 71282,
+  "subject_id": "Q7365615",
+  "property_id": "P31",
+  "object_id": "Q618814",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 21331,
+  "subject_id": "Q1875640",
+  "property_id": "P31",
+  "object_id": "Q1021645",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 99259,
+  "subject_id": "Q14917434",
+  "property_id": "P22",
+  "object_id": "Q12491317",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 101626,
+  "subject_id": "Q15640346",
+  "property_id": "P131",
+  "object_id": "Q863102",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 71768,
+  "subject_id": "Q7465374",
+  "property_id": "P65",
+  "object_id": "Q23789293",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 15815,
+  "subject_id": "Q5626960",
+  "property_id": "P407",
+  "object_id": "Q256",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 18215,
+  "subject_id": "Q6470225",
+  "property_id": "P20",
+  "object_id": "Q126947367",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240320_20240401.json",
+  "index": 5663,
+  "subject_id": "Q4496439",
+  "property_id": "P421",
+  "object_id": "Q6806",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 29292,
+  "subject_id": "Q5690294",
+  "property_id": "P2378",
+  "object_id": "Q23548",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 25340,
+  "subject_id": "Q9347161",
+  "property_id": "P131",
+  "object_id": "Q2094829",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240301_20240320.json",
+  "index": 15869,
+  "subject_id": "Q37496487",
+  "property_id": "P39",
+  "object_id": "Q108350406",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 44070,
+  "subject_id": "Q6063663",
+  "property_id": "P131",
+  "object_id": "Q534799",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 22113,
+  "subject_id": "Q2078780",
+  "property_id": "P2868",
+  "object_id": "Q121594",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": false,
+    "role_erased": true
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 36102,
+  "subject_id": "Q3383380",
+  "property_id": "P6379",
+  "object_id": "Q965780",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240320_20240401.json",
+  "index": 24154,
+  "subject_id": "Q7256185",
+  "property_id": "P31",
+  "object_id": "Q22988604",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240601_20240620.json",
+  "index": 50470,
+  "subject_id": "Q10858179",
+  "property_id": "P31",
+  "object_id": "Q5691927",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240401_20240501.json",
+  "index": 36068,
+  "subject_id": "Q3379371",
+  "property_id": "P1532",
+  "object_id": "Q5785",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": true,
+    "object_in_main": true,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": false,
+   "property_main": false,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 81659,
+  "subject_id": "Q13905586",
+  "property_id": "P31",
+  "object_id": "Q15910804",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240620_20240701.json",
+  "index": 7729,
+  "subject_id": "Q126873892",
+  "property_id": "P669",
+  "object_id": "Q19306859",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": false,
+    "property_main": false,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 85891,
+  "subject_id": "Q16267774",
+  "property_id": "P31",
+  "object_id": "Q56312618",
+  "tag": "new",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ },
+ {
+  "file": "wiki_big_edit_20240501_20240601.json",
+  "index": 11039,
+  "subject_id": "Q435195",
+  "property_id": "P735",
+  "object_id": "Q17428947",
+  "tag": "update",
+  "t1": {
+   "-14": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "-7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "0": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   },
+   "7": {
+    "available": true,
+    "primary_valid": false,
+    "object_in_main": false,
+    "property_present": true,
+    "property_main": true,
+    "role_erased": false
+   }
+  },
+  "t0": {
+   "available": true,
+   "primary_valid": false,
+   "object_in_main": false,
+   "property_present": true,
+   "property_main": true,
+   "role_erased": false
+  }
+ }
+]

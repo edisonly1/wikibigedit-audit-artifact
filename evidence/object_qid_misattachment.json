@@ -1,0 +1,490 @@
+{
+ "counts": {
+  "B-unrelated-value": 20,
+  "A-exact-label-match-different-qid": 82,
+  "unusable": 18,
+  "A-near-label-match-different-qid": 5
+ },
+ "examples": [
+  {
+   "subject": "Rif Nasibullin",
+   "subject_id": "Q4313877",
+   "property": "P101",
+   "released_object": "literary studies",
+   "released_object_id": "Q109607955",
+   "actual": [
+    "Q208217",
+    "literary studies",
+    "scholarly study of literature"
+   ]
+  },
+  {
+   "subject": "Reinhard Merkel",
+   "subject_id": "Q2140863",
+   "property": "P19",
+   "released_object": "Hof",
+   "released_object_id": "Q1852145",
+   "actual": [
+    "Q6938",
+    "Hof",
+    "town in Bavaria, Germany"
+   ]
+  },
+  {
+   "subject": "63-73 King Street, Dundee",
+   "subject_id": "Q17801050",
+   "property": "P7959",
+   "released_object": "Angus",
+   "released_object_id": "Q20434164",
+   "actual": [
+    "Q67387310",
+    "Angus",
+    "historic county of Scotland"
+   ]
+  },
+  {
+   "subject": "Klaus Jürgen Diehl",
+   "subject_id": "Q1745301",
+   "property": "P1412",
+   "released_object": "German",
+   "released_object_id": "Q4137247",
+   "actual": [
+    "Q188",
+    "German",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "Pieniacze",
+   "subject_id": "Q19157330",
+   "property": "P50",
+   "released_object": "Ignacy Krasicki",
+   "released_object_id": "Q25413249",
+   "actual": [
+    "Q380545",
+    "Ignacy Krasicki",
+    "Polish writer and poet, Catholic archbishop"
+   ]
+  },
+  {
+   "subject": "Suomen sähköverkko",
+   "subject_id": "Q11895128",
+   "property": "P17",
+   "released_object": "Finland",
+   "released_object_id": "Q2580855",
+   "actual": [
+    "Q33",
+    "Finland",
+    "country in Northern Europe"
+   ]
+  },
+  {
+   "subject": "Lindsay Seemann",
+   "subject_id": "Q6552801",
+   "property": "P1532",
+   "released_object": "Canada",
+   "released_object_id": "Q14624136",
+   "actual": [
+    "Q16",
+    "Canada",
+    "country in North America"
+   ]
+  },
+  {
+   "subject": "Nancy Kemp-Arendt",
+   "subject_id": "Q1920283",
+   "property": "P1532",
+   "released_object": "Lithuania",
+   "released_object_id": "Q6648245",
+   "actual": [
+    "Q37",
+    "Lithuania",
+    "country in northeastern Europe"
+   ]
+  },
+  {
+   "subject": "season 3 of Offspring",
+   "subject_id": "Q7079712",
+   "property": "P364",
+   "released_object": "English",
+   "released_object_id": "Q5378163",
+   "actual": [
+    "Q1860",
+    "English",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "Carl Auer von Welsbach",
+   "subject_id": "Q89390",
+   "property": "P97",
+   "released_object": "Freiherr",
+   "released_object_id": "Q126689387",
+   "actual": [
+    "Q1338119",
+    "Freiherr",
+    "title of nobility in Germany and Scandinavia"
+   ]
+  },
+  {
+   "subject": "Kevin Payne",
+   "subject_id": "Q6397220",
+   "property": "P20",
+   "released_object": "Charleston",
+   "released_object_id": "Q37518081",
+   "actual": [
+    "Q47716",
+    "Charleston",
+    "largest city in the U.S. state of South Carolina"
+   ]
+  },
+  {
+   "subject": "Moulin Bernier",
+   "subject_id": "Q3325565",
+   "property": "P276",
+   "released_object": "Courcelles",
+   "released_object_id": "Q252351",
+   "actual": [
+    "Q3001241",
+    "Courcelles",
+    "administrative sector in Courcelles–Saint-Évariste, Quebec, Canada, former municipality"
+   ]
+  },
+  {
+   "subject": "Józef Szczypka",
+   "subject_id": "Q11731461",
+   "property": "P20",
+   "released_object": "Pruszków",
+   "released_object_id": "Q2047364",
+   "actual": [
+    "Q721937",
+    "Pruszków",
+    "city and urban gmina of Poland"
+   ]
+  },
+  {
+   "subject": "Godiganuru",
+   "subject_id": "Q12424293",
+   "property": "P31",
+   "released_object": "hamlet",
+   "released_object_id": "Q5789672",
+   "actual": [
+    "Q5084",
+    "hamlet",
+    "small settlement in a rural area"
+   ]
+  },
+  {
+   "subject": "of solar eclipse was the event on March 5 143 BC",
+   "subject_id": "Q5692798",
+   "property": "P31",
+   "released_object": "total solar eclipse",
+   "released_object_id": "Q28339379",
+   "actual": [
+    "Q11086064",
+    "total solar eclipse",
+    "solar eclipse which occurs when the Moon completely obscures the Sun"
+   ]
+  },
+  {
+   "subject": "St. Pius",
+   "subject_id": "Q2322916",
+   "property": "P131",
+   "released_object": "Aschaffenburg",
+   "released_object_id": "Q2860057",
+   "actual": [
+    "Q3942",
+    "Aschaffenburg",
+    "town in Bavaria, Germany"
+   ]
+  },
+  {
+   "subject": "Riyu Konaka",
+   "subject_id": "Q11266606",
+   "property": "P27",
+   "released_object": "Japan",
+   "released_object_id": "Q16995302",
+   "actual": [
+    "Q17",
+    "Japan",
+    "island country in East Asia"
+   ]
+  },
+  {
+   "subject": "Tower O' Ess",
+   "subject_id": "Q17773179",
+   "property": "P7959",
+   "released_object": "Aberdeenshire",
+   "released_object_id": "Q189912",
+   "actual": [
+    "Q3290674",
+    "Aberdeenshire",
+    "historic county and registration county of Scotland"
+   ]
+  },
+  {
+   "subject": "Red junglefowl",
+   "subject_id": "Q184774",
+   "property": "P427",
+   "released_object": "Gallus",
+   "released_object_id": "Q55936638",
+   "actual": [
+    "Q222951",
+    "Gallus",
+    "genus of birds"
+   ]
+  },
+  {
+   "subject": "Cottage 2 located within Gordon Castle Farm",
+   "subject_id": "Q17829532",
+   "property": "P7959",
+   "released_object": "Banffshire",
+   "released_object_id": "Q4854879",
+   "actual": [
+    "Q806432",
+    "Banffshire",
+    "historic county in north-east Scotland"
+   ]
+  },
+  {
+   "subject": "Sumba Flycatcher",
+   "subject_id": "Q3315239",
+   "property": "P9714",
+   "released_object": "Indonesia",
+   "released_object_id": "Q12497996",
+   "actual": [
+    "Q252",
+    "Indonesia",
+    "island country in Southeast Asia and Oceania"
+   ]
+  },
+  {
+   "subject": "Minus EP",
+   "subject_id": "Q12071684",
+   "property": "P407",
+   "released_object": "English",
+   "released_object_id": "Q5378163",
+   "actual": [
+    "Q1860",
+    "English",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "Gayathiri Iyer",
+   "subject_id": "Q16887691",
+   "property": "P735",
+   "released_object": "Gayatri",
+   "released_object_id": "Q18686306",
+   "actual": [
+    "Q123004273",
+    "Gayatri",
+    "female given name"
+   ]
+  },
+  {
+   "subject": "Jerzy Makarczyk",
+   "subject_id": "Q1398008",
+   "property": "P735",
+   "released_object": "Michał",
+   "released_object_id": "Q4297142",
+   "actual": [
+    "Q6835978",
+    "Michał",
+    "male given name"
+   ]
+  },
+  {
+   "subject": "Actinidia henryi",
+   "subject_id": "Q15225106",
+   "property": "P9714",
+   "released_object": "Guangdong",
+   "released_object_id": "Q22828081",
+   "actual": [
+    "Q15175",
+    "Guangdong",
+    "province of China"
+   ]
+  },
+  {
+   "subject": "Wolfgang Klüpfel",
+   "subject_id": "Q2590249",
+   "property": "P1412",
+   "released_object": "German",
+   "released_object_id": "Q4137247",
+   "actual": [
+    "Q188",
+    "German",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "Vienna metropolitan area",
+   "subject_id": "Q6174064",
+   "property": "P17",
+   "released_object": "Austria",
+   "released_object_id": "Q4825411",
+   "actual": [
+    "Q40",
+    "Austria",
+    "country in Central Europe"
+   ]
+  },
+  {
+   "subject": "15 Queen's Terrace, Ayr",
+   "subject_id": "Q17837098",
+   "property": "P7959",
+   "released_object": "Ayrshire",
+   "released_object_id": "Q18159652",
+   "actual": [
+    "Q793283",
+    "Ayrshire",
+    "county in Scotland"
+   ]
+  },
+  {
+   "subject": "Miroslav Provod",
+   "subject_id": "Q14923660",
+   "property": "P1412",
+   "released_object": "Czech",
+   "released_object_id": "Q27869273",
+   "actual": [
+    "Q9056",
+    "Czech",
+    "West Slavic language"
+   ]
+  },
+  {
+   "subject": "Moritz Abraham Stern",
+   "subject_id": "Q77510",
+   "property": "P937",
+   "released_object": "Göttingen",
+   "released_object_id": "Q1008217",
+   "actual": [
+    "Q3033",
+    "Göttingen",
+    "large city in Lower Saxony, Germany"
+   ]
+  },
+  {
+   "subject": "Johnny Bekaert",
+   "subject_id": "Q3182858",
+   "property": "P1412",
+   "released_object": "Dutch",
+   "released_object_id": "Q784704",
+   "actual": [
+    "Q7411",
+    "Dutch",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "JDS Atada",
+   "subject_id": "Q11257568",
+   "property": "P17",
+   "released_object": "Japan",
+   "released_object_id": "Q16995302",
+   "actual": [
+    "Q17",
+    "Japan",
+    "island country in East Asia"
+   ]
+  },
+  {
+   "subject": "Deir Tuma",
+   "subject_id": "Q12212342",
+   "property": "P17",
+   "released_object": "Syria",
+   "released_object_id": "Q3509007",
+   "actual": [
+    "Q858",
+    "Syria",
+    "country in West Asia"
+   ]
+  },
+  {
+   "subject": "Jan Gericke",
+   "subject_id": "Q1570621",
+   "property": "P1412",
+   "released_object": "German",
+   "released_object_id": "Q4137247",
+   "actual": [
+    "Q188",
+    "German",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "Rif Nasibullin",
+   "subject_id": "Q4313877",
+   "property": "P101",
+   "released_object": "literary studies",
+   "released_object_id": "Q109607955",
+   "actual": [
+    "Q208217",
+    "literary studies",
+    "scholarly study of literature"
+   ]
+  },
+  {
+   "subject": "Reinhard Merkel",
+   "subject_id": "Q2140863",
+   "property": "P19",
+   "released_object": "Hof",
+   "released_object_id": "Q1852145",
+   "actual": [
+    "Q6938",
+    "Hof",
+    "town in Bavaria, Germany"
+   ]
+  },
+  {
+   "subject": "63-73 King Street, Dundee",
+   "subject_id": "Q17801050",
+   "property": "P7959",
+   "released_object": "Angus",
+   "released_object_id": "Q20434164",
+   "actual": [
+    "Q67387310",
+    "Angus",
+    "historic county of Scotland"
+   ]
+  },
+  {
+   "subject": "Klaus Jürgen Diehl",
+   "subject_id": "Q1745301",
+   "property": "P1412",
+   "released_object": "German",
+   "released_object_id": "Q4137247",
+   "actual": [
+    "Q188",
+    "German",
+    "West Germanic language"
+   ]
+  },
+  {
+   "subject": "Pieniacze",
+   "subject_id": "Q19157330",
+   "property": "P50",
+   "released_object": "Ignacy Krasicki",
+   "released_object_id": "Q25413249",
+   "actual": [
+    "Q380545",
+    "Ignacy Krasicki",
+    "Polish writer and poet, Catholic archbishop"
+   ]
+  },
+  {
+   "subject": "Suomen sähköverkko",
+   "subject_id": "Q11895128",
+   "property": "P17",
+   "released_object": "Finland",
+   "released_object_id": "Q2580855",
+   "actual": [
+    "Q33",
+    "Finland",
+    "country in Northern Europe"
+   ]
+  }
+ ]
+}

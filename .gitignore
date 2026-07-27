@@ -1,0 +1,6 @@
+﻿data/cache/
+data/raw/
+data/hf/
+data/rome_cov_layer*.pt
+__pycache__/
+*.pyc

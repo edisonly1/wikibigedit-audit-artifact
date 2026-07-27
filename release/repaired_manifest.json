@@ -1,0 +1,14 @@
+{
+ "source": "lukasthede/WikiBigEdit, 8 interval files",
+ "total_released_rows": 502382,
+ "audited_rows": 1458,
+ "coverage_fraction": 0.0029,
+ "tracks": {
+  "invalid": 670,
+  "atomic": 719,
+  "endpoint": 69
+ },
+ "object_qids_corrected": 337,
+ "classifier": "frozen at Phase-A; see notes/11_phaseA_and_freeze.md",
+ "caveat": "Tracks are computed on the audited probability sample, not the full 502,382 rows. Prevalences generalise; per-row labels exist only for audited rows. A full deterministic screen is future work."
+}
